@@ -1,3 +1,10 @@
+/*
+ * IRremote: IRsendDemo - demonstrates sending IR codes with IRsend
+ * An IR LED must be connected to Arduino PWM pin 3.
+ * Version 0.1 July, 2009
+ * Copyright 2009 Ken Shirriff
+ * http://arcfn.com
+ */
 
 #include <IRremote.h>
 
@@ -9,10 +16,10 @@ void setup()
 }
 
 void loop() {
+  if (Serial.read() != -1) {
     for (int i = 0; i < 3; i++) {
-      Serial.println("sent code");
-      irsend.sendRC5(0x850, 12); // RC5 TV volume up button
-      delay(100);
+      irsend.sendSony(0xa90, 12); // Sony TV power code
+      delay(40);
     }
+  }
 }
-

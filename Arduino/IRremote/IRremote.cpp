@@ -4,6 +4,8 @@
  * Copyright 2009 Ken Shirriff
  * For details, see http://arcfn.com/2009/08/multi-protocol-infrared-remote-library.html
  *
+ * Modified by Paul Stoffregen <paul@pjrc.com> to support other boards and timers
+ *
  * Interrupt code based on NECIRrcv by Joe Knapp
  * http://www.arduino.cc/cgi-bin/yabb2/YaBB.pl?num=1210243556
  * Also influenced by http://zovirl.com/2008/11/12/building-a-universal-remote-with-an-arduino/
@@ -59,125 +61,6 @@ int MATCH_SPACE(int measured_ticks, int desired_us) {
   return measured_ticks >= TICKS_LOW(desired_us - MARK_EXCESS) && measured_ticks <= TICKS_HIGH(desired_us - MARK_EXCESS);
 }
 #endif
-
-
-
-void IRsend::sendNew(char* rectype, unsigned long data, int nbits)
-{
-	
-unsigned long type = strtol(rectype,NULL,16);
-
-if (type = 'RC6')
-{
-	enableIROut(36);
-	data = data << (32 - nbits);
-	mark(RC6_HDR_MARK);
-	space(RC6_HDR_SPACE);
-	mark(RC6_T1); // start bit
-	space(RC6_T1);
-	int t;
-	for (int i = 0; i < nbits; i++) 
-	{
-		if (i == 3) 
-		{
-			// double-wide trailer bit
-			t = 2 * RC6_T1;
-		} 
-		else 
-		{
-			t = RC6_T1;
-		}
-		if (data & TOPBIT) 
-		{
-			mark(t);
-			space(t);
-		} 
-		else 
-		{
-			space(t);
-			mark(t);
-		}
-		
-		data <<= 1;
-	}
-	space(0); // Turn off at end
-}
-
-
-
-
-else if (type = 'NEC')
-{
-	enableIROut(38);
-	mark(NEC_HDR_MARK);
-	space(NEC_HDR_SPACE);
-	for (int i = 0; i < nbits; i++) 
-	{
-		if (data & TOPBIT) 
-		{
-			mark(NEC_BIT_MARK);
-			space(NEC_ONE_SPACE);
-		} 
-		else 
-		{
-			mark(NEC_BIT_MARK);
-			space(NEC_ZERO_SPACE);
-		}
-		data <<= 1;
-	}
-	mark(NEC_BIT_MARK);
-	space(0);
-}
-		
-
-else if (type = 'SONY')
-{
-			enableIROut(40);
-			mark(SONY_HDR_MARK);
-			space(SONY_HDR_SPACE);
-			data = data << (32 - nbits);
-			for (int i = 0; i < nbits; i++) 
-			{
-				if (data & TOPBIT) 
-				{
-					mark(SONY_ONE_MARK);
-					space(SONY_HDR_SPACE);
-				} 
-				else 
-				{
-					mark(SONY_ZERO_MARK);
-					space(SONY_HDR_SPACE);
-				}
-				data <<= 1;
-			}
-}
-	
-else if (type = 'RC5')
-{
-	enableIROut(36);
-	data = data << (32 - nbits);
-	mark(RC5_T1); // First start bit
-	space(RC5_T1); // Second start bit
-	mark(RC5_T1); // Second start bit
-	for (int i = 0; i < nbits; i++) 
-	{
-		if (data & TOPBIT) 
-		{
-			space(RC5_T1); // 1 is space, then mark
-			mark(RC5_T1);
-		} 
-		else 
-		{
-			mark(RC5_T1);
-			space(RC5_T1);
-		}
-		data <<= 1;
-	}
-	space(0); // Turn off at end
-}
-
-
-} //end of sendNew
 
 void IRsend::sendNEC(unsigned long data, int nbits)
 {
@@ -254,10 +137,10 @@ void IRsend::sendRC5(unsigned long data, int nbits)
 }
 
 // Caller needs to take care of flipping the toggle bit
-void IRsend::sendRC6(unsigned long data, int nbits)
+void IRsend::sendRC6(unsigned long long data, int nbits)
 {
   enableIROut(36);
-  data = data << (32 - nbits);
+  data = data << (64 - nbits);
   mark(RC6_HDR_MARK);
   space(RC6_HDR_SPACE);
   mark(RC6_T1); // start bit
@@ -271,7 +154,7 @@ void IRsend::sendRC6(unsigned long data, int nbits)
     else {
       t = RC6_T1;
     }
-    if (data & TOPBIT) {
+    if (data & 0x8000000000000000LL) {
       mark(t);
       space(t);
     } 
@@ -288,7 +171,7 @@ void IRsend::sendRC6(unsigned long data, int nbits)
 void IRsend::mark(int time) {
   // Sends an IR mark for the specified number of microseconds.
   // The mark output is modulated at the PWM frequency.
-  TCCR2A |= _BV(COM2B1); // Enable pin 3 PWM output
+  TIMER_ENABLE_PWM; // Enable pin 3 PWM output
   delayMicroseconds(time);
 }
 
@@ -296,7 +179,7 @@ void IRsend::mark(int time) {
 void IRsend::space(int time) {
   // Sends an IR space for the specified number of microseconds.
   // A space is no output, so the PWM output is disabled.
-  TCCR2A &= ~(_BV(COM2B1)); // Disable pin 3 PWM output
+  TIMER_DISABLE_PWM; // Disable pin 3 PWM output
   delayMicroseconds(time);
 }
 
@@ -314,21 +197,17 @@ void IRsend::enableIROut(int khz) {
 
   
   // Disable the Timer2 Interrupt (which is used for receiving IR)
-  TIMSK2 &= ~_BV(TOIE2); //Timer2 Overflow Interrupt
+  TIMER_DISABLE_INTR; //Timer2 Overflow Interrupt
   
-  pinMode(3, OUTPUT);
-  digitalWrite(3, LOW); // When not sending PWM, we want it low
+  pinMode(TIMER_PWM_PIN, OUTPUT);
+  digitalWrite(TIMER_PWM_PIN, LOW); // When not sending PWM, we want it low
   
   // COM2A = 00: disconnect OC2A
   // COM2B = 00: disconnect OC2B; to send signal set to 10: OC2B non-inverted
   // WGM2 = 101: phase-correct PWM with OCRA as top
   // CS2 = 000: no prescaling
-  TCCR2A = _BV(WGM20);
-  TCCR2B = _BV(WGM22) | _BV(CS20);
-
   // The top value for the timer.  The modulation frequency will be SYSCLOCK / 2 / OCR2A.
-  OCR2A = SYSCLOCK / 2 / khz / 1000;
-  OCR2B = OCR2A / 3; // 33% duty cycle
+  TIMER_CONFIG_KHZ(khz);
 }
 
 IRrecv::IRrecv(int recvpin)
@@ -339,27 +218,23 @@ IRrecv::IRrecv(int recvpin)
 
 // initialization
 void IRrecv::enableIRIn() {
+  cli();
   // setup pulse clock timer interrupt
-  TCCR2A = 0;  // normal mode
-
   //Prescale /8 (16M/8 = 0.5 microseconds per tick)
   // Therefore, the timer interval can range from 0.5 to 128 microseconds
   // depending on the reset value (255 to 0)
-  cbi(TCCR2B,CS22);
-  sbi(TCCR2B,CS21);
-  cbi(TCCR2B,CS20);
+  TIMER_CONFIG_NORMAL();
 
   //Timer2 Overflow Interrupt Enable
-  sbi(TIMSK2,TOIE2);
+  TIMER_ENABLE_INTR;
 
-  RESET_TIMER2;
+  TIMER_RESET;
 
   sei();  // enable interrupts
 
   // initialize state machine variables
   irparams.rcvstate = STATE_IDLE;
   irparams.rawlen = 0;
-
 
   // set pin modes
   pinMode(irparams.recvpin, INPUT);
@@ -380,9 +255,9 @@ void IRrecv::blink13(int blinkflag)
 // First entry is the SPACE between transmissions.
 // As soon as a SPACE gets long, ready is set, state switches to IDLE, timing of SPACE continues.
 // As soon as first MARK arrives, gap width is recorded, ready is cleared, and new logging starts
-ISR(TIMER2_OVF_vect)
+ISR(TIMER_INTR_NAME)
 {
-  RESET_TIMER2;
+  TIMER_RESET;
 
   uint8_t irdata = (uint8_t)digitalRead(irparams.recvpin);
 
@@ -439,10 +314,10 @@ ISR(TIMER2_OVF_vect)
 
   if (irparams.blinkflag) {
     if (irdata == MARK) {
-      PORTB |= B00100000;  // turn pin 13 LED on
+      BLINKLED_ON();  // turn pin 13 LED on
     } 
     else {
-      PORTB &= B11011111;  // turn pin 13 LED off
+      BLINKLED_OFF();  // turn pin 13 LED off
     }
   }
 }
@@ -487,11 +362,10 @@ int IRrecv::decode(decode_results *results) {
   if (decodeRC6(results)) {
     return DECODED;
   }
-  if (results->rawlen >= 6) {
-    // Only return raw buffer if at least 6 bits
-    results->decode_type = UNKNOWN;
-    results->bits = 0;
-    results->value = 0;
+  // decodeHash returns a hash on any input.
+  // Thus, it needs to be last in the list.
+  // If you add any decodes, add them before this.
+  if (decodeHash(results)) {
     return DECODED;
   }
   // Throw away and start over
@@ -500,7 +374,7 @@ int IRrecv::decode(decode_results *results) {
 }
 
 long IRrecv::decodeNEC(decode_results *results) {
-  long data = 0;
+  unsigned long long data = 0;
   int offset = 1; // Skip first space
   // Initial mark
   if (!MATCH_MARK(results->rawbuf[offset], NEC_HDR_MARK)) {
@@ -548,7 +422,7 @@ long IRrecv::decodeNEC(decode_results *results) {
 }
 
 long IRrecv::decodeSony(decode_results *results) {
-  long data = 0;
+  unsigned long long data = 0;
   if (irparams.rawlen < 2 * SONY_BITS + 2) {
     return ERR;
   }
@@ -638,7 +512,7 @@ long IRrecv::decodeRC5(decode_results *results) {
     return ERR;
   }
   int offset = 1; // Skip gap space
-  long data = 0;
+  unsigned long long data = 0;
   int used = 0;
   // Get start bits
   if (getRClevel(results, &offset, &used, RC5_T1) != MARK) return ERR;
@@ -682,7 +556,7 @@ long IRrecv::decodeRC6(decode_results *results) {
     return ERR;
   }
   offset++;
-  long data = 0;
+  unsigned long long data = 0;
   int used = 0;
   // Get start bit (1)
   if (getRClevel(results, &offset, &used, RC6_T1) != MARK) return ERR;
@@ -717,4 +591,130 @@ long IRrecv::decodeRC6(decode_results *results) {
   results->value = data;
   results->decode_type = RC6;
   return DECODED;
+}
+
+/* -----------------------------------------------------------------------
+ * hashdecode - decode an arbitrary IR code.
+ * Instead of decoding using a standard encoding scheme
+ * (e.g. Sony, NEC, RC5), the code is hashed to a 32-bit value.
+ *
+ * The algorithm: look at the sequence of MARK signals, and see if each one
+ * is shorter (0), the same length (1), or longer (2) than the previous.
+ * Do the same with the SPACE signals.  Hszh the resulting sequence of 0's,
+ * 1's, and 2's to a 32-bit value.  This will give a unique value for each
+ * different code (probably), for most code systems.
+ *
+ * http://arcfn.com/2010/01/using-arbitrary-remotes-with-arduino.html
+ */
+
+// Compare two tick values, returning 0 if newval is shorter,
+// 1 if newval is equal, and 2 if newval is longer
+// Use a tolerance of 20%
+int IRrecv::compare(unsigned int oldval, unsigned int newval) {
+  if (newval < oldval * .8) {
+    return 0;
+  } 
+  else if (oldval < newval * .8) {
+    return 2;
+  } 
+  else {
+    return 1;
+  }
+}
+
+// Use FNV hash algorithm: http://isthe.com/chongo/tech/comp/fnv/#FNV-param
+#define FNV_PRIME_32 16777619
+#define FNV_BASIS_32 2166136261
+
+/* Converts the raw code values into a 32-bit hash code.
+ * Hopefully this code is unique for each button.
+ * This isn't a "real" decoding, just an arbitrary value.
+ */
+long IRrecv::decodeHash(decode_results *results) {
+  // Require at least 6 samples to prevent triggering on noise
+  if (results->rawlen < 6) {
+    return ERR;
+  }
+  long hash = FNV_BASIS_32;
+  for (int i = 1; i+2 < results->rawlen; i++) {
+    int value =  compare(results->rawbuf[i], results->rawbuf[i+2]);
+    // Add value into the hash
+    hash = (hash * FNV_PRIME_32) ^ value;
+  }
+  results->value = hash;
+  results->bits = 32;
+  results->decode_type = UNKNOWN;
+  return DECODED;
+}
+
+/* Sharp and DISH support by Todd Treece
+
+The Dish send function needs to be repeated 4 times and the Sharp function
+has the necessary repeats built in. I know that it's not consistent,
+but I don't have the time to update my code.
+
+Here are the LIRC files that I found that seem to match the remote codes
+from the oscilloscope:
+
+Sharp LCD TV:
+http://lirc.sourceforge.net/remotes/sharp/GA538WJSA
+
+DISH NETWORK (echostar 301):
+http://lirc.sourceforge.net/remotes/echostar/301_501_3100_5100_58xx_59xx
+
+For the DISH codes, only send the last for characters of the hex.
+i.e. use 0x1C10 instead of 0x0000000000001C10 which is listed in the
+linked LIRC file.
+*/
+
+void IRsend::sendSharp(unsigned long data, int nbits) {
+  unsigned long invertdata = data ^ SHARP_TOGGLE_MASK;
+  enableIROut(38);
+  for (int i = 0; i < nbits; i++) {
+    if (data & 0x4000) {
+      mark(SHARP_BIT_MARK);
+      space(SHARP_ONE_SPACE);
+    }
+    else {
+      mark(SHARP_BIT_MARK);
+      space(SHARP_ZERO_SPACE);
+    }
+    data <<= 1;
+  }
+  
+  mark(SHARP_BIT_MARK);
+  space(SHARP_ZERO_SPACE);
+  delay(46);
+  for (int i = 0; i < nbits; i++) {
+    if (invertdata & 0x4000) {
+      mark(SHARP_BIT_MARK);
+      space(SHARP_ONE_SPACE);
+    }
+    else {
+      mark(SHARP_BIT_MARK);
+      space(SHARP_ZERO_SPACE);
+    }
+    invertdata <<= 1;
+  }
+  mark(SHARP_BIT_MARK);
+  space(SHARP_ZERO_SPACE);
+  delay(46);
+}
+
+void IRsend::sendDISH(unsigned long data, int nbits)
+{
+  enableIROut(56);
+  mark(DISH_HDR_MARK);
+  space(DISH_HDR_SPACE);
+  for (int i = 0; i < nbits; i++) {
+    if (data & DISH_TOP_BIT) {
+      mark(DISH_BIT_MARK);
+      space(DISH_ONE_SPACE);
+    }
+    else {
+      mark(DISH_BIT_MARK);
+      space(DISH_ZERO_SPACE);
+    }
+    data <<= 1;
+  }
 }

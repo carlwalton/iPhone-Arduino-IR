@@ -24,7 +24,7 @@
 class decode_results {
 public:
   int decode_type; // NEC, SONY, RC5, UNKNOWN
-  unsigned long value; // Decoded value
+  unsigned long long value; // Decoded value
   int bits; // Number of bits in decoded value
   volatile unsigned int *rawbuf; // Raw intervals in .5 us ticks
   int rawlen; // Number of records in rawbuf.
@@ -35,6 +35,8 @@ public:
 #define SONY 2
 #define RC5 3
 #define RC6 4
+#define DISH 5
+#define SHARP 6
 #define UNKNOWN -1
 
 // Decoded value for NEC when a repeat code is received
@@ -56,6 +58,9 @@ private:
   long decodeSony(decode_results *results);
   long decodeRC5(decode_results *results);
   long decodeRC6(decode_results *results);
+  long decodeHash(decode_results *results);
+  int compare(unsigned int oldval, unsigned int newval);
+
 } 
 ;
 
@@ -74,8 +79,9 @@ public:
   void sendSony(unsigned long data, int nbits);
   void sendRaw(unsigned int buf[], int len, int hz);
   void sendRC5(unsigned long data, int nbits);
-  void sendRC6(unsigned long data, int nbits);
-  void sendNew(char* type, unsigned long data, int nbits); //ADDED BY CARL
+  void sendRC6(unsigned long long data, int nbits);
+  void sendDISH(unsigned long data, int nbits);
+  void sendSharp(unsigned long data, int nbits);
   // private:
   void enableIROut(int khz);
   VIRTUAL void mark(int usec);
@@ -86,7 +92,7 @@ public:
 // Some useful constants
 
 #define USECPERTICK 50  // microseconds per clock interrupt tick
-#define RAWBUF 76 // Length of raw duration buffer
+#define RAWBUF 134 // Length of raw duration buffer
 
 // Marks tend to be 100us too long, and spaces 100us too short
 // when received due to sensor lag.

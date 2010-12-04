@@ -20,6 +20,30 @@ void setup()
   irrecv.enableIRIn(); // Start the receiver
 }
 
+// based on Print::printNumber
+void printHex64(unsigned long long n)
+{
+  unsigned char buf[sizeof(unsigned long long) * 2];
+  unsigned long i = 0;
+
+  if (n == 0) {
+    Serial.print('0');
+    return;
+  } 
+
+  while (n > 0) {
+    buf[i++] = n & 0xf;
+    n >>= 4;
+  }
+
+  for (; i > 0; i--) {
+    Serial.print((char) (buf[i - 1] < 10 ?
+      '0' + buf[i - 1] :
+      'A' + buf[i - 1] - 10));
+  }
+}
+
+
 // Dumps out the decode_results structure.
 // Call this after IRrecv::decode()
 // void * to work around compiler issue
@@ -28,26 +52,24 @@ void setup()
 void dump(decode_results *results) {
   int count = results->rawlen;
   if (results->decode_type == UNKNOWN) {
-    Serial.println("Could not decode message");
+    Serial.print("Unknown encoding: ");
   } 
-  else {
-    if (results->decode_type == NEC) {
-      Serial.print("Decoded NEC: ");
-    } 
-    else if (results->decode_type == SONY) {
-      Serial.print("Decoded SONY: ");
-    } 
-    else if (results->decode_type == RC5) {
-      Serial.print("Decoded RC5: ");
-    } 
-    else if (results->decode_type == RC6) {
-      Serial.print("Decoded RC6: ");
-    }
-    Serial.print(results->value, HEX);
-    Serial.print(" (");
-    Serial.print(results->bits, DEC);
-    Serial.println(" bits)");
+  else if (results->decode_type == NEC) {
+    Serial.print("Decoded NEC: ");
+  } 
+  else if (results->decode_type == SONY) {
+    Serial.print("Decoded SONY: ");
+  } 
+  else if (results->decode_type == RC5) {
+    Serial.print("Decoded RC5: ");
+  } 
+  else if (results->decode_type == RC6) {
+    Serial.print("Decoded RC6: ");
   }
+  printHex64(results->value);
+  Serial.print(" (");
+  Serial.print(results->bits, DEC);
+  Serial.println(" bits)");
   Serial.print("Raw (");
   Serial.print(count, DEC);
   Serial.print("): ");
@@ -67,7 +89,6 @@ void dump(decode_results *results) {
 
 void loop() {
   if (irrecv.decode(&results)) {
-    Serial.println(results.value, HEX);
     dump(&results);
     irrecv.resume(); // Receive the next value
   }
