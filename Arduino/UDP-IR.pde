@@ -1,28 +1,27 @@
-
 #include <SPI.h>         // needed for Arduino versions later than 0018
 #include <Ethernet.h>     // standard Ethernet library
 #include <Udp.h>         // UDP library from: bjoern@cs.stanford.edu 12/30/2008
 #include <IRremote.h>    //IR Library
-#include <stdlib.h>
 
-byte mac[] = {0xDE, 0xAD, 0xBE, 0xEF, 0xFE, 0xED};
-byte ip[] = {192,168,1,169};
-unsigned int localPort = 8888;      // local port to listen on
-IRsend irsend;
+//***************DEFINE VARIABLES***********************
+byte mac[] = {0xDE, 0xAD, 0xBE, 0xEF, 0xFE, 0xED}; //enter a meaningful MAC here, if you care.
+byte ip[] = {192,168,1,169}; //enter an IP in your LAN.
+unsigned int localPort = 8888; // local port to listen on, make sure your router/firewall doesn't block this.
+IRsend irsend; //define irsend as being part of the IRsend library.
 byte remoteIp[4];        // holds received packet's originating IP
 unsigned int remotePort; // holds received packet's originating port
 char echoStream[255] = "0";
 int echoType = 0;
-unsigned long long echoCode;
+unsigned long long echoCode = 0;
 int echoSize = 0;
 int i = 1;
 int s = 0;
+//*************END OF VARIABLE DEFINITIONS**************
 
-void setup() {
-  // start the Ethernet, UDP and serial comms
-  Ethernet.begin(mac,ip);
-  Udp.begin(localPort);
-  Serial.begin(9600);
+void setup() 
+{
+  Ethernet.begin(mac,ip);  // start the Ethernet
+  Udp.begin(localPort);    // start UDP
 }
 
 void loop() 
@@ -33,57 +32,69 @@ void loop()
   if(packetSize)
   {
     packetSize = packetSize - 8;      // subtract the 8 byte header
-    //Serial.print("Received packet of size ");
-   // Serial.println(packetSize);
-    Udp.readPacket(echoStream,255, remoteIp, remotePort);
-       
-       if (i == 1)
-        {
-          echoType = atoi(echoStream);
+    Udp.readPacket(echoStream,255, remoteIp, remotePort); //read the remaining packet
+    
+  switch (i) 
+    {
+	case 1:
+          echoType = atoi(echoStream); //This should be 1,2,3 (RC5,RC6,NEC).
           i = 2;
-          s = 0;
-        }  
-            else if (i == 2)
-            {
-                echoCode = strtol(echoStream,NULL,16);
-               // I'm yet to discover how to convert this to a long long, which is needed for Xbox IR codes (64bit)
-               
-                i = 3;
-            }  
-               else if (i == 3)
-               {
-                  echoSize = atoi(echoStream);
-                  i = 1;
-                  s = 1;
-               }
-   } //end of main if (packetsize)
-  
+          break;
+          
+        case 2:
+           echoCode = strtol(echoStream,NULL,16); //This is the code itself.
+           i = 3;
+           break;
+           
+        case 3:
+           echoSize = atoi(echoStream); //This is the size of the code to send.
+           i = 1; //when program loops i starts from top again.
+           s = 1; //all needed variables gathered, begin decoding/sending.
+           break;
+           
+        default: //If error, reset all to 0. Start again.
+         echoType = 0;
+         echoCode = 0;
+         echoSize = 0;
+         i = 1;
+        
+    } //end of switch
+  } //end of if statement. Packetsize analysis complete.
 
 if (s == 1) //if 3 packets have been successfully read
 {
-  if(echoType == 1)
+  switch (echoType) 
   {
-    irsend.sendRC5(echoCode,echoSize); //output the code
-  }
-  else if(echoType == 2)
-  {
-    irsend.sendRC6(echoCode,echoSize);
-  }
-  else if(echoType == 3)
-  {
-    irsend.sendNEC(echoCode,echoSize);
-  }
-  else if (echoType == 4)
-  {
-    irsend.sendSony(echoCode,echoSize);
-  }
-  else
-  {
-    Serial.println("Error");
-  }
-  
- //irsend.sendNew(echoType,echoCode,echoSize); //output the code
- s = 0; //set s back to 0, resetting the unit
-}
+	case 1:
+        irsend.sendRC5(echoCode,echoSize); //RC5 code output
+        break;
+        
+        case 2:
+        irsend.sendRC6(echoCode,echoSize); //RC6 code output
+        break;
+        
+        case 3:
+        irsend.sendNEC(echoCode,echoSize); //NEC output
+        break;
+        
+        case 4:
+        irsend.sendSony(echoCode,echoSize); //Sony output
+        break;
+        
+        case 5:
+        irsend.sendSharp(echoCode,echoSize); //Sharp output
+        break;
+        
+        case 6:
+        irsend.sendDISH(echoCode,echoSize); //Dish output
+        break;
+        
+        default: //Unknown code.
+        break;
+        
+    } //end of output options. Reset time.
 
-}
+  s = 0; //set s back to 0, stopping multi-send.
+  }
+
+} //time to loop.
