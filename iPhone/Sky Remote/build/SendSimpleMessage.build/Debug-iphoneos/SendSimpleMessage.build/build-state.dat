@@ -1,0 +1,417 @@
+TSendSimpleMessage
+v7
+r0
+t313087552.921381
+cCheck dependencies
+cCpResource build/Debug-iphoneos/SendSimpleMessage.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+cProcessInfoPlistFile "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Debug-iphoneos/SendSimpleMessage.app/Info.plist" SendSimpleMessage-Info.plist
+cCompileXIB "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/MainWindow.xib"
+cProcessPCH /var/folders/5W/5WbKi7hhGkSs6Aomh0sqwE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SendSimpleMessage_Prefix-hijevjayuybgnmahaecsvfdkfwhh/SendSimpleMessage_Prefix.pch.gch SendSimpleMessage_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/5W/5WbKi7hhGkSs6Aomh0sqwE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SendSimpleMessage_Prefix-dnnkhukwpydzedenekgdadisbzxy/SendSimpleMessage_Prefix.pch.gch SendSimpleMessage_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SendSimpleMessage.build/Debug-iphoneos/SendSimpleMessage.build/Objects-normal/armv6/main.o "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/main.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SendSimpleMessage.build/Debug-iphoneos/SendSimpleMessage.build/Objects-normal/armv6/SendSimpleMessageAppDelegate.o "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/Classes/SendSimpleMessageAppDelegate.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SendSimpleMessage.build/Debug-iphoneos/SendSimpleMessage.build/Objects-normal/armv7/main.o "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/main.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SendSimpleMessage.build/Debug-iphoneos/SendSimpleMessage.build/Objects-normal/armv7/SendSimpleMessageAppDelegate.o "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/Classes/SendSimpleMessageAppDelegate.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/SendSimpleMessage.build/Debug-iphoneos/SendSimpleMessage.build/Objects-normal/armv6/SendSimpleMessage" normal armv6
+cLd "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/SendSimpleMessage.build/Debug-iphoneos/SendSimpleMessage.build/Objects-normal/armv7/SendSimpleMessage" normal armv7
+cCreateUniversalBinary "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Debug-iphoneos/SendSimpleMessage.app/SendSimpleMessage" normal "armv6 armv7"
+cGenerateDSYMFile "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Debug-iphoneos/SendSimpleMessage.app.dSYM" "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Debug-iphoneos/SendSimpleMessage.app/SendSimpleMessage"
+cProcessProductPackaging "/Users/Carl/Library/MobileDevice/Provisioning Profiles/6A09725C-05C4-42D0-8BCF-A9C6682B1815.mobileprovision" "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Debug-iphoneos/SendSimpleMessage.app/embedded.mobileprovision"
+cTouch "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Debug-iphoneos/SendSimpleMessage.app"
+cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/SendSimpleMessage.build/Debug-iphoneos/SendSimpleMessage.build/SendSimpleMessage.xcent"
+cCodeSign "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Debug-iphoneos/SendSimpleMessage.app"
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk
+c000000004CC7DC9E0000000000000110
+t1288166558
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist
+c000000004CB3DFCF00000000000001A7
+t1286856655
+s423
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+c000000004CB3DFCF00000000000001E5
+t1286856655
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC10EF500000000003532B0
+t1287720693
+s3486384
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC10F4700000000003E1F20
+t1287720775
+s4071200
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC10F1C0000000000001466
+t1287720732
+s5222
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC11AE60000000000000AA1
+t1287723750
+s2721
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC11B750000000000C769F0
+t1287723893
+s13068784
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/arpa/inet.h
+c000000004CB3E4790000000000001533
+t1286857849
+s5427
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/stdio.h
+c000000004CB3E4B800000000000040AC
+t1286857912
+s16556
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/stdlib.h
+c000000004CB3E4B80000000000002DF5
+t1286857912
+s11765
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/string.h
+c000000004CB3E4B80000000000001731
+t1286857912
+s5937
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/sys/socket.h
+c000000004CBFACD80000000000005A69
+t1287630040
+s23145
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/unistd.h
+c000000004CB3E4B8000000000000563E
+t1286857912
+s22078
+
+N/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/Classes/SendSimpleMessageAppDelegate.h
+c000000004CF91D570000000000000250
+t1291394391
+s592
+i<UIKit/UIKit.h>
+
+N/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/Classes/SendSimpleMessageAppDelegate.m
+c000000004CF91EBA000000000000275E
+t1291394746
+s10078
+i"SendSimpleMessageAppDelegate.h"
+i<stdio.h>
+i<sys/socket.h>
+i<arpa/inet.h>
+i<stdlib.h>
+i<string.h>
+i<unistd.h>
+
+N/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/Classes/sendPacket.m
+c000000004CF8E06800000000000003D4
+t1291378792
+s980
+
+N/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/MainWindow.xib
+c000000004CF91E2C000000000000AFBE
+t1291394604
+s44990
+
+N/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/SendSimpleMessage_Prefix.pch
+c000000004CF8D86A00000000000000CB
+t1291376746
+s203
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Debug-iphoneos/SendSimpleMessage.app
+t1291394752
+s340
+
+N/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Debug-iphoneos/SendSimpleMessage.app.dSYM
+t1291394752
+s102
+
+N/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Debug-iphoneos/SendSimpleMessage.app/Info.plist
+t1291386989
+s832
+
+N/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Debug-iphoneos/SendSimpleMessage.app/MainWindow.nib
+t1291394751
+s4087
+
+N/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Debug-iphoneos/SendSimpleMessage.app/PkgInfo
+t1291386989
+s8
+
+N/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Debug-iphoneos/SendSimpleMessage.app/ResourceRules.plist
+t1291377366
+s485
+
+N/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Debug-iphoneos/SendSimpleMessage.app/SendSimpleMessage
+t1291394752
+s59540
+
+N/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Debug-iphoneos/SendSimpleMessage.app/embedded.mobileprovision
+t1291377373
+s7172
+
+N/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/SendSimpleMessage.build/Debug-iphoneos/SendSimpleMessage.build/Objects-normal/armv6/SendSimpleMessage
+t1291394752
+s26772
+
+N/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/SendSimpleMessage.build/Debug-iphoneos/SendSimpleMessage.build/Objects-normal/armv6/SendSimpleMessage.LinkFileList
+c000000004CF8DAD60000000000000178
+t1291377366
+s376
+
+N/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/SendSimpleMessage.build/Debug-iphoneos/SendSimpleMessage.build/Objects-normal/armv6/SendSimpleMessageAppDelegate.o
+t1291394752
+s69144
+
+N/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/SendSimpleMessage.build/Debug-iphoneos/SendSimpleMessage.build/Objects-normal/armv6/main.o
+t1291377373
+s6528
+
+N/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/SendSimpleMessage.build/Debug-iphoneos/SendSimpleMessage.build/Objects-normal/armv6/sendPacket.o
+t2
+s0
+
+N/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/SendSimpleMessage.build/Debug-iphoneos/SendSimpleMessage.build/Objects-normal/armv7/SendSimpleMessage
+t1291394752
+s26772
+
+N/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/SendSimpleMessage.build/Debug-iphoneos/SendSimpleMessage.build/Objects-normal/armv7/SendSimpleMessage.LinkFileList
+c000000004CF8DAD60000000000000178
+t1291377366
+s376
+
+N/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/SendSimpleMessage.build/Debug-iphoneos/SendSimpleMessage.build/Objects-normal/armv7/SendSimpleMessageAppDelegate.o
+t1291394752
+s68900
+
+N/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/SendSimpleMessage.build/Debug-iphoneos/SendSimpleMessage.build/Objects-normal/armv7/main.o
+t1291377373
+s6512
+
+N/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/SendSimpleMessage.build/Debug-iphoneos/SendSimpleMessage.build/Objects-normal/armv7/sendPacket.o
+t2
+s0
+
+N/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/SendSimpleMessage.build/Debug-iphoneos/SendSimpleMessage.build/SendSimpleMessage.xcent
+t1291386990
+s440
+
+N/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/main.m
+c000000004CF8D86A0000000000000175
+t1291376746
+s373
+i<UIKit/UIKit.h>
+
+N/Users/Carl/Library/MobileDevice/Provisioning Profiles/6A09725C-05C4-42D0-8BCF-A9C6682B1815.mobileprovision
+c000000004CF63C430000000000001C04
+t1291205699
+s7172
+
+N/var/folders/5W/5WbKi7hhGkSs6Aomh0sqwE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SendSimpleMessage_Prefix-dnnkhukwpydzedenekgdadisbzxy/SendSimpleMessage_Prefix.pch.gch
+t1291377373
+s10446552
+
+N/var/folders/5W/5WbKi7hhGkSs6Aomh0sqwE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SendSimpleMessage_Prefix-hijevjayuybgnmahaecsvfdkfwhh/SendSimpleMessage_Prefix.pch.gch
+t1291377373
+s9983704
+
+NSendSimpleMessage-Info.plist
+c000000004CF8FD1500000000000003AD
+t1291386133
+s941
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies313087551#313087551#0(0"0(0#1#0"8673067552#0"0#
+
+CCodeSign "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Debug-iphoneos/SendSimpleMessage.app"
+s313087552.420452
+e313087552.921345
+r1
+xCodeSign
+x/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Debug-iphoneos/SendSimpleMessage.app
+lSLF07#2@51"CodeSign build/Debug-iphoneos/SendSimpleMessage.app313087552#313087552#0(0"0(0#0#121"/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Debug-iphoneos/SendSimpleMessage.app8669578208#865"    cd "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer: Carl walton (T4S99996XF)" "--resource-rules=/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Debug-iphoneos/SendSimpleMessage.app/ResourceRules.plist" --entitlements "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/SendSimpleMessage.build/Debug-iphoneos/SendSimpleMessage.build/SendSimpleMessage.xcent" "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Debug-iphoneos/SendSimpleMessage.app"0#
+
+CCompileC build/SendSimpleMessage.build/Debug-iphoneos/SendSimpleMessage.build/Objects-normal/armv6/SendSimpleMessageAppDelegate.o "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/Classes/SendSimpleMessageAppDelegate.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s313087552.074497
+e313087552.310097
+r1
+xCompileC
+xbuild/SendSimpleMessage.build/Debug-iphoneos/SendSimpleMessage.build/Objects-normal/armv6/SendSimpleMessageAppDelegate.o
+x/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/Classes/SendSimpleMessageAppDelegate.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@125"Compile /Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/Classes/SendSimpleMessageAppDelegate.m313087552#313087552#0(0"0(0#0#117"/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/Classes/SendSimpleMessageAppDelegate.m8672314816#2442"    cd "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/SendSimpleMessage.build/Debug-iphoneos/SendSimpleMessage.build/SendSimpleMessage-generated-files.hmap" "-I/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/SendSimpleMessage.build/Debug-iphoneos/SendSimpleMessage.build/SendSimpleMessage-own-target-headers.hmap" "-I/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/SendSimpleMessage.build/Debug-iphoneos/SendSimpleMessage.build/SendSimpleMessage-all-target-headers.hmap" -iquote "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/SendSimpleMessage.build/Debug-iphoneos/SendSimpleMessage.build/SendSimpleMessage-project-headers.hmap" "-F/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Debug-iphoneos" "-I/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Debug-iphoneos/include" "-I/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/SendSimpleMessage.build/Debug-iphoneos/SendSimpleMessage.build/DerivedSources/armv6" "-I/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/SendSimpleMessage.build/Debug-iphoneos/SendSimpleMessage.build/DerivedSources" -include /var/folders/5W/5WbKi7hhGkSs6Aomh0sqwE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SendSimpleMessage_Prefix-hijevjayuybgnmahaecsvfdkfwhh/SendSimpleMessage_Prefix.pch -c "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/Classes/SendSimpleMessageAppDelegate.m" -o "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/SendSimpleMessage.build/Debug-iphoneos/SendSimpleMessage.build/Objects-normal/armv6/SendSimpleMessageAppDelegate.o"0#
+
+CCompileC build/SendSimpleMessage.build/Debug-iphoneos/SendSimpleMessage.build/Objects-normal/armv6/main.o "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/main.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s313070173.074511
+e313070173.430331
+r1
+xCompileC
+xbuild/SendSimpleMessage.build/Debug-iphoneos/SendSimpleMessage.build/Objects-normal/armv6/main.o
+x/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/main.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@93"Compile /Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/main.m313070173#313070173#0(0"0(0#0#85"/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/main.m8638981696#2386"    cd "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/SendSimpleMessage.build/Debug-iphoneos/SendSimpleMessage.build/SendSimpleMessage-generated-files.hmap" "-I/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/SendSimpleMessage.build/Debug-iphoneos/SendSimpleMessage.build/SendSimpleMessage-own-target-headers.hmap" "-I/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/SendSimpleMessage.build/Debug-iphoneos/SendSimpleMessage.build/SendSimpleMessage-all-target-headers.hmap" -iquote "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/SendSimpleMessage.build/Debug-iphoneos/SendSimpleMessage.build/SendSimpleMessage-project-headers.hmap" "-F/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Debug-iphoneos" "-I/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Debug-iphoneos/include" "-I/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/SendSimpleMessage.build/Debug-iphoneos/SendSimpleMessage.build/DerivedSources/armv6" "-I/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/SendSimpleMessage.build/Debug-iphoneos/SendSimpleMessage.build/DerivedSources" -include /var/folders/5W/5WbKi7hhGkSs6Aomh0sqwE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SendSimpleMessage_Prefix-hijevjayuybgnmahaecsvfdkfwhh/SendSimpleMessage_Prefix.pch -c "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/main.m" -o "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/SendSimpleMessage.build/Debug-iphoneos/SendSimpleMessage.build/Objects-normal/armv6/main.o"0#
+
+CCompileC build/SendSimpleMessage.build/Debug-iphoneos/SendSimpleMessage.build/Objects-normal/armv6/sendPacket.o "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/Classes/sendPacket.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/SendSimpleMessage.build/Debug-iphoneos/SendSimpleMessage.build/Objects-normal/armv7/SendSimpleMessageAppDelegate.o "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/Classes/SendSimpleMessageAppDelegate.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s313087552.144366
+e313087552.320423
+r1
+xCompileC
+xbuild/SendSimpleMessage.build/Debug-iphoneos/SendSimpleMessage.build/Objects-normal/armv7/SendSimpleMessageAppDelegate.o
+x/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/Classes/SendSimpleMessageAppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@125"Compile /Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/Classes/SendSimpleMessageAppDelegate.m313087552#313087552#0(0"0(0#0#117"/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/Classes/SendSimpleMessageAppDelegate.m8668229312#2442"    cd "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/SendSimpleMessage.build/Debug-iphoneos/SendSimpleMessage.build/SendSimpleMessage-generated-files.hmap" "-I/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/SendSimpleMessage.build/Debug-iphoneos/SendSimpleMessage.build/SendSimpleMessage-own-target-headers.hmap" "-I/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/SendSimpleMessage.build/Debug-iphoneos/SendSimpleMessage.build/SendSimpleMessage-all-target-headers.hmap" -iquote "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/SendSimpleMessage.build/Debug-iphoneos/SendSimpleMessage.build/SendSimpleMessage-project-headers.hmap" "-F/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Debug-iphoneos" "-I/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Debug-iphoneos/include" "-I/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/SendSimpleMessage.build/Debug-iphoneos/SendSimpleMessage.build/DerivedSources/armv7" "-I/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/SendSimpleMessage.build/Debug-iphoneos/SendSimpleMessage.build/DerivedSources" -include /var/folders/5W/5WbKi7hhGkSs6Aomh0sqwE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SendSimpleMessage_Prefix-dnnkhukwpydzedenekgdadisbzxy/SendSimpleMessage_Prefix.pch -c "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/Classes/SendSimpleMessageAppDelegate.m" -o "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/SendSimpleMessage.build/Debug-iphoneos/SendSimpleMessage.build/Objects-normal/armv7/SendSimpleMessageAppDelegate.o"0#
+
+CCompileC build/SendSimpleMessage.build/Debug-iphoneos/SendSimpleMessage.build/Objects-normal/armv7/main.o "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/main.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s313070173.430430
+e313070173.556489
+r1
+xCompileC
+xbuild/SendSimpleMessage.build/Debug-iphoneos/SendSimpleMessage.build/Objects-normal/armv7/main.o
+x/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@93"Compile /Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/main.m313070173#313070173#0(0"0(0#0#85"/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/main.m8639120160#2386"    cd "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/SendSimpleMessage.build/Debug-iphoneos/SendSimpleMessage.build/SendSimpleMessage-generated-files.hmap" "-I/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/SendSimpleMessage.build/Debug-iphoneos/SendSimpleMessage.build/SendSimpleMessage-own-target-headers.hmap" "-I/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/SendSimpleMessage.build/Debug-iphoneos/SendSimpleMessage.build/SendSimpleMessage-all-target-headers.hmap" -iquote "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/SendSimpleMessage.build/Debug-iphoneos/SendSimpleMessage.build/SendSimpleMessage-project-headers.hmap" "-F/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Debug-iphoneos" "-I/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Debug-iphoneos/include" "-I/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/SendSimpleMessage.build/Debug-iphoneos/SendSimpleMessage.build/DerivedSources/armv7" "-I/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/SendSimpleMessage.build/Debug-iphoneos/SendSimpleMessage.build/DerivedSources" -include /var/folders/5W/5WbKi7hhGkSs6Aomh0sqwE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SendSimpleMessage_Prefix-dnnkhukwpydzedenekgdadisbzxy/SendSimpleMessage_Prefix.pch -c "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/main.m" -o "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/SendSimpleMessage.build/Debug-iphoneos/SendSimpleMessage.build/Objects-normal/armv7/main.o"0#
+
+CCompileC build/SendSimpleMessage.build/Debug-iphoneos/SendSimpleMessage.build/Objects-normal/armv7/sendPacket.o "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/Classes/sendPacket.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileXIB "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/MainWindow.xib"
+s313087551.496077
+e313087552.074098
+r1
+xCompileXIB
+x/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib313087551#313087552#0(0"0(0#0#93"/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/MainWindow.xib8668229120#678"    cd "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Debug-iphoneos/SendSimpleMessage.app/MainWindow.nib" "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/MainWindow.xib" --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCpResource build/Debug-iphoneos/SendSimpleMessage.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+s313070166.136823
+e313070166.243064
+r1
+xCpResource
+xbuild/Debug-iphoneos/SendSimpleMessage.app/ResourceRules.plist
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist313070166#313070166#0(0"0(0#0#89"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist8639261504#588"    cd "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Debug-iphoneos/SendSimpleMessage.app"0#
+
+CCreateUniversalBinary "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Debug-iphoneos/SendSimpleMessage.app/SendSimpleMessage" normal "armv6 armv7"
+s313087552.366277
+e313087552.386727
+r1
+xCreateUniversalBinary
+x/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Debug-iphoneos/SendSimpleMessage.app/SendSimpleMessage
+xnormal
+xarmv6 armv7
+lSLF07#2@103"CreateUniversalBinary build/Debug-iphoneos/SendSimpleMessage.app/SendSimpleMessage normal "armv6 armv7"313087552#313087552#0(0"0(0#0#90"/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/armv6 armv78670670272#766"    cd "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/lipo -create "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/SendSimpleMessage.build/Debug-iphoneos/SendSimpleMessage.build/Objects-normal/armv6/SendSimpleMessage" "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/SendSimpleMessage.build/Debug-iphoneos/SendSimpleMessage.build/Objects-normal/armv7/SendSimpleMessage" -output "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Debug-iphoneos/SendSimpleMessage.app/SendSimpleMessage"0#
+
+CGenerateDSYMFile "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Debug-iphoneos/SendSimpleMessage.app.dSYM" "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Debug-iphoneos/SendSimpleMessage.app/SendSimpleMessage"
+s313087552.386823
+e313087552.413913
+r1
+xGenerateDSYMFile
+x/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Debug-iphoneos/SendSimpleMessage.app.dSYM
+x/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Debug-iphoneos/SendSimpleMessage.app/SendSimpleMessage
+lSLF07#2@125"GenerateDSYMFile build/Debug-iphoneos/SendSimpleMessage.app.dSYM build/Debug-iphoneos/SendSimpleMessage.app/SendSimpleMessage313087552#313087552#0(0"0(0#0#139"/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Debug-iphoneos/SendSimpleMessage.app/SendSimpleMessage8670552448#518"    cd "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Debug-iphoneos/SendSimpleMessage.app/SendSimpleMessage" -o "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Debug-iphoneos/SendSimpleMessage.app.dSYM"0#
+
+CLd "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/SendSimpleMessage.build/Debug-iphoneos/SendSimpleMessage.build/Objects-normal/armv6/SendSimpleMessage" normal armv6
+s313087552.310195
+e313087552.351790
+r1
+xLd
+x/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/SendSimpleMessage.build/Debug-iphoneos/SendSimpleMessage.build/Objects-normal/armv6/SendSimpleMessage
+xnormal
+xarmv6
+lSLF07#2@191"Link /Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/SendSimpleMessage.build/Debug-iphoneos/SendSimpleMessage.build/Objects-normal/armv6/SendSimpleMessage313087552#313087552#0(0"0(0#0#0"8670977024#1129"    cd "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage"    setenv IPHONEOS_DEPLOYMENT_TARGET 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk "-L/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Debug-iphoneos" "-F/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Debug-iphoneos" -filelist "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/SendSimpleMessage.build/Debug-iphoneos/SendSimpleMessage.build/Objects-normal/armv6/SendSimpleMessage.LinkFileList" -dead_strip -miphoneos-version-min=4.2 -framework Foundation -framework UIKit -framework CoreGraphics -o "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/SendSimpleMessage.build/Debug-iphoneos/SendSimpleMessage.build/Objects-normal/armv6/SendSimpleMessage"0#
+
+CLd "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/SendSimpleMessage.build/Debug-iphoneos/SendSimpleMessage.build/Objects-normal/armv7/SendSimpleMessage" normal armv7
+s313087552.320516
+e313087552.366137
+r1
+xLd
+x/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/SendSimpleMessage.build/Debug-iphoneos/SendSimpleMessage.build/Objects-normal/armv7/SendSimpleMessage
+xnormal
+xarmv7
+lSLF07#2@191"Link /Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/SendSimpleMessage.build/Debug-iphoneos/SendSimpleMessage.build/Objects-normal/armv7/SendSimpleMessage313087552#313087552#0(0"0(0#0#0"8670814624#1129"    cd "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage"    setenv IPHONEOS_DEPLOYMENT_TARGET 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk "-L/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Debug-iphoneos" "-F/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Debug-iphoneos" -filelist "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/SendSimpleMessage.build/Debug-iphoneos/SendSimpleMessage.build/Objects-normal/armv7/SendSimpleMessage.LinkFileList" -dead_strip -miphoneos-version-min=4.2 -framework Foundation -framework UIKit -framework CoreGraphics -o "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/SendSimpleMessage.build/Debug-iphoneos/SendSimpleMessage.build/Objects-normal/armv7/SendSimpleMessage"0#
+
+CProcessInfoPlistFile "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Debug-iphoneos/SendSimpleMessage.app/Info.plist" SendSimpleMessage-Info.plist
+s313079789.335527
+e313079789.340261
+r1
+xProcessInfoPlistFile
+x/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Debug-iphoneos/SendSimpleMessage.app/Info.plist
+xSendSimpleMessage-Info.plist
+lSLF07#2@36"Process SendSimpleMessage-Info.plist313079789#313079789#0(0"0(0#0#107"/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/SendSimpleMessage-Info.plist8628914304#770"    cd "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility SendSimpleMessage-Info.plist -genpkginfo "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Debug-iphoneos/SendSimpleMessage.app/PkgInfo" -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Debug-iphoneos/SendSimpleMessage.app/ResourceRules.plist" -o "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Debug-iphoneos/SendSimpleMessage.app/Info.plist"0#
+
+CProcessPCH /var/folders/5W/5WbKi7hhGkSs6Aomh0sqwE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SendSimpleMessage_Prefix-dnnkhukwpydzedenekgdadisbzxy/SendSimpleMessage_Prefix.pch.gch SendSimpleMessage_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+s313070168.096240
+e313070173.074403
+r1
+xProcessPCH
+x/var/folders/5W/5WbKi7hhGkSs6Aomh0sqwE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SendSimpleMessage_Prefix-dnnkhukwpydzedenekgdadisbzxy/SendSimpleMessage_Prefix.pch.gch
+xSendSimpleMessage_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@39"Precompile SendSimpleMessage_Prefix.pch313070168#313070173#0(0"0(0#0#107"/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/SendSimpleMessage_Prefix.pch8640898336#2232"    cd "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/SendSimpleMessage.build/Debug-iphoneos/SendSimpleMessage.build/SendSimpleMessage-generated-files.hmap" "-I/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/SendSimpleMessage.build/Debug-iphoneos/SendSimpleMessage.build/SendSimpleMessage-own-target-headers.hmap" "-I/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/SendSimpleMessage.build/Debug-iphoneos/SendSimpleMessage.build/SendSimpleMessage-all-target-headers.hmap" -iquote "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/SendSimpleMessage.build/Debug-iphoneos/SendSimpleMessage.build/SendSimpleMessage-project-headers.hmap" "-F/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Debug-iphoneos" "-I/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Debug-iphoneos/include" "-I/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/SendSimpleMessage.build/Debug-iphoneos/SendSimpleMessage.build/DerivedSources/armv7" "-I/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/SendSimpleMessage.build/Debug-iphoneos/SendSimpleMessage.build/DerivedSources" -c "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/SendSimpleMessage_Prefix.pch" -o /var/folders/5W/5WbKi7hhGkSs6Aomh0sqwE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SendSimpleMessage_Prefix-dnnkhukwpydzedenekgdadisbzxy/SendSimpleMessage_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/5W/5WbKi7hhGkSs6Aomh0sqwE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SendSimpleMessage_Prefix-hijevjayuybgnmahaecsvfdkfwhh/SendSimpleMessage_Prefix.pch.gch SendSimpleMessage_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+s313070168.095315
+e313070173.043350
+r1
+xProcessPCH
+x/var/folders/5W/5WbKi7hhGkSs6Aomh0sqwE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SendSimpleMessage_Prefix-hijevjayuybgnmahaecsvfdkfwhh/SendSimpleMessage_Prefix.pch.gch
+xSendSimpleMessage_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@39"Precompile SendSimpleMessage_Prefix.pch313070168#313070173#0(0"0(0#0#107"/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/SendSimpleMessage_Prefix.pch8641430432#2232"    cd "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/SendSimpleMessage.build/Debug-iphoneos/SendSimpleMessage.build/SendSimpleMessage-generated-files.hmap" "-I/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/SendSimpleMessage.build/Debug-iphoneos/SendSimpleMessage.build/SendSimpleMessage-own-target-headers.hmap" "-I/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/SendSimpleMessage.build/Debug-iphoneos/SendSimpleMessage.build/SendSimpleMessage-all-target-headers.hmap" -iquote "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/SendSimpleMessage.build/Debug-iphoneos/SendSimpleMessage.build/SendSimpleMessage-project-headers.hmap" "-F/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Debug-iphoneos" "-I/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Debug-iphoneos/include" "-I/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/SendSimpleMessage.build/Debug-iphoneos/SendSimpleMessage.build/DerivedSources/armv6" "-I/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/SendSimpleMessage.build/Debug-iphoneos/SendSimpleMessage.build/DerivedSources" -c "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/SendSimpleMessage_Prefix.pch" -o /var/folders/5W/5WbKi7hhGkSs6Aomh0sqwE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SendSimpleMessage_Prefix-hijevjayuybgnmahaecsvfdkfwhh/SendSimpleMessage_Prefix.pch.gch0#
+
+CProcessProductPackaging "/Users/Carl/Library/MobileDevice/Provisioning Profiles/6A09725C-05C4-42D0-8BCF-A9C6682B1815.mobileprovision" "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Debug-iphoneos/SendSimpleMessage.app/embedded.mobileprovision"
+s313070173.669293
+e313070173.704307
+r1
+xProcessProductPackaging
+x/Users/Carl/Library/MobileDevice/Provisioning Profiles/6A09725C-05C4-42D0-8BCF-A9C6682B1815.mobileprovision
+x/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Debug-iphoneos/SendSimpleMessage.app/embedded.mobileprovision
+lSLF07#2@201"ProcessProductPackaging "/Users/Carl/Library/MobileDevice/Provisioning Profiles/6A09725C-05C4-42D0-8BCF-A9C6682B1815.mobileprovision" build/Debug-iphoneos/SendSimpleMessage.app/embedded.mobileprovision313070173#313070173#0(0"0(0#0#146"/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Debug-iphoneos/SendSimpleMessage.app/embedded.mobileprovision8639076160#516"    cd "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/Carl/Library/MobileDevice/Provisioning Profiles/6A09725C-05C4-42D0-8BCF-A9C6682B1815.mobileprovision" -o "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Debug-iphoneos/SendSimpleMessage.app/embedded.mobileprovision"0#
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/SendSimpleMessage.build/Debug-iphoneos/SendSimpleMessage.build/SendSimpleMessage.xcent"
+s313079790.410660
+e313079790.501975
+r1
+xProcessProductPackaging
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist
+x/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/SendSimpleMessage.build/Debug-iphoneos/SendSimpleMessage.build/SendSimpleMessage.xcent
+lSLF07#2@205"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist build/SendSimpleMessage.build/Debug-iphoneos/SendSimpleMessage.build/SendSimpleMessage.xcent313079790#313079790#0(0"0(0#0#171"/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/SendSimpleMessage.build/Debug-iphoneos/SendSimpleMessage.build/SendSimpleMessage.xcent8645769824#546"    cd "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist -entitlements -format xml -o "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/SendSimpleMessage.build/Debug-iphoneos/SendSimpleMessage.build/SendSimpleMessage.xcent"0#
+
+CTouch "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Debug-iphoneos/SendSimpleMessage.app"
+s313087552.414794
+e313087552.420288
+r1
+xTouch
+x/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Debug-iphoneos/SendSimpleMessage.app
+lSLF07#2@127"Touch /Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Debug-iphoneos/SendSimpleMessage.app313087552#313087552#0(0"0(0#0#0"8670069280#358"    cd "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Debug-iphoneos/SendSimpleMessage.app"0#
+

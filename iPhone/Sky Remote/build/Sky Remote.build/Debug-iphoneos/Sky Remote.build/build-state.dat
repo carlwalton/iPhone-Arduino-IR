@@ -1,0 +1,508 @@
+TSky Remote
+v7
+r0
+t313093370.806419
+cCheck dependencies
+cCpResource "build/Debug-iphoneos/Sky Remote.app/ResourceRules.plist" /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+cProcessInfoPlistFile "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Debug-iphoneos/Sky Remote.app/Info.plist" "Sky Remote-Info.plist"
+cCompileXIB "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/MainWindow.xib"
+cCopyPNGFile "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Debug-iphoneos/Sky Remote.app/icon.png" Classes/../icon.png
+cCopyPNGFile "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Debug-iphoneos/Sky Remote.app/up.png" ../../../../../Desktop/up.png
+cCopyPNGFile "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Debug-iphoneos/Sky Remote.app/right.png" ../../../../../Desktop/right.png
+cCopyPNGFile "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Debug-iphoneos/Sky Remote.app/down.png" ../../../../../Desktop/down.png
+cCopyPNGFile "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Debug-iphoneos/Sky Remote.app/left.png" ../../../../../Desktop/left.png
+cProcessPCH "/var/folders/5W/5WbKi7hhGkSs6Aomh0sqwE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Sky Remote_Prefix-hijevjayuybgnmahaecsvfdkfwhh/Sky Remote_Prefix.pch.gch" "Sky Remote_Prefix.pch" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH "/var/folders/5W/5WbKi7hhGkSs6Aomh0sqwE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Sky Remote_Prefix-dnnkhukwpydzedenekgdadisbzxy/Sky Remote_Prefix.pch.gch" "Sky Remote_Prefix.pch" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Sky Remote.build/Debug-iphoneos/Sky Remote.build/Objects-normal/armv6/main.o" "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/main.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Sky Remote.build/Debug-iphoneos/Sky Remote.build/Objects-normal/armv6/SendSimpleMessageAppDelegate.o" "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/Classes/SendSimpleMessageAppDelegate.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cLd "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Sky Remote.build/Debug-iphoneos/Sky Remote.build/Objects-normal/armv6/Sky Remote" normal armv6
+cCompileC "build/Sky Remote.build/Debug-iphoneos/Sky Remote.build/Objects-normal/armv7/main.o" "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/main.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Sky Remote.build/Debug-iphoneos/Sky Remote.build/Objects-normal/armv7/SendSimpleMessageAppDelegate.o" "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/Classes/SendSimpleMessageAppDelegate.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Sky Remote.build/Debug-iphoneos/Sky Remote.build/Objects-normal/armv7/Sky Remote" normal armv7
+cCreateUniversalBinary "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Debug-iphoneos/Sky Remote.app/Sky Remote" normal "armv6 armv7"
+cGenerateDSYMFile "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Debug-iphoneos/Sky Remote.app.dSYM" "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Debug-iphoneos/Sky Remote.app/Sky Remote"
+cProcessProductPackaging "/Users/Carl/Library/MobileDevice/Provisioning Profiles/6A09725C-05C4-42D0-8BCF-A9C6682B1815.mobileprovision" "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Debug-iphoneos/Sky Remote.app/embedded.mobileprovision"
+cTouch "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Debug-iphoneos/Sky Remote.app"
+cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Sky Remote.build/Debug-iphoneos/Sky Remote.build/Sky Remote.xcent"
+cCodeSign "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Debug-iphoneos/Sky Remote.app"
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk
+c000000004CC7DC9E0000000000000110
+t1288166558
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist
+c000000004CB3DFCF00000000000001A7
+t1286856655
+s423
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+c000000004CB3DFCF00000000000001E5
+t1286856655
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC10EF500000000003532B0
+t1287720693
+s3486384
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC10F4700000000003E1F20
+t1287720775
+s4071200
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC10F1C0000000000001466
+t1287720732
+s5222
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC11AE60000000000000AA1
+t1287723750
+s2721
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC11B750000000000C769F0
+t1287723893
+s13068784
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/arpa/inet.h
+c000000004CB3E4790000000000001533
+t1286857849
+s5427
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/stdio.h
+c000000004CB3E4B800000000000040AC
+t1286857912
+s16556
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/stdlib.h
+c000000004CB3E4B80000000000002DF5
+t1286857912
+s11765
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/string.h
+c000000004CB3E4B80000000000001731
+t1286857912
+s5937
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/sys/socket.h
+c000000004CBFACD80000000000005A69
+t1287630040
+s23145
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/unistd.h
+c000000004CB3E4B8000000000000563E
+t1286857912
+s22078
+
+N/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/../../../../../Desktop/down.png
+c000000004CF9310100000000000015C4
+t1291399425
+s5572
+
+N/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/../../../../../Desktop/left.png
+c000000004CF9312F00000000000015C9
+t1291399471
+s5577
+
+N/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/../../../../../Desktop/right.png
+c000000004CF93112000000000000150F
+t1291399442
+s5391
+
+N/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/../../../../../Desktop/up.png
+c000000004CF930EF00000000000015C1
+t1291399407
+s5569
+
+N/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/Classes/../icon.png
+c0000000048F24BE80000000000001C81
+t1223838696
+s7297
+
+N/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/Classes/SendSimpleMessageAppDelegate.h
+c000000004CF9326300000000000002D6
+t1291399779
+s726
+i<UIKit/UIKit.h>
+
+N/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/Classes/SendSimpleMessageAppDelegate.m
+c000000004CF9355C0000000000002B77
+t1291400540
+s11127
+i"SendSimpleMessageAppDelegate.h"
+i<stdio.h>
+i<sys/socket.h>
+i<arpa/inet.h>
+i<stdlib.h>
+i<string.h>
+i<unistd.h>
+
+N/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/MainWindow.xib
+c000000004CF932A7000000000000E979
+t1291399847
+s59769
+
+N/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/Sky Remote_Prefix.pch
+c000000004CF8D86A00000000000000CB
+t1291376746
+s203
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Debug-iphoneos/Sky Remote.app
+t1291400542
+s510
+
+N/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Debug-iphoneos/Sky Remote.app.dSYM
+t1291400542
+s102
+
+N/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Debug-iphoneos/Sky Remote.app/Info.plist
+t1291400161
+s841
+
+N/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Debug-iphoneos/Sky Remote.app/MainWindow.nib
+t1291400161
+s5489
+
+N/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Debug-iphoneos/Sky Remote.app/PkgInfo
+t1291400161
+s8
+
+N/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Debug-iphoneos/Sky Remote.app/ResourceRules.plist
+t1291394882
+s485
+
+N/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Debug-iphoneos/Sky Remote.app/Sky Remote
+t1291400542
+s74528
+
+N/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Debug-iphoneos/Sky Remote.app/down.png
+t1291400161
+s5614
+
+N/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Debug-iphoneos/Sky Remote.app/embedded.mobileprovision
+t1291394885
+s7172
+
+N/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Debug-iphoneos/Sky Remote.app/icon.png
+t1291400161
+s7987
+
+N/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Debug-iphoneos/Sky Remote.app/left.png
+t1291400161
+s5453
+
+N/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Debug-iphoneos/Sky Remote.app/right.png
+t1291400161
+s5843
+
+N/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Debug-iphoneos/Sky Remote.app/up.png
+t1291400161
+s5568
+
+N/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Sky Remote.build/Debug-iphoneos/Sky Remote.build/Objects-normal/armv6/SendSimpleMessageAppDelegate.o
+t1291400542
+s74000
+
+N/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Sky Remote.build/Debug-iphoneos/Sky Remote.build/Objects-normal/armv6/Sky Remote
+t1291400542
+s27608
+
+N/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Sky Remote.build/Debug-iphoneos/Sky Remote.build/Objects-normal/armv6/Sky Remote.LinkFileList
+c000000004CF91F42000000000000015C
+t1291394882
+s348
+
+N/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Sky Remote.build/Debug-iphoneos/Sky Remote.build/Objects-normal/armv6/main.o
+t1291394884
+s6528
+
+N/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Sky Remote.build/Debug-iphoneos/Sky Remote.build/Objects-normal/armv7/SendSimpleMessageAppDelegate.o
+t1291400542
+s73588
+
+N/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Sky Remote.build/Debug-iphoneos/Sky Remote.build/Objects-normal/armv7/Sky Remote
+t1291400542
+s27608
+
+N/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Sky Remote.build/Debug-iphoneos/Sky Remote.build/Objects-normal/armv7/Sky Remote.LinkFileList
+c000000004CF91F42000000000000015C
+t1291394882
+s348
+
+N/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Sky Remote.build/Debug-iphoneos/Sky Remote.build/Objects-normal/armv7/main.o
+t1291394884
+s6512
+
+N/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Sky Remote.build/Debug-iphoneos/Sky Remote.build/Sky Remote.xcent
+t1291400162
+s426
+
+N/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/icon.png
+c0000000048F24BE80000000000001C81
+t1223838696
+s7297
+
+N/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/main.m
+c000000004CF8D86A0000000000000175
+t1291376746
+s373
+i<UIKit/UIKit.h>
+
+N/Users/Carl/Library/MobileDevice/Provisioning Profiles/6A09725C-05C4-42D0-8BCF-A9C6682B1815.mobileprovision
+c000000004CF63C430000000000001C04
+t1291205699
+s7172
+
+N/var/folders/5W/5WbKi7hhGkSs6Aomh0sqwE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Sky Remote_Prefix-dnnkhukwpydzedenekgdadisbzxy/Sky Remote_Prefix.pch.gch
+t1291394884
+s10446552
+
+N/var/folders/5W/5WbKi7hhGkSs6Aomh0sqwE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Sky Remote_Prefix-hijevjayuybgnmahaecsvfdkfwhh/Sky Remote_Prefix.pch.gch
+t1291394884
+s9983704
+
+NSky Remote-Info.plist
+c000000004CF9317200000000000003BC
+t1291399538
+s956
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies313093370#313093370#0(0"0(0#1#0"8682657568#0"0#
+
+CCodeSign "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Debug-iphoneos/Sky Remote.app"
+s313093370.448878
+e313093370.806381
+r1
+xCodeSign
+x/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Debug-iphoneos/Sky Remote.app
+o/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Debug-iphoneos/Sky Remote.app: replacing existing signature
+lSLF07#2@46"CodeSign "build/Debug-iphoneos/Sky Remote.app"313093370#313093370#0(145"/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Debug-iphoneos/Sky Remote.app: replacing existing signature0(0#0#114"/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Debug-iphoneos/Sky Remote.app8681952032#830"    cd "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer: Carl walton (T4S99996XF)" "--resource-rules=/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Debug-iphoneos/Sky Remote.app/ResourceRules.plist" --entitlements "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Sky Remote.build/Debug-iphoneos/Sky Remote.build/Sky Remote.xcent" "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Debug-iphoneos/Sky Remote.app"0#
+
+CCompileC "build/Sky Remote.build/Debug-iphoneos/Sky Remote.build/Objects-normal/armv6/SendSimpleMessageAppDelegate.o" "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/Classes/SendSimpleMessageAppDelegate.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s313093342.067837
+e313093342.324015
+r1
+xCompileC
+xbuild/Sky Remote.build/Debug-iphoneos/Sky Remote.build/Objects-normal/armv6/SendSimpleMessageAppDelegate.o
+x/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/Classes/SendSimpleMessageAppDelegate.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@125"Compile /Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/Classes/SendSimpleMessageAppDelegate.m313093342#313093342#0(0"0(0#0#117"/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/Classes/SendSimpleMessageAppDelegate.m8681696896#2304"    cd "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Sky Remote.build/Debug-iphoneos/Sky Remote.build/Sky Remote-generated-files.hmap" "-I/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Sky Remote.build/Debug-iphoneos/Sky Remote.build/Sky Remote-own-target-headers.hmap" "-I/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Sky Remote.build/Debug-iphoneos/Sky Remote.build/Sky Remote-all-target-headers.hmap" -iquote "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Sky Remote.build/Debug-iphoneos/Sky Remote.build/Sky Remote-project-headers.hmap" "-F/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Debug-iphoneos" "-I/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Debug-iphoneos/include" "-I/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Sky Remote.build/Debug-iphoneos/Sky Remote.build/DerivedSources/armv6" "-I/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Sky Remote.build/Debug-iphoneos/Sky Remote.build/DerivedSources" -include "/var/folders/5W/5WbKi7hhGkSs6Aomh0sqwE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Sky Remote_Prefix-hijevjayuybgnmahaecsvfdkfwhh/Sky Remote_Prefix.pch" -c "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/Classes/SendSimpleMessageAppDelegate.m" -o "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Sky Remote.build/Debug-iphoneos/Sky Remote.build/Objects-normal/armv6/SendSimpleMessageAppDelegate.o"0#
+
+CCompileC "build/Sky Remote.build/Debug-iphoneos/Sky Remote.build/Objects-normal/armv6/main.o" "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/main.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s313087684.647320
+e313087684.703096
+r1
+xCompileC
+xbuild/Sky Remote.build/Debug-iphoneos/Sky Remote.build/Objects-normal/armv6/main.o
+x/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/main.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@93"Compile /Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/main.m313087684#313087684#0(0"0(0#0#85"/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/main.m8672593600#2248"    cd "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Sky Remote.build/Debug-iphoneos/Sky Remote.build/Sky Remote-generated-files.hmap" "-I/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Sky Remote.build/Debug-iphoneos/Sky Remote.build/Sky Remote-own-target-headers.hmap" "-I/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Sky Remote.build/Debug-iphoneos/Sky Remote.build/Sky Remote-all-target-headers.hmap" -iquote "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Sky Remote.build/Debug-iphoneos/Sky Remote.build/Sky Remote-project-headers.hmap" "-F/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Debug-iphoneos" "-I/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Debug-iphoneos/include" "-I/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Sky Remote.build/Debug-iphoneos/Sky Remote.build/DerivedSources/armv6" "-I/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Sky Remote.build/Debug-iphoneos/Sky Remote.build/DerivedSources" -include "/var/folders/5W/5WbKi7hhGkSs6Aomh0sqwE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Sky Remote_Prefix-hijevjayuybgnmahaecsvfdkfwhh/Sky Remote_Prefix.pch" -c "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/main.m" -o "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Sky Remote.build/Debug-iphoneos/Sky Remote.build/Objects-normal/armv6/main.o"0#
+
+CCompileC "build/Sky Remote.build/Debug-iphoneos/Sky Remote.build/Objects-normal/armv7/SendSimpleMessageAppDelegate.o" "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/Classes/SendSimpleMessageAppDelegate.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s313093342.111504
+e313093342.279103
+r1
+xCompileC
+xbuild/Sky Remote.build/Debug-iphoneos/Sky Remote.build/Objects-normal/armv7/SendSimpleMessageAppDelegate.o
+x/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/Classes/SendSimpleMessageAppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@125"Compile /Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/Classes/SendSimpleMessageAppDelegate.m313093342#313093342#0(0"0(0#0#117"/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/Classes/SendSimpleMessageAppDelegate.m8671490432#2304"    cd "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Sky Remote.build/Debug-iphoneos/Sky Remote.build/Sky Remote-generated-files.hmap" "-I/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Sky Remote.build/Debug-iphoneos/Sky Remote.build/Sky Remote-own-target-headers.hmap" "-I/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Sky Remote.build/Debug-iphoneos/Sky Remote.build/Sky Remote-all-target-headers.hmap" -iquote "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Sky Remote.build/Debug-iphoneos/Sky Remote.build/Sky Remote-project-headers.hmap" "-F/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Debug-iphoneos" "-I/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Debug-iphoneos/include" "-I/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Sky Remote.build/Debug-iphoneos/Sky Remote.build/DerivedSources/armv7" "-I/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Sky Remote.build/Debug-iphoneos/Sky Remote.build/DerivedSources" -include "/var/folders/5W/5WbKi7hhGkSs6Aomh0sqwE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Sky Remote_Prefix-dnnkhukwpydzedenekgdadisbzxy/Sky Remote_Prefix.pch" -c "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/Classes/SendSimpleMessageAppDelegate.m" -o "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Sky Remote.build/Debug-iphoneos/Sky Remote.build/Objects-normal/armv7/SendSimpleMessageAppDelegate.o"0#
+
+CCompileC "build/Sky Remote.build/Debug-iphoneos/Sky Remote.build/Objects-normal/armv7/main.o" "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/main.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s313087684.703199
+e313087684.770704
+r1
+xCompileC
+xbuild/Sky Remote.build/Debug-iphoneos/Sky Remote.build/Objects-normal/armv7/main.o
+x/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@93"Compile /Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/main.m313087684#313087684#0(0"0(0#0#85"/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/main.m8658798144#2248"    cd "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Sky Remote.build/Debug-iphoneos/Sky Remote.build/Sky Remote-generated-files.hmap" "-I/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Sky Remote.build/Debug-iphoneos/Sky Remote.build/Sky Remote-own-target-headers.hmap" "-I/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Sky Remote.build/Debug-iphoneos/Sky Remote.build/Sky Remote-all-target-headers.hmap" -iquote "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Sky Remote.build/Debug-iphoneos/Sky Remote.build/Sky Remote-project-headers.hmap" "-F/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Debug-iphoneos" "-I/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Debug-iphoneos/include" "-I/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Sky Remote.build/Debug-iphoneos/Sky Remote.build/DerivedSources/armv7" "-I/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Sky Remote.build/Debug-iphoneos/Sky Remote.build/DerivedSources" -include "/var/folders/5W/5WbKi7hhGkSs6Aomh0sqwE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Sky Remote_Prefix-dnnkhukwpydzedenekgdadisbzxy/Sky Remote_Prefix.pch" -c "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/main.m" -o "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Sky Remote.build/Debug-iphoneos/Sky Remote.build/Objects-normal/armv7/main.o"0#
+
+CCompileXIB "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/MainWindow.xib"
+s313092961.108142
+e313092961.986277
+r1
+xCompileXIB
+x/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib313092961#313092961#0(0"0(0#0#93"/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/MainWindow.xib8678872160#671"    cd "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Debug-iphoneos/Sky Remote.app/MainWindow.nib" "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/MainWindow.xib" --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCopyPNGFile "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Debug-iphoneos/Sky Remote.app/down.png" ../../../../../Desktop/down.png
+s313092961.705828
+e313092961.774528
+r1
+xCopyPNGFile
+x/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Debug-iphoneos/Sky Remote.app/down.png
+x../../../../../Desktop/down.png
+lSLF07#2@90"CopyPNGFile "build/Debug-iphoneos/Sky Remote.app/down.png" ../../../../../Desktop/down.png313092961#313092961#0(0"0(0#0#110"/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/../../../../../Desktop/down.png8679829792#708"    cd "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage"    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/../../../../../Desktop/down.png" "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Debug-iphoneos/Sky Remote.app/down.png"0#
+
+CCopyPNGFile "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Debug-iphoneos/Sky Remote.app/icon.png" Classes/../icon.png
+s313092961.111707
+e313092961.573862
+r1
+xCopyPNGFile
+x/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Debug-iphoneos/Sky Remote.app/icon.png
+xClasses/../icon.png
+lSLF07#2@78"CopyPNGFile "build/Debug-iphoneos/Sky Remote.app/icon.png" Classes/../icon.png313092961#313092961#0(0"0(0#0#98"/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/Classes/../icon.png8677264960#696"    cd "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage"    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/Classes/../icon.png" "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Debug-iphoneos/Sky Remote.app/icon.png"0#
+
+CCopyPNGFile "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Debug-iphoneos/Sky Remote.app/icon.png" icon.png
+s313088366.363554
+e313088367.955024
+r1
+xCopyPNGFile
+x/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Debug-iphoneos/Sky Remote.app/icon.png
+xicon.png
+lSLF07#2@67"CopyPNGFile "build/Debug-iphoneos/Sky Remote.app/icon.png" icon.png313088366#313088367#0(0"0(0#0#87"/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/icon.png8676324864#685"    cd "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage"    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/icon.png" "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Debug-iphoneos/Sky Remote.app/icon.png"0#
+
+CCopyPNGFile "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Debug-iphoneos/Sky Remote.app/left.png" ../../../../../Desktop/left.png
+s313092961.774616
+e313092961.838228
+r1
+xCopyPNGFile
+x/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Debug-iphoneos/Sky Remote.app/left.png
+x../../../../../Desktop/left.png
+lSLF07#2@90"CopyPNGFile "build/Debug-iphoneos/Sky Remote.app/left.png" ../../../../../Desktop/left.png313092961#313092961#0(0"0(0#0#110"/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/../../../../../Desktop/left.png8679537280#708"    cd "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage"    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/../../../../../Desktop/left.png" "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Debug-iphoneos/Sky Remote.app/left.png"0#
+
+CCopyPNGFile "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Debug-iphoneos/Sky Remote.app/right.png" ../../../../../Desktop/right.png
+s313092961.643084
+e313092961.705737
+r1
+xCopyPNGFile
+x/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Debug-iphoneos/Sky Remote.app/right.png
+x../../../../../Desktop/right.png
+lSLF07#2@92"CopyPNGFile "build/Debug-iphoneos/Sky Remote.app/right.png" ../../../../../Desktop/right.png313092961#313092961#0(0"0(0#0#111"/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/../../../../../Desktop/right.png8679988448#710"    cd "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage"    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/../../../../../Desktop/right.png" "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Debug-iphoneos/Sky Remote.app/right.png"0#
+
+CCopyPNGFile "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Debug-iphoneos/Sky Remote.app/up.png" ../../../../../Desktop/up.png
+s313092961.573955
+e313092961.642871
+r1
+xCopyPNGFile
+x/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Debug-iphoneos/Sky Remote.app/up.png
+x../../../../../Desktop/up.png
+lSLF07#2@86"CopyPNGFile "build/Debug-iphoneos/Sky Remote.app/up.png" ../../../../../Desktop/up.png313092961#313092961#0(0"0(0#0#108"/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/../../../../../Desktop/up.png8680183296#704"    cd "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage"    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/../../../../../Desktop/up.png" "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Debug-iphoneos/Sky Remote.app/up.png"0#
+
+CCpResource "build/Debug-iphoneos/Sky Remote.app/ResourceRules.plist" /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+s313087682.576888
+e313087682.612976
+r1
+xCpResource
+xbuild/Debug-iphoneos/Sky Remote.app/ResourceRules.plist
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist313087682#313087682#0(0"0(0#0#89"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist8661433984#581"    cd "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Debug-iphoneos/Sky Remote.app"0#
+
+CCreateUniversalBinary "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Debug-iphoneos/Sky Remote.app/Sky Remote" normal "armv6 armv7"
+s313093342.363791
+e313093342.371393
+r1
+xCreateUniversalBinary
+x/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Debug-iphoneos/Sky Remote.app/Sky Remote
+xnormal
+xarmv6 armv7
+lSLF07#2@91"CreateUniversalBinary "build/Debug-iphoneos/Sky Remote.app/Sky Remote" normal "armv6 armv7"313093342#313093342#0(0"0(0#0#90"/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/armv6 armv78680053600#710"    cd "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/lipo -create "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Sky Remote.build/Debug-iphoneos/Sky Remote.build/Objects-normal/armv6/Sky Remote" "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Sky Remote.build/Debug-iphoneos/Sky Remote.build/Objects-normal/armv7/Sky Remote" -output "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Debug-iphoneos/Sky Remote.app/Sky Remote"0#
+
+CGenerateDSYMFile "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Debug-iphoneos/Sky Remote.app.dSYM" "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Debug-iphoneos/Sky Remote.app/Sky Remote"
+s313093342.371485
+e313093342.399580
+r1
+xGenerateDSYMFile
+x/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Debug-iphoneos/Sky Remote.app.dSYM
+x/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Debug-iphoneos/Sky Remote.app/Sky Remote
+lSLF07#2@108"GenerateDSYMFile "build/Debug-iphoneos/Sky Remote.app.dSYM" "build/Debug-iphoneos/Sky Remote.app/Sky Remote"313093342#313093342#0(0"0(0#0#125"/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Debug-iphoneos/Sky Remote.app/Sky Remote8679553664#497"    cd "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Debug-iphoneos/Sky Remote.app/Sky Remote" -o "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Debug-iphoneos/Sky Remote.app.dSYM"0#
+
+CLd "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Sky Remote.build/Debug-iphoneos/Sky Remote.build/Objects-normal/armv6/Sky Remote" normal armv6
+s313093342.324096
+e313093342.363691
+r1
+xLd
+x/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Sky Remote.build/Debug-iphoneos/Sky Remote.build/Objects-normal/armv6/Sky Remote
+xnormal
+xarmv6
+lSLF07#2@170"Link /Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Sky Remote.build/Debug-iphoneos/Sky Remote.build/Objects-normal/armv6/Sky Remote313093342#313093342#0(0"0(0#0#0"8680693472#1087"    cd "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage"    setenv IPHONEOS_DEPLOYMENT_TARGET 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk "-L/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Debug-iphoneos" "-F/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Debug-iphoneos" -filelist "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Sky Remote.build/Debug-iphoneos/Sky Remote.build/Objects-normal/armv6/Sky Remote.LinkFileList" -dead_strip -miphoneos-version-min=4.2 -framework Foundation -framework UIKit -framework CoreGraphics -o "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Sky Remote.build/Debug-iphoneos/Sky Remote.build/Objects-normal/armv6/Sky Remote"0#
+
+CLd "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Sky Remote.build/Debug-iphoneos/Sky Remote.build/Objects-normal/armv7/Sky Remote" normal armv7
+s313093342.279197
+e313093342.320249
+r1
+xLd
+x/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Sky Remote.build/Debug-iphoneos/Sky Remote.build/Objects-normal/armv7/Sky Remote
+xnormal
+xarmv7
+lSLF07#2@170"Link /Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Sky Remote.build/Debug-iphoneos/Sky Remote.build/Objects-normal/armv7/Sky Remote313093342#313093342#0(0"0(0#0#0"8681774496#1087"    cd "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage"    setenv IPHONEOS_DEPLOYMENT_TARGET 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk "-L/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Debug-iphoneos" "-F/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Debug-iphoneos" -filelist "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Sky Remote.build/Debug-iphoneos/Sky Remote.build/Objects-normal/armv7/Sky Remote.LinkFileList" -dead_strip -miphoneos-version-min=4.2 -framework Foundation -framework UIKit -framework CoreGraphics -o "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Sky Remote.build/Debug-iphoneos/Sky Remote.build/Objects-normal/armv7/Sky Remote"0#
+
+CProcessInfoPlistFile "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Debug-iphoneos/Sky Remote.app/Info.plist" "Sky Remote-Info.plist"
+s313092961.075991
+e313092961.108048
+r1
+xProcessInfoPlistFile
+x/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Debug-iphoneos/Sky Remote.app/Info.plist
+xSky Remote-Info.plist
+lSLF07#2@29"Process Sky Remote-Info.plist313092961#313092961#0(0"0(0#0#100"/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/Sky Remote-Info.plist8679742080#744"    cd "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility "Sky Remote-Info.plist" -genpkginfo "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Debug-iphoneos/Sky Remote.app/PkgInfo" -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Debug-iphoneos/Sky Remote.app/ResourceRules.plist" -o "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Debug-iphoneos/Sky Remote.app/Info.plist"0#
+
+CProcessPCH "/var/folders/5W/5WbKi7hhGkSs6Aomh0sqwE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Sky Remote_Prefix-dnnkhukwpydzedenekgdadisbzxy/Sky Remote_Prefix.pch.gch" "Sky Remote_Prefix.pch" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s313087683.266090
+e313087684.647226
+r1
+xProcessPCH
+x/var/folders/5W/5WbKi7hhGkSs6Aomh0sqwE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Sky Remote_Prefix-dnnkhukwpydzedenekgdadisbzxy/Sky Remote_Prefix.pch.gch
+xSky Remote_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@32"Precompile Sky Remote_Prefix.pch313087683#313087684#0(0"0(0#0#100"/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/Sky Remote_Prefix.pch8672585216#2101"    cd "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Sky Remote.build/Debug-iphoneos/Sky Remote.build/Sky Remote-generated-files.hmap" "-I/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Sky Remote.build/Debug-iphoneos/Sky Remote.build/Sky Remote-own-target-headers.hmap" "-I/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Sky Remote.build/Debug-iphoneos/Sky Remote.build/Sky Remote-all-target-headers.hmap" -iquote "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Sky Remote.build/Debug-iphoneos/Sky Remote.build/Sky Remote-project-headers.hmap" "-F/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Debug-iphoneos" "-I/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Debug-iphoneos/include" "-I/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Sky Remote.build/Debug-iphoneos/Sky Remote.build/DerivedSources/armv7" "-I/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Sky Remote.build/Debug-iphoneos/Sky Remote.build/DerivedSources" -c "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/Sky Remote_Prefix.pch" -o "/var/folders/5W/5WbKi7hhGkSs6Aomh0sqwE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Sky Remote_Prefix-dnnkhukwpydzedenekgdadisbzxy/Sky Remote_Prefix.pch.gch"0#
+
+CProcessPCH "/var/folders/5W/5WbKi7hhGkSs6Aomh0sqwE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Sky Remote_Prefix-hijevjayuybgnmahaecsvfdkfwhh/Sky Remote_Prefix.pch.gch" "Sky Remote_Prefix.pch" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s313087683.265117
+e313087684.459382
+r1
+xProcessPCH
+x/var/folders/5W/5WbKi7hhGkSs6Aomh0sqwE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Sky Remote_Prefix-hijevjayuybgnmahaecsvfdkfwhh/Sky Remote_Prefix.pch.gch
+xSky Remote_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@32"Precompile Sky Remote_Prefix.pch313087683#313087684#0(0"0(0#0#100"/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/Sky Remote_Prefix.pch8673254464#2101"    cd "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Sky Remote.build/Debug-iphoneos/Sky Remote.build/Sky Remote-generated-files.hmap" "-I/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Sky Remote.build/Debug-iphoneos/Sky Remote.build/Sky Remote-own-target-headers.hmap" "-I/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Sky Remote.build/Debug-iphoneos/Sky Remote.build/Sky Remote-all-target-headers.hmap" -iquote "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Sky Remote.build/Debug-iphoneos/Sky Remote.build/Sky Remote-project-headers.hmap" "-F/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Debug-iphoneos" "-I/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Debug-iphoneos/include" "-I/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Sky Remote.build/Debug-iphoneos/Sky Remote.build/DerivedSources/armv6" "-I/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Sky Remote.build/Debug-iphoneos/Sky Remote.build/DerivedSources" -c "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/Sky Remote_Prefix.pch" -o "/var/folders/5W/5WbKi7hhGkSs6Aomh0sqwE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Sky Remote_Prefix-hijevjayuybgnmahaecsvfdkfwhh/Sky Remote_Prefix.pch.gch"0#
+
+CProcessProductPackaging "/Users/Carl/Library/MobileDevice/Provisioning Profiles/6A09725C-05C4-42D0-8BCF-A9C6682B1815.mobileprovision" "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Debug-iphoneos/Sky Remote.app/embedded.mobileprovision"
+s313087685.160187
+e313087685.186836
+r1
+xProcessProductPackaging
+x/Users/Carl/Library/MobileDevice/Provisioning Profiles/6A09725C-05C4-42D0-8BCF-A9C6682B1815.mobileprovision
+x/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Debug-iphoneos/Sky Remote.app/embedded.mobileprovision
+lSLF07#2@196"ProcessProductPackaging "/Users/Carl/Library/MobileDevice/Provisioning Profiles/6A09725C-05C4-42D0-8BCF-A9C6682B1815.mobileprovision" "build/Debug-iphoneos/Sky Remote.app/embedded.mobileprovision"313087685#313087685#0(0"0(0#0#139"/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Debug-iphoneos/Sky Remote.app/embedded.mobileprovision8671177280#509"    cd "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/Carl/Library/MobileDevice/Provisioning Profiles/6A09725C-05C4-42D0-8BCF-A9C6682B1815.mobileprovision" -o "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Debug-iphoneos/Sky Remote.app/embedded.mobileprovision"0#
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Sky Remote.build/Debug-iphoneos/Sky Remote.build/Sky Remote.xcent"
+s313092962.297410
+e313092962.329324
+r1
+xProcessProductPackaging
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist
+x/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Sky Remote.build/Debug-iphoneos/Sky Remote.build/Sky Remote.xcent
+lSLF07#2@186"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist "build/Sky Remote.build/Debug-iphoneos/Sky Remote.build/Sky Remote.xcent"313092962#313092962#0(0"0(0#0#150"/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Sky Remote.build/Debug-iphoneos/Sky Remote.build/Sky Remote.xcent8679383616#525"    cd "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist -entitlements -format xml -o "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Sky Remote.build/Debug-iphoneos/Sky Remote.build/Sky Remote.xcent"0#
+
+CTouch "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Debug-iphoneos/Sky Remote.app"
+s313093342.399778
+e313093342.410434
+r1
+xTouch
+x/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Debug-iphoneos/Sky Remote.app
+lSLF07#2@120"Touch /Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Debug-iphoneos/Sky Remote.app313093342#313093342#0(0"0(0#0#0"8677974112#351"    cd "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Debug-iphoneos/Sky Remote.app"0#
+

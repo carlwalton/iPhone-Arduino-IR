@@ -1,0 +1,15 @@
+/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/Classes/sendPacket.m:14: warning: cannot find interface declaration for 'sendPacket'
+/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/Classes/sendPacket.m: In function 'sendPacket':
+/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/Classes/sendPacket.m:16: error: 'sock' undeclared (first use in this function)
+/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/Classes/sendPacket.m:16: error: (Each undeclared identifier is reported only once
+/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/Classes/sendPacket.m:16: error: for each function it appears in.)
+/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/Classes/sendPacket.m:16: warning: implicit declaration of function 'socket'
+/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/Classes/sendPacket.m:16: error: 'PF_INET' undeclared (first use in this function)
+/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/Classes/sendPacket.m:16: error: 'SOCK_DGRAM' undeclared (first use in this function)
+/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/Classes/sendPacket.m:16: error: 'IPPROTO_UDP' undeclared (first use in this function)
+/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/Classes/sendPacket.m:20: error: 'echoServAddr' undeclared (first use in this function)
+/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/Classes/sendPacket.m:21: error: 'AF_INET' undeclared (first use in this function)
+/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/Classes/sendPacket.m:22: warning: implicit declaration of function 'inet_addr'
+/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/Classes/sendPacket.m:26: warning: implicit declaration of function 'sendto'
+/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/Classes/sendPacket.m:26: error: 'echoStringLen' undeclared (first use in this function)
+/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/Classes/sendPacket.m:30: warning: implicit declaration of function 'close'

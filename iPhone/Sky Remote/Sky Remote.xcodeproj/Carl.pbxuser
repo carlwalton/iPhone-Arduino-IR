@@ -1,0 +1,191 @@
+// !$*UTF8*$!
+{
+	1D3623240D0F684500981E51 /* SendSimpleMessageAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {585, 507}}";
+			sepNavSelRange = "{661, 0}";
+			sepNavVisRange = "{0, 726}";
+		};
+	};
+	1D3623250D0F684500981E51 /* SendSimpleMessageAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1965, 5005}}";
+			sepNavSelRange = "{1783, 0}";
+			sepNavVisRange = "{8414, 1259}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* Sky Remote */ = {
+		activeExec = 0;
+		executables = (
+			C3FC9B4B12A90FEA0097D9B3 /* Sky Remote */,
+		);
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = C3FC9B4B12A90FEA0097D9B3 /* Sky Remote */;
+		activeSDKPreference = iphoneos4.2;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* Sky Remote */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* Sky Remote */,
+		);
+		codeSenseManager = C3FC9B5012A910090097D9B3 /* Code sense */;
+		executables = (
+			C3FC9B4B12A90FEA0097D9B3 /* Sky Remote */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					407,
+					20,
+					48.16259765625,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 313069546;
+			PBXWorkspaceStateSaveDate = 313069546;
+		};
+		perUserProjectItems = {
+			C3FC9BA012A956B70097D9B3 /* PBXTextBookmark */ = C3FC9BA012A956B70097D9B3 /* PBXTextBookmark */;
+			C3FC9BA212A956B70097D9B3 /* PBXTextBookmark */ = C3FC9BA212A956B70097D9B3 /* PBXTextBookmark */;
+			C3FC9BD712A969F20097D9B3 /* PlistBookmark */ = C3FC9BD712A969F20097D9B3 /* PlistBookmark */;
+			C3FC9BE912A96EB20097D9B3 /* PBXTextBookmark */ = C3FC9BE912A96EB20097D9B3 /* PBXTextBookmark */;
+			C3FC9BEA12A96EB20097D9B3 /* PBXTextBookmark */ = C3FC9BEA12A96EB20097D9B3 /* PBXTextBookmark */;
+			C3FC9BEB12A96EB20097D9B3 /* PBXTextBookmark */ = C3FC9BEB12A96EB20097D9B3 /* PBXTextBookmark */;
+		};
+		sourceControlManager = C3FC9B4F12A910090097D9B3 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	C3FC9B4B12A90FEA0097D9B3 /* Sky Remote */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = "Sky Remote";
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+		startupPath = "<<ProjectDirectory>>";
+	};
+	C3FC9B4F12A910090097D9B3 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	C3FC9B5012A910090097D9B3 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	C3FC9BA012A956B70097D9B3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C3FC9BA112A956B70097D9B3 /* IRremote.cpp */;
+		name = "IRremote.cpp: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1224;
+		vrLoc = 0;
+	};
+	C3FC9BA112A956B70097D9B3 /* IRremote.cpp */ = {
+		isa = PBXFileReference;
+		name = IRremote.cpp;
+		path = /Applications/Arduino.app/Contents/Resources/Java/libraries/IRremote/IRremote.cpp;
+		sourceTree = "<absolute>";
+	};
+	C3FC9BA212A956B70097D9B3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C3FC9BA312A956B70097D9B3 /* IRremote.h */;
+		name = "IRremote.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1260;
+		vrLoc = 0;
+	};
+	C3FC9BA312A956B70097D9B3 /* IRremote.h */ = {
+		isa = PBXFileReference;
+		name = IRremote.h;
+		path = /Applications/Arduino.app/Contents/Resources/Java/libraries/IRremote/IRremote.h;
+		sourceTree = "<absolute>";
+	};
+	C3FC9BD712A969F20097D9B3 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Sky Remote-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/Sky Remote-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	C3FC9BE912A96EB20097D9B3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* SendSimpleMessageAppDelegate.h */;
+		name = "SendSimpleMessageAppDelegate.h: 34";
+		rLen = 0;
+		rLoc = 661;
+		rType = 0;
+		vrLen = 726;
+		vrLoc = 0;
+	};
+	C3FC9BEA12A96EB20097D9B3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* SendSimpleMessageAppDelegate.m */;
+		name = "SendSimpleMessageAppDelegate.m: 410";
+		rLen = 0;
+		rLoc = 8477;
+		rType = 0;
+		vrLen = 951;
+		vrLoc = 9999;
+	};
+	C3FC9BEB12A96EB20097D9B3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* SendSimpleMessageAppDelegate.m */;
+		name = "SendSimpleMessageAppDelegate.m: 54";
+		rLen = 0;
+		rLoc = 1783;
+		rType = 0;
+		vrLen = 1259;
+		vrLoc = 8414;
+	};
+}

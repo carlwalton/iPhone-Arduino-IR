@@ -1,0 +1,280 @@
+TSendSimpleMessage
+v7
+r0
+t313071721.562215
+cCheck dependencies
+cProcessInfoPlistFile "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Debug-iphonesimulator/SendSimpleMessage.app/Info.plist" SendSimpleMessage-Info.plist
+cCompileXIB "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/MainWindow.xib"
+cProcessPCH /var/folders/5W/5WbKi7hhGkSs6Aomh0sqwE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SendSimpleMessage_Prefix-aawwxbonuiqrfjhbexjchexskazo/SendSimpleMessage_Prefix.pch.gch SendSimpleMessage_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SendSimpleMessage.build/Debug-iphonesimulator/SendSimpleMessage.build/Objects-normal/i386/main.o "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SendSimpleMessage.build/Debug-iphonesimulator/SendSimpleMessage.build/Objects-normal/i386/SendSimpleMessageAppDelegate.o "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/Classes/SendSimpleMessageAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Debug-iphonesimulator/SendSimpleMessage.app/SendSimpleMessage" normal i386
+cGenerateDSYMFile "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Debug-iphonesimulator/SendSimpleMessage.app.dSYM" "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Debug-iphonesimulator/SendSimpleMessage.app/SendSimpleMessage"
+cTouch "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Debug-iphonesimulator/SendSimpleMessage.app"
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk
+c000000004CC128950000000000000110
+t1287727253
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC12246000000000029B310
+t1287725638
+s2732816
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC1226D000000000029D5D0
+t1287725677
+s2741712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC1225F0000000000001466
+t1287725663
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC1281F0000000000000AA1
+t1287727135
+s2721
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC12883000000000074D7B0
+t1287727235
+s7657392
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/arpa/inet.h
+c000000004CB3E46D0000000000001533
+t1286857837
+s5427
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/stdio.h
+c000000004CB3E48600000000000040AC
+t1286857862
+s16556
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/stdlib.h
+c000000004CB3E4860000000000002DF5
+t1286857862
+s11765
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/string.h
+c000000004CB3E4860000000000001731
+t1286857862
+s5937
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/sys/socket.h
+c000000004CBFACAC0000000000005A69
+t1287629996
+s23145
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/unistd.h
+c000000004CB3E486000000000000563E
+t1286857862
+s22078
+
+N/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/Classes/SendSimpleMessageAppDelegate.h
+c000000004CF8DA1C0000000000000197
+t1291377180
+s407
+i<UIKit/UIKit.h>
+
+N/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/Classes/SendSimpleMessageAppDelegate.m
+c000000004CF8E0DB0000000000001311
+t1291378907
+s4881
+i"SendSimpleMessageAppDelegate.h"
+i<stdio.h>
+i<sys/socket.h>
+i<arpa/inet.h>
+i<stdlib.h>
+i<string.h>
+i<unistd.h>
+
+N/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/Classes/sendPacket.m
+c000000004CF8E0E000000000000000BE
+t1291378912
+s190
+
+N/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/MainWindow.xib
+c000000004CF8DA340000000000006637
+t1291377204
+s26167
+
+N/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/SendSimpleMessage_Prefix.pch
+c000000004CF8D86A00000000000000CB
+t1291376746
+s203
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Debug-iphonesimulator/SendSimpleMessage.app
+t1291378921
+s204
+
+N/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Debug-iphonesimulator/SendSimpleMessage.app.dSYM
+t1291378921
+s102
+
+N/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Debug-iphonesimulator/SendSimpleMessage.app/Info.plist
+t1291378840
+s637
+
+N/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Debug-iphonesimulator/SendSimpleMessage.app/MainWindow.nib
+t1291378843
+s2245
+
+N/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Debug-iphonesimulator/SendSimpleMessage.app/PkgInfo
+t1291378841
+s8
+
+N/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Debug-iphonesimulator/SendSimpleMessage.app/SendSimpleMessage
+t1291378921
+s17200
+
+N/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/SendSimpleMessage.build/Debug-iphonesimulator/SendSimpleMessage.build/Objects-normal/i386/SendSimpleMessage.LinkFileList
+c000000004CF8E0E90000000000000184
+t1291378921
+s388
+
+N/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/SendSimpleMessage.build/Debug-iphonesimulator/SendSimpleMessage.build/Objects-normal/i386/SendSimpleMessageAppDelegate.o
+t1291378921
+s54836
+
+N/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/SendSimpleMessage.build/Debug-iphonesimulator/SendSimpleMessage.build/Objects-normal/i386/main.o
+t1291378844
+s6384
+
+N/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/SendSimpleMessage.build/Debug-iphonesimulator/SendSimpleMessage.build/Objects-normal/i386/sendPacket.o
+t2
+s0
+
+N/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/main.m
+c000000004CF8D86A0000000000000175
+t1291376746
+s373
+i<UIKit/UIKit.h>
+
+N/var/folders/5W/5WbKi7hhGkSs6Aomh0sqwE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SendSimpleMessage_Prefix-aawwxbonuiqrfjhbexjchexskazo/SendSimpleMessage_Prefix.pch.gch
+t1291378844
+s15453392
+
+NSendSimpleMessage-Info.plist
+c000000004CF8D86A000000000000038D
+t1291376746
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies313071721#313071721#0(0"0(0#1#0"8641823360#0"0#
+
+CCompileC build/SendSimpleMessage.build/Debug-iphonesimulator/SendSimpleMessage.build/Objects-normal/i386/SendSimpleMessageAppDelegate.o "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/Classes/SendSimpleMessageAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s313071721.229068
+e313071721.398528
+r1
+xCompileC
+xbuild/SendSimpleMessage.build/Debug-iphonesimulator/SendSimpleMessage.build/Objects-normal/i386/SendSimpleMessageAppDelegate.o
+x/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/Classes/SendSimpleMessageAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@125"Compile /Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/Classes/SendSimpleMessageAppDelegate.m313071721#313071721#0(0"0(0#0#117"/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/Classes/SendSimpleMessageAppDelegate.m8638714208#2632"    cd "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/SendSimpleMessage.build/Debug-iphonesimulator/SendSimpleMessage.build/SendSimpleMessage-generated-files.hmap" "-I/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/SendSimpleMessage.build/Debug-iphonesimulator/SendSimpleMessage.build/SendSimpleMessage-own-target-headers.hmap" "-I/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/SendSimpleMessage.build/Debug-iphonesimulator/SendSimpleMessage.build/SendSimpleMessage-all-target-headers.hmap" -iquote "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/SendSimpleMessage.build/Debug-iphonesimulator/SendSimpleMessage.build/SendSimpleMessage-project-headers.hmap" "-F/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Debug-iphonesimulator" "-I/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Debug-iphonesimulator/include" "-I/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/SendSimpleMessage.build/Debug-iphonesimulator/SendSimpleMessage.build/DerivedSources/i386" "-I/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/SendSimpleMessage.build/Debug-iphonesimulator/SendSimpleMessage.build/DerivedSources" -include /var/folders/5W/5WbKi7hhGkSs6Aomh0sqwE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SendSimpleMessage_Prefix-aawwxbonuiqrfjhbexjchexskazo/SendSimpleMessage_Prefix.pch -c "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/Classes/SendSimpleMessageAppDelegate.m" -o "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/SendSimpleMessage.build/Debug-iphonesimulator/SendSimpleMessage.build/Objects-normal/i386/SendSimpleMessageAppDelegate.o"0#
+
+CCompileC build/SendSimpleMessage.build/Debug-iphonesimulator/SendSimpleMessage.build/Objects-normal/i386/main.o "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s313071644.377631
+e313071644.437479
+r1
+xCompileC
+xbuild/SendSimpleMessage.build/Debug-iphonesimulator/SendSimpleMessage.build/Objects-normal/i386/main.o
+x/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@93"Compile /Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/main.m313071644#313071644#0(0"0(0#0#85"/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/main.m8644626048#2576"    cd "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/SendSimpleMessage.build/Debug-iphonesimulator/SendSimpleMessage.build/SendSimpleMessage-generated-files.hmap" "-I/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/SendSimpleMessage.build/Debug-iphonesimulator/SendSimpleMessage.build/SendSimpleMessage-own-target-headers.hmap" "-I/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/SendSimpleMessage.build/Debug-iphonesimulator/SendSimpleMessage.build/SendSimpleMessage-all-target-headers.hmap" -iquote "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/SendSimpleMessage.build/Debug-iphonesimulator/SendSimpleMessage.build/SendSimpleMessage-project-headers.hmap" "-F/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Debug-iphonesimulator" "-I/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Debug-iphonesimulator/include" "-I/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/SendSimpleMessage.build/Debug-iphonesimulator/SendSimpleMessage.build/DerivedSources/i386" "-I/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/SendSimpleMessage.build/Debug-iphonesimulator/SendSimpleMessage.build/DerivedSources" -include /var/folders/5W/5WbKi7hhGkSs6Aomh0sqwE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SendSimpleMessage_Prefix-aawwxbonuiqrfjhbexjchexskazo/SendSimpleMessage_Prefix.pch -c "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/main.m" -o "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/SendSimpleMessage.build/Debug-iphonesimulator/SendSimpleMessage.build/Objects-normal/i386/main.o"0#
+
+CCompileC build/SendSimpleMessage.build/Debug-iphonesimulator/SendSimpleMessage.build/Objects-normal/i386/sendPacket.o "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/Classes/sendPacket.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s313071665.219973
+e313071665.297678
+r0
+xCompileC
+xbuild/SendSimpleMessage.build/Debug-iphonesimulator/SendSimpleMessage.build/Objects-normal/i386/sendPacket.o
+x/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/Classes/sendPacket.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/Classes/sendPacket.m:14: warning: cannot find interface declaration for 'sendPacket'
+o/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/Classes/sendPacket.m: In function 'sendPacket':
+o/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/Classes/sendPacket.m:16: error: 'sock' undeclared (first use in this function)
+o/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/Classes/sendPacket.m:16: error: (Each undeclared identifier is reported only once
+o/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/Classes/sendPacket.m:16: error: for each function it appears in.)
+o/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/Classes/sendPacket.m:16: warning: implicit declaration of function 'socket'
+o/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/Classes/sendPacket.m:16: error: 'PF_INET' undeclared (first use in this function)
+o/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/Classes/sendPacket.m:16: error: 'SOCK_DGRAM' undeclared (first use in this function)
+o/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/Classes/sendPacket.m:16: error: 'IPPROTO_UDP' undeclared (first use in this function)
+o/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/Classes/sendPacket.m:20: error: 'echoServAddr' undeclared (first use in this function)
+o/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/Classes/sendPacket.m:21: error: 'AF_INET' undeclared (first use in this function)
+o/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/Classes/sendPacket.m:22: warning: implicit declaration of function 'inet_addr'
+o/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/Classes/sendPacket.m:26: warning: implicit declaration of function 'sendto'
+o/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/Classes/sendPacket.m:26: error: 'echoStringLen' undeclared (first use in this function)
+o/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/Classes/sendPacket.m:30: warning: implicit declaration of function 'close'
+lSLF07#2@107"Compile /Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/Classes/sendPacket.m313071665#313071665#0(2361"/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/Classes/sendPacket.m:14: warning: cannot find interface declaration for 'sendPacket'/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/Classes/sendPacket.m: In function 'sendPacket':/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/Classes/sendPacket.m:16: error: 'sock' undeclared (first use in this function)/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/Classes/sendPacket.m:16: error: (Each undeclared identifier is reported only once/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/Classes/sendPacket.m:16: error: for each function it appears in.)/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/Classes/sendPacket.m:16: warning: implicit declaration of function 'socket'/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/Classes/sendPacket.m:16: error: 'PF_INET' undeclared (first use in this function)/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/Classes/sendPacket.m:16: error: 'SOCK_DGRAM' undeclared (first use in this function)/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/Classes/sendPacket.m:16: error: 'IPPROTO_UDP' undeclared (first use in this function)/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/Classes/sendPacket.m:20: error: 'echoServAddr' undeclared (first use in this function)/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/Classes/sendPacket.m:21: error: 'AF_INET' undeclared (first use in this function)/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/Classes/sendPacket.m:22: warning: implicit declaration of function 'inet_addr'/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/Classes/sendPacket.m:26: warning: implicit declaration of function 'sendto'/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/Classes/sendPacket.m:26: error: 'echoStringLen' undeclared (first use in this function)/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/Classes/sendPacket.m:30: warning: implicit declaration of function 'close'12(22@50"Cannot find interface declaration for 'sendPacket'313071665#0#164#0(6@99"/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/Classes/sendPacket.m313071592#14#0#14#0#0"0(4@46"'sock' undeclared (first use in this function)313071665#291#158#0(6@99"/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/Classes/sendPacket.m313071592#16#0#16#0#43"'*' undeclared (first use in this function)0(22@41"Implicit declaration of function 'socket'313071665#755#155#0(6@99"/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/Classes/sendPacket.m313071592#16#0#16#0#36"implicit declaration of function '*'0(4@49"'PF_INET' undeclared (first use in this function)313071665#910#161#0(6@99"/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/Classes/sendPacket.m313071592#16#0#16#0#43"'*' undeclared (first use in this function)0(4@52"'SOCK_DGRAM' undeclared (first use in this function)313071665#1071#164#0(6@99"/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/Classes/sendPacket.m313071592#16#0#16#0#43"'*' undeclared (first use in this function)0(4@53"'IPPROTO_UDP' undeclared (first use in this function)313071665#1235#165#0(6@99"/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/Classes/sendPacket.m313071592#16#0#16#0#43"'*' undeclared (first use in this function)0(4@54"'echoServAddr' undeclared (first use in this function)313071665#1400#166#0(6@99"/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/Classes/sendPacket.m313071592#20#0#20#0#43"'*' undeclared (first use in this function)0(4@49"'AF_INET' undeclared (first use in this function)313071665#1566#161#0(6@99"/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/Classes/sendPacket.m313071592#21#0#21#0#43"'*' undeclared (first use in this function)0(22@44"Implicit declaration of function 'inet_addr'313071665#1727#158#0(6@99"/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/Classes/sendPacket.m313071592#22#0#22#0#36"implicit declaration of function '*'0(22@41"Implicit declaration of function 'sendto'313071665#1885#155#0(6@99"/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/Classes/sendPacket.m313071592#26#0#26#0#36"implicit declaration of function '*'0(4@55"'echoStringLen' undeclared (first use in this function)313071665#2040#167#0(6@99"/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/Classes/sendPacket.m313071592#26#0#26#0#43"'*' undeclared (first use in this function)0(22@40"Implicit declaration of function 'close'313071665#2207#154#0(6@99"/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/Classes/sendPacket.m313071592#30#0#30#0#36"implicit declaration of function '*'0(0#0#99"/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/Classes/sendPacket.m8639096288#2596"    cd "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/SendSimpleMessage.build/Debug-iphonesimulator/SendSimpleMessage.build/SendSimpleMessage-generated-files.hmap" "-I/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/SendSimpleMessage.build/Debug-iphonesimulator/SendSimpleMessage.build/SendSimpleMessage-own-target-headers.hmap" "-I/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/SendSimpleMessage.build/Debug-iphonesimulator/SendSimpleMessage.build/SendSimpleMessage-all-target-headers.hmap" -iquote "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/SendSimpleMessage.build/Debug-iphonesimulator/SendSimpleMessage.build/SendSimpleMessage-project-headers.hmap" "-F/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Debug-iphonesimulator" "-I/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Debug-iphonesimulator/include" "-I/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/SendSimpleMessage.build/Debug-iphonesimulator/SendSimpleMessage.build/DerivedSources/i386" "-I/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/SendSimpleMessage.build/Debug-iphonesimulator/SendSimpleMessage.build/DerivedSources" -include /var/folders/5W/5WbKi7hhGkSs6Aomh0sqwE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SendSimpleMessage_Prefix-aawwxbonuiqrfjhbexjchexskazo/SendSimpleMessage_Prefix.pch -c "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/Classes/sendPacket.m" -o "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/SendSimpleMessage.build/Debug-iphonesimulator/SendSimpleMessage.build/Objects-normal/i386/sendPacket.o"1#
+
+CCompileXIB "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/MainWindow.xib"
+s313071641.042667
+e313071643.203307
+r1
+xCompileXIB
+x/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib313071641#313071643#0(0"0(0#0#93"/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/MainWindow.xib8641632448#706"    cd "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Debug-iphonesimulator/SendSimpleMessage.app/MainWindow.nib" "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/MainWindow.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CGenerateDSYMFile "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Debug-iphonesimulator/SendSimpleMessage.app.dSYM" "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Debug-iphonesimulator/SendSimpleMessage.app/SendSimpleMessage"
+s313071721.498043
+e313071721.559644
+r1
+xGenerateDSYMFile
+x/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Debug-iphonesimulator/SendSimpleMessage.app.dSYM
+x/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Debug-iphonesimulator/SendSimpleMessage.app/SendSimpleMessage
+lSLF07#2@139"GenerateDSYMFile build/Debug-iphonesimulator/SendSimpleMessage.app.dSYM build/Debug-iphonesimulator/SendSimpleMessage.app/SendSimpleMessage313071721#313071721#0(0"0(0#0#146"/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Debug-iphonesimulator/SendSimpleMessage.app/SendSimpleMessage8641836384#539"    cd "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Debug-iphonesimulator/SendSimpleMessage.app/SendSimpleMessage" -o "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Debug-iphonesimulator/SendSimpleMessage.app.dSYM"0#
+
+CLd "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Debug-iphonesimulator/SendSimpleMessage.app/SendSimpleMessage" normal i386
+s313071721.398631
+e313071721.497937
+r1
+xLd
+x/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Debug-iphonesimulator/SendSimpleMessage.app/SendSimpleMessage
+xnormal
+xi386
+lSLF07#2@151"Link /Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Debug-iphonesimulator/SendSimpleMessage.app/SendSimpleMessage313071721#313071721#0(0"0(0#0#0"8643619648#1160"    cd "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk "-L/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Debug-iphonesimulator" "-F/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Debug-iphonesimulator" -filelist "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/SendSimpleMessage.build/Debug-iphonesimulator/SendSimpleMessage.build/Objects-normal/i386/SendSimpleMessage.LinkFileList" -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Debug-iphonesimulator/SendSimpleMessage.app/SendSimpleMessage"0#
+
+CProcessInfoPlistFile "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Debug-iphonesimulator/SendSimpleMessage.app/Info.plist" SendSimpleMessage-Info.plist
+s313071640.948930
+e313071641.042568
+r1
+xProcessInfoPlistFile
+x/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Debug-iphonesimulator/SendSimpleMessage.app/Info.plist
+xSendSimpleMessage-Info.plist
+lSLF07#2@36"Process SendSimpleMessage-Info.plist313071640#313071641#0(0"0(0#0#107"/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/SendSimpleMessage-Info.plist8642245632#635"    cd "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility SendSimpleMessage-Info.plist -genpkginfo "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Debug-iphonesimulator/SendSimpleMessage.app/PkgInfo" -expandbuildsettings -format binary -platform iphonesimulator -o "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Debug-iphonesimulator/SendSimpleMessage.app/Info.plist"0#
+
+CProcessPCH /var/folders/5W/5WbKi7hhGkSs6Aomh0sqwE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SendSimpleMessage_Prefix-aawwxbonuiqrfjhbexjchexskazo/SendSimpleMessage_Prefix.pch.gch SendSimpleMessage_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s313071643.203515
+e313071644.377526
+r1
+xProcessPCH
+x/var/folders/5W/5WbKi7hhGkSs6Aomh0sqwE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SendSimpleMessage_Prefix-aawwxbonuiqrfjhbexjchexskazo/SendSimpleMessage_Prefix.pch.gch
+xSendSimpleMessage_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@39"Precompile SendSimpleMessage_Prefix.pch313071643#313071644#0(0"0(0#0#107"/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/SendSimpleMessage_Prefix.pch8641572000#2416"    cd "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/SendSimpleMessage.build/Debug-iphonesimulator/SendSimpleMessage.build/SendSimpleMessage-generated-files.hmap" "-I/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/SendSimpleMessage.build/Debug-iphonesimulator/SendSimpleMessage.build/SendSimpleMessage-own-target-headers.hmap" "-I/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/SendSimpleMessage.build/Debug-iphonesimulator/SendSimpleMessage.build/SendSimpleMessage-all-target-headers.hmap" -iquote "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/SendSimpleMessage.build/Debug-iphonesimulator/SendSimpleMessage.build/SendSimpleMessage-project-headers.hmap" "-F/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Debug-iphonesimulator" "-I/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Debug-iphonesimulator/include" "-I/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/SendSimpleMessage.build/Debug-iphonesimulator/SendSimpleMessage.build/DerivedSources/i386" "-I/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/SendSimpleMessage.build/Debug-iphonesimulator/SendSimpleMessage.build/DerivedSources" -c "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/SendSimpleMessage_Prefix.pch" -o /var/folders/5W/5WbKi7hhGkSs6Aomh0sqwE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SendSimpleMessage_Prefix-aawwxbonuiqrfjhbexjchexskazo/SendSimpleMessage_Prefix.pch.gch0#
+
+CTouch "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Debug-iphonesimulator/SendSimpleMessage.app"
+s313071721.559731
+e313071721.562189
+r1
+xTouch
+x/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Debug-iphonesimulator/SendSimpleMessage.app
+lSLF07#2@134"Touch /Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Debug-iphonesimulator/SendSimpleMessage.app313071721#313071721#0(0"0(0#0#0"8640008960#372"    cd "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/build/Debug-iphonesimulator/SendSimpleMessage.app"0#
+
