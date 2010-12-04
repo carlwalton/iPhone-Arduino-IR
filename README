@@ -5,6 +5,6 @@ http://www.arcfn.com/2009/08/multi-protocol-infrared-remote-library.html
 
 This code will be modified in the coming weeks to be more efficient, and to 
 make better use of the Shirriff IR library I'm using (i.e. without me
-editing it). Take this as a first alpha of thesoftware, although everything
+editing it). Take this as a first alpha of the software, although everything
 appears to be functional at present.
 
