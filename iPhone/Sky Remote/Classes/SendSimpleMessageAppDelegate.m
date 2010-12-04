@@ -54,12 +54,22 @@ void sendPacket(const char *echoServIP, unsigned short echoServPort, const char 
 }
 
 
+/*
+ echoCode definitions
+ 
+ 1 = RC5
+ 2 = RC6
+ 3 = NEC
+ 4 = SONY
+ 
+ */
+
 
 - (IBAction)ChannelUp
 {
 	echoServIP = "192.168.1.169";
 	echoServPort = 8888;
-	echoCode = "RC6";
+	echoCode = "2";
 	sendPacket(echoServIP,echoServPort,echoCode);
 	[NSThread sleepForTimeInterval:0.1];
 	echoCode = "0xC05C20";
@@ -75,7 +85,7 @@ void sendPacket(const char *echoServIP, unsigned short echoServPort, const char 
 {
 	echoServIP = "192.168.1.169";
 	echoServPort = 8888;
-	echoCode = "RC6";
+	echoCode = "2";
 	sendPacket(echoServIP,echoServPort,echoCode);
 	[NSThread sleepForTimeInterval:0.1];
 	echoCode = "0xC05C21";
@@ -90,7 +100,7 @@ void sendPacket(const char *echoServIP, unsigned short echoServPort, const char 
 {
 	echoServIP = "192.168.1.169";
 	echoServPort = 8888;
-	echoCode = "RC6";
+	echoCode = "2";
 	sendPacket(echoServIP,echoServPort,echoCode);
 	[NSThread sleepForTimeInterval:0.1];
 	echoCode = "0xC05C01";
@@ -105,7 +115,7 @@ void sendPacket(const char *echoServIP, unsigned short echoServPort, const char 
 {
 	echoServIP = "192.168.1.169";
 	echoServPort = 8888;
-	echoCode = "RC6";
+	echoCode = "2";
 	sendPacket(echoServIP,echoServPort,echoCode);
 	[NSThread sleepForTimeInterval:0.1];
 	echoCode = "0xC05C02";
@@ -119,7 +129,7 @@ void sendPacket(const char *echoServIP, unsigned short echoServPort, const char 
 {
 	echoServIP = "192.168.1.169";
 	echoServPort = 8888;
-	echoCode = "RC6";
+	echoCode = "2";
 	sendPacket(echoServIP,echoServPort,echoCode);
 	[NSThread sleepForTimeInterval:0.1];
 	echoCode = "0xC05C03";
@@ -133,7 +143,7 @@ void sendPacket(const char *echoServIP, unsigned short echoServPort, const char 
 {
 	echoServIP = "192.168.1.169";
 	echoServPort = 8888;
-	echoCode = "RC6";
+	echoCode = "2";
 	sendPacket(echoServIP,echoServPort,echoCode);
 	[NSThread sleepForTimeInterval:0.1];
 	echoCode = "0xC05C04";
@@ -147,7 +157,7 @@ void sendPacket(const char *echoServIP, unsigned short echoServPort, const char 
 {
 	echoServIP = "192.168.1.169";
 	echoServPort = 8888;
-	echoCode = "RC6";
+	echoCode = "2";
 	sendPacket(echoServIP,echoServPort,echoCode);
 	[NSThread sleepForTimeInterval:0.1];
 	echoCode = "0xC05C05";
@@ -161,7 +171,7 @@ void sendPacket(const char *echoServIP, unsigned short echoServPort, const char 
 {
 	echoServIP = "192.168.1.169";
 	echoServPort = 8888;
-	echoCode = "RC6";
+	echoCode = "2";
 	sendPacket(echoServIP,echoServPort,echoCode);
 	[NSThread sleepForTimeInterval:0.1];
 	echoCode = "0xC05C06";
@@ -175,7 +185,7 @@ void sendPacket(const char *echoServIP, unsigned short echoServPort, const char 
 {
 	echoServIP = "192.168.1.169";
 	echoServPort = 8888;
-	echoCode = "RC6";
+	echoCode = "2";
 	sendPacket(echoServIP,echoServPort,echoCode);
 	[NSThread sleepForTimeInterval:0.1];
 	echoCode = "0xC05C07";
@@ -189,7 +199,7 @@ void sendPacket(const char *echoServIP, unsigned short echoServPort, const char 
 {
 	echoServIP = "192.168.1.169";
 	echoServPort = 8888;
-	echoCode = "RC6";
+	echoCode = "2";
 	sendPacket(echoServIP,echoServPort,echoCode);
 	[NSThread sleepForTimeInterval:0.1];
 	echoCode = "0xC05C08";
@@ -203,7 +213,7 @@ void sendPacket(const char *echoServIP, unsigned short echoServPort, const char 
 {
 	echoServIP = "192.168.1.169";
 	echoServPort = 8888;
-	echoCode = "RC6";
+	echoCode = "2";
 	sendPacket(echoServIP,echoServPort,echoCode);
 	[NSThread sleepForTimeInterval:0.1];
 	echoCode = "0xC05C09";
@@ -217,7 +227,7 @@ void sendPacket(const char *echoServIP, unsigned short echoServPort, const char 
 {
 	echoServIP = "192.168.1.169";
 	echoServPort = 8888;
-	echoCode = "RC6";
+	echoCode = "2";
 	sendPacket(echoServIP,echoServPort,echoCode);
 	[NSThread sleepForTimeInterval:0.1];
 	echoCode = "0xC05C00";
@@ -232,7 +242,7 @@ void sendPacket(const char *echoServIP, unsigned short echoServPort, const char 
 {
 	echoServIP = "192.168.1.169";
 	echoServPort = 8888;
-	echoCode = "RC5";
+	echoCode = "1";
 	sendPacket(echoServIP,echoServPort,echoCode);
 	[NSThread sleepForTimeInterval:0.1];
 	echoCode = "0x850";
@@ -247,7 +257,7 @@ void sendPacket(const char *echoServIP, unsigned short echoServPort, const char 
 {
 	echoServIP = "192.168.1.169";
 	echoServPort = 8888;
-	echoCode = "RC5";
+	echoCode = "1";
 	sendPacket(echoServIP,echoServPort,echoCode);
 	[NSThread sleepForTimeInterval:0.1];
 	echoCode = "0x851";
@@ -262,7 +272,7 @@ void sendPacket(const char *echoServIP, unsigned short echoServPort, const char 
 {
 	echoServIP = "192.168.1.169";
 	echoServPort = 8888;
-	echoCode = "RC6";
+	echoCode = "2";
 	sendPacket(echoServIP,echoServPort,echoCode);
 	[NSThread sleepForTimeInterval:0.1];
 	echoCode = "0xC05C58";
@@ -276,7 +286,7 @@ void sendPacket(const char *echoServIP, unsigned short echoServPort, const char 
 {
 	echoServIP = "192.168.1.169";
 	echoServPort = 8888;
-	echoCode = "RC6";
+	echoCode = "2";
 	sendPacket(echoServIP,echoServPort,echoCode);
 	[NSThread sleepForTimeInterval:0.1];
 	echoCode = "0xC05C5A";
@@ -291,7 +301,7 @@ void sendPacket(const char *echoServIP, unsigned short echoServPort, const char 
 {
 	echoServIP = "192.168.1.169";
 	echoServPort = 8888;
-	echoCode = "RC6";
+	echoCode = "2";
 	sendPacket(echoServIP,echoServPort,echoCode);
 	[NSThread sleepForTimeInterval:0.1];
 	echoCode = "0xC05C59";
@@ -306,10 +316,28 @@ void sendPacket(const char *echoServIP, unsigned short echoServPort, const char 
 {
 	echoServIP = "192.168.1.169";
 	echoServPort = 8888;
-	echoCode = "RC6";
+	echoCode = "2";
 	sendPacket(echoServIP,echoServPort,echoCode);
 	[NSThread sleepForTimeInterval:0.1];
 	echoCode = "0xC05C5B";
+	sendPacket(echoServIP,echoServPort,echoCode);
+	[NSThread sleepForTimeInterval:0.1];
+	echoCode = "24";
+	sendPacket(echoServIP,echoServPort,echoCode);
+	[NSThread sleepForTimeInterval:0.1];
+}
+
+- (IBAction)XBoxOn
+{
+	
+	//this doesn't work yet as I don't know how to convert the char array in the
+	//arduino to a long long (echoCode)
+	echoServIP = "192.168.1.169";
+	echoServPort = 8888;
+	echoCode = "2";
+	sendPacket(echoServIP,echoServPort,echoCode);
+	[NSThread sleepForTimeInterval:0.1];
+	echoCode = "0xc800f740cLL";
 	sendPacket(echoServIP,echoServPort,echoCode);
 	[NSThread sleepForTimeInterval:0.1];
 	echoCode = "24";

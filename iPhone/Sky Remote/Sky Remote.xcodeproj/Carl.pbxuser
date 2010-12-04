@@ -2,16 +2,17 @@
 {
 	1D3623240D0F684500981E51 /* SendSimpleMessageAppDelegate.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {585, 507}}";
-			sepNavSelRange = "{661, 0}";
-			sepNavVisRange = "{0, 726}";
+			sepNavIntBoundsRect = "{{0, 0}, {585, 520}}";
+			sepNavSelRange = "{678, 0}";
+			sepNavVisRange = "{3, 742}";
+			sepNavWindowFrame = "{{15, 58}, {809, 820}}";
 		};
 	};
 	1D3623250D0F684500981E51 /* SendSimpleMessageAppDelegate.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1965, 5005}}";
-			sepNavSelRange = "{1783, 0}";
-			sepNavVisRange = "{8414, 1259}";
+			sepNavIntBoundsRect = "{{0, 0}, {1328, 5434}}";
+			sepNavSelRange = "{11553, 0}";
+			sepNavVisRange = "{11312, 246}";
 		};
 	};
 	1D6058900D05DD3D006BFB54 /* Sky Remote */ = {
@@ -40,7 +41,7 @@
 					20,
 					407,
 					20,
-					48.16259765625,
+					48,
 					43,
 					43,
 					20,
@@ -55,20 +56,115 @@
 					PBXFileDataSource_Target_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 313069546;
-			PBXWorkspaceStateSaveDate = 313069546;
+			PBXPerProjectTemplateStateSaveDate = 313154676;
+			PBXWorkspaceStateSaveDate = 313154676;
 		};
 		perUserProjectItems = {
-			C3FC9BA012A956B70097D9B3 /* PBXTextBookmark */ = C3FC9BA012A956B70097D9B3 /* PBXTextBookmark */;
-			C3FC9BA212A956B70097D9B3 /* PBXTextBookmark */ = C3FC9BA212A956B70097D9B3 /* PBXTextBookmark */;
-			C3FC9BD712A969F20097D9B3 /* PlistBookmark */ = C3FC9BD712A969F20097D9B3 /* PlistBookmark */;
-			C3FC9BE912A96EB20097D9B3 /* PBXTextBookmark */ = C3FC9BE912A96EB20097D9B3 /* PBXTextBookmark */;
-			C3FC9BEA12A96EB20097D9B3 /* PBXTextBookmark */ = C3FC9BEA12A96EB20097D9B3 /* PBXTextBookmark */;
-			C3FC9BEB12A96EB20097D9B3 /* PBXTextBookmark */ = C3FC9BEB12A96EB20097D9B3 /* PBXTextBookmark */;
+			C35B8B2712AA60CA0002A7A1 /* XCBuildMessageTextBookmark */ = C35B8B2712AA60CA0002A7A1 /* XCBuildMessageTextBookmark */;
+			C35B8B2812AA60CA0002A7A1 /* PBXTextBookmark */ = C35B8B2812AA60CA0002A7A1 /* PBXTextBookmark */;
+			C35B8B3112AA61510002A7A1 /* XCBuildMessageTextBookmark */ = C35B8B3112AA61510002A7A1 /* XCBuildMessageTextBookmark */;
+			C35B8B3212AA61510002A7A1 /* PBXTextBookmark */ = C35B8B3212AA61510002A7A1 /* PBXTextBookmark */;
+			C35B8B3512AA61930002A7A1 /* XCBuildMessageTextBookmark */ = C35B8B3512AA61930002A7A1 /* XCBuildMessageTextBookmark */;
+			C35B8B3612AA61930002A7A1 /* PBXTextBookmark */ = C35B8B3612AA61930002A7A1 /* PBXTextBookmark */;
+			C35B8B3812AA619D0002A7A1 /* PBXTextBookmark */ = C35B8B3812AA619D0002A7A1 /* PBXTextBookmark */;
+			C35B8B3912AA619D0002A7A1 /* XCBuildMessageTextBookmark */ = C35B8B3912AA619D0002A7A1 /* XCBuildMessageTextBookmark */;
+			C35B8B3A12AA619D0002A7A1 /* PBXTextBookmark */ = C35B8B3A12AA619D0002A7A1 /* PBXTextBookmark */;
+			C3FC9BA012A956B70097D9B3 = C3FC9BA012A956B70097D9B3 /* PBXTextBookmark */;
+			C3FC9BA212A956B70097D9B3 = C3FC9BA212A956B70097D9B3 /* PBXTextBookmark */;
+			C3FC9BD712A969F20097D9B3 = C3FC9BD712A969F20097D9B3 /* PlistBookmark */;
+			C3FC9BE912A96EB20097D9B3 = C3FC9BE912A96EB20097D9B3 /* PBXTextBookmark */;
+			C3FC9BEA12A96EB20097D9B3 = C3FC9BEA12A96EB20097D9B3 /* PBXTextBookmark */;
+			C3FC9BEB12A96EB20097D9B3 = C3FC9BEB12A96EB20097D9B3 /* PBXTextBookmark */;
 		};
 		sourceControlManager = C3FC9B4F12A910090097D9B3 /* Source Control */;
 		userBuildSettings = {
 		};
+	};
+	C35B8B2712AA60CA0002A7A1 /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "Incomplete implementation of class 'SendSimpleMessageAppDelegate'";
+		fRef = 1D3623250D0F684500981E51 /* SendSimpleMessageAppDelegate.m */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 415;
+		rType = 1;
+	};
+	C35B8B2812AA60CA0002A7A1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* SendSimpleMessageAppDelegate.m */;
+		name = "SendSimpleMessageAppDelegate.m: 413";
+		rLen = 0;
+		rLoc = 11670;
+		rType = 0;
+		vrLen = 206;
+		vrLoc = 11352;
+	};
+	C35B8B3112AA61510002A7A1 /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "Method definition for '-XBoxOn' not found";
+		fRef = 1D3623250D0F684500981E51 /* SendSimpleMessageAppDelegate.m */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 415;
+		rType = 1;
+	};
+	C35B8B3212AA61510002A7A1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* SendSimpleMessageAppDelegate.m */;
+		name = "SendSimpleMessageAppDelegate.m: 413";
+		rLen = 0;
+		rLoc = 11670;
+		rType = 0;
+		vrLen = 206;
+		vrLoc = 11352;
+	};
+	C35B8B3512AA61930002A7A1 /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "Method definition for '-XBoxOn' not found";
+		fRef = 1D3623250D0F684500981E51 /* SendSimpleMessageAppDelegate.m */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 415;
+		rType = 1;
+	};
+	C35B8B3612AA61930002A7A1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* SendSimpleMessageAppDelegate.m */;
+		name = "SendSimpleMessageAppDelegate.m: 413";
+		rLen = 0;
+		rLoc = 11670;
+		rType = 0;
+		vrLen = 213;
+		vrLoc = 11345;
+	};
+	C35B8B3812AA619D0002A7A1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* SendSimpleMessageAppDelegate.h */;
+		name = "SendSimpleMessageAppDelegate.h: 34";
+		rLen = 0;
+		rLoc = 678;
+		rType = 0;
+		vrLen = 742;
+		vrLoc = 3;
+	};
+	C35B8B3912AA619D0002A7A1 /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "Incomplete implementation of class 'SendSimpleMessageAppDelegate'";
+		fRef = 1D3623250D0F684500981E51 /* SendSimpleMessageAppDelegate.m */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 415;
+		rType = 1;
+	};
+	C35B8B3A12AA619D0002A7A1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* SendSimpleMessageAppDelegate.m */;
+		name = "SendSimpleMessageAppDelegate.m: 395";
+		rLen = 0;
+		rLoc = 11339;
+		rType = 0;
+		vrLen = 999;
+		vrLoc = 8451;
 	};
 	C3FC9B4B12A90FEA0097D9B3 /* Sky Remote */ = {
 		isa = PBXExecutable;
@@ -100,6 +196,8 @@
 		sourceDirectories = (
 		);
 		startupPath = "<<ProjectDirectory>>";
+		variableFormatDictionary = {
+		};
 	};
 	C3FC9B4F12A910090097D9B3 /* Source Control */ = {
 		isa = PBXSourceControlManager;
@@ -127,6 +225,7 @@
 	};
 	C3FC9BA112A956B70097D9B3 /* IRremote.cpp */ = {
 		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.cpp.cpp;
 		name = IRremote.cpp;
 		path = /Applications/Arduino.app/Contents/Resources/Java/libraries/IRremote/IRremote.cpp;
 		sourceTree = "<absolute>";
@@ -143,6 +242,7 @@
 	};
 	C3FC9BA312A956B70097D9B3 /* IRremote.h */ = {
 		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
 		name = IRremote.h;
 		path = /Applications/Arduino.app/Contents/Resources/Java/libraries/IRremote/IRremote.h;
 		sourceTree = "<absolute>";
@@ -156,14 +256,14 @@
 		);
 		name = "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/SendSimpleMessage/Sky Remote-Info.plist";
 		rLen = 0;
-		rLoc = 9223372036854775807;
+		rLoc = 9223372036854775808;
 	};
 	C3FC9BE912A96EB20097D9B3 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 1D3623240D0F684500981E51 /* SendSimpleMessageAppDelegate.h */;
 		name = "SendSimpleMessageAppDelegate.h: 34";
 		rLen = 0;
-		rLoc = 661;
+		rLoc = 681;
 		rType = 0;
 		vrLen = 726;
 		vrLoc = 0;
@@ -173,7 +273,7 @@
 		fRef = 1D3623250D0F684500981E51 /* SendSimpleMessageAppDelegate.m */;
 		name = "SendSimpleMessageAppDelegate.m: 410";
 		rLen = 0;
-		rLoc = 8477;
+		rLoc = 8514;
 		rType = 0;
 		vrLen = 951;
 		vrLoc = 9999;

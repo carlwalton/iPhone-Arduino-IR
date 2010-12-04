@@ -31,6 +31,7 @@
 - (IBAction)LeftArrow;
 - (IBAction)DownArrow;
 - (IBAction)RightArrow;
+- (IBAction)XBoxOn;
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
 
