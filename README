@@ -1,3 +1,10 @@
 This project is designed to allow IR communication from an Arduino using a 
-modified version of Ken Shiriff's Multi-Protocol IR Library for Arduino devices.
+modified version of Ken Shirriff's Multi-Protocol IR Library for Arduino devices.
+
+http://www.arcfn.com/2009/08/multi-protocol-infrared-remote-library.html
+
+This code will be modified in the coming weeks to be more efficient, and to 
+make better use of the Shirriff IR library I'm using (i.e. without me
+editing it). Take this as a first alpha of thesoftware, although everything
+appears to be functional at present.
 
