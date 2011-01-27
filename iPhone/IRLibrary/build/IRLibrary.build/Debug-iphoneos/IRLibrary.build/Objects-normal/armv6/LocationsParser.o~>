@@ -1,0 +1,2 @@
+/Users/Carl/Desktop/CoreDataTest 2/Classes/LocationsParser.m: In function '-[XMLParser parseXMLFileAtURL:parseError:]':
+/Users/Carl/Desktop/CoreDataTest 2/Classes/LocationsParser.m:23: warning: class 'XMLParser' does not implement the 'NSXMLParserDelegate' protocol

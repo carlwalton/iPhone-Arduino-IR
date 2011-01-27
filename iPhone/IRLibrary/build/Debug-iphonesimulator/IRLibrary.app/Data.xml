@@ -1,0 +1,139 @@
+<?xml version="1.0"?>
+<library>
+	<manufacturer name="LG">
+		<model name="LGTV 2010">
+			<option name = "Power" length = "24" code = "3" desc = "0x20DF10EF" />
+			<option name = "AV" length = "24" code = "3" desc = "0x20DF0CF3" />
+			<option name = "Input" length = "24" code = "3" desc = "0x20DFD02F" />
+			<option name = "1" length = "24" code = "3" desc = "0x20DF8877" />
+			<option name = "2" length = "24" code = "3" desc = "0x20DF48B7" />
+			<option name = "3" length = "24" code = "3" desc = "0x20DFC837" />
+			<option name = "4" length = "24" code = "3" desc = "0x20DF28D7" />
+			<option name = "5" length = "24" code = "3" desc = "0x20DFA857" />
+			<option name = "6" length = "24" code = "3" desc = "0x20DF6897" />
+			<option name = "7" length = "24" code = "3" desc = "0x20DFE817" />
+			<option name = "8" length = "24" code = "3" desc = "0x20DF18E7" />
+			<option name = "9" length = "24" code = "3" desc = "0x20DF9867" />
+			<option name = "0" length = "24" code = "3" desc = "0x20DF08F7" />
+			<option name = "Volume +" length = "24" code = "3" desc = "0x20DF40BF" />
+			<option name = "Volume -" length = "24" code = "3" desc = "0x20DFC03F" />
+			<option name = "Channel +" length = "24" code = "3" desc = "0x20DF00FF" />
+			<option name = "Channel -" length = "24" code = "3" desc = "0x20DF807F" />
+			<option name = "Mute" length = "24" code = "3" desc = "0x20DF906F" />
+			<option name = "Red" length = "24" code = "3" desc = "0x20DF4EB1" />
+			<option name = "Green" length = "24" code = "3" desc = "0x20DF8E71" />
+			<option name = "Yellow" length = "24" code = "3" desc = "0x20DFC639" />
+			<option name = "Blue" length = "24" code = "3" desc = "0x20DF8679" />
+			<option name = "Menu" length = "24" code = "3" desc = "0x20DFC23D" />
+			<option name = "Up Arrow" length = "24" code = "3" desc = "0x20DF02FD" />
+			<option name = "Left Arrow" length = "24" code = "3" desc = "0x20DF609F" />
+			<option name = "Right Arrow" length = "24" code = "3" desc = "0x20DFE01F" />
+			<option name = "Down Arrow" length = "24" code = "3" desc = "0x20DF827D" />
+		</model>
+	</manufacturer>
+	<manufacturer name="Sky">
+		<model name="Sky + HD">
+			<option name = "1" length = "24" code = "2" desc = "0xC05C01" />
+			<option name = "2" length = "24" code = "2" desc = "0xC05C02" />
+			<option name = "3" length = "24" code = "2" desc = "0xC05C03" />
+			<option name = "4" length = "24" code = "2" desc = "0xC05C04" />
+			<option name = "5" length = "24" code = "2" desc = "0xC05C05" />
+			<option name = "6" length = "24" code = "2" desc = "0xC05C06" />
+			<option name = "7" length = "24" code = "2" desc = "0xC05C07" />
+			<option name = "8" length = "24" code = "2" desc = "0xC05C08" />
+			<option name = "9" length = "24" code = "2" desc = "0xC05C09" />
+			<option name = "0" length = "24" code = "2" desc = "0xC05C00" />
+			<option name = "Channel +" length = "24" code = "2" desc = "0xC05C20" />
+			<option name = "Channel -" length = "24" code = "2" desc = "0xC05C21" />
+			<option name = "Up Arrow" length = "24" code = "2" desc = "0xC05C58" />
+			<option name = "Left Arrow" length = "24" code = "2" desc = "0xC05C5A" />
+			<option name = "Right Arrow" length = "24" code = "2" desc = "0xC05C5B" />
+			<option name = "Down Arrow" length = "24" code = "2" desc = "0xC05C59" />
+		</model>
+	</manufacturer>
+	<manufacturer name="Sony">
+		<model name="Bravia HDTV - 2010">
+			<option name = "Input" length = "12" code = "4" desc = "0xA50" />
+			<option name = "Standby" length = "12" code = "4" desc = "0xA90" />
+			<option name = "Exit" length = "12" code = "4" desc = "0xC70" />
+			<option name = "I+" length = "12" code = "4" desc = "0x5D0" />
+			<option name = "Home" length = "12" code = "4" desc = "0x070" />
+			<option name = "OK" length = "12" code = "4" desc = "0xA70" />
+			<option name = "Up Arrow" length = "12" code = "4" desc = "0x2F0" />
+			<option name = "Right Arrow" length = "12" code = "4" desc = "0xCD0" />
+			<option name = "Down Arrow" length = "12" code = "4" desc = "0xAF0" />
+			<option name = "Left Arrow" length = "12" code = "4" desc = "0x2D0" />
+			<option name = "1" length = "12" code = "4" desc = "0x010" />
+			<option name = "2" length = "12" code = "4" desc = "0x810" />
+			<option name = "3" length = "12" code = "4" desc = "0x410" />
+			<option name = "4" length = "12" code = "4" desc = "0xC10" />
+			<option name = "5" length = "12" code = "4" desc = "0x210" />
+			<option name = "6" length = "12" code = "4" desc = "0xA10" />
+			<option name = "7" length = "12" code = "4" desc = "0x610" />
+			<option name = "8" length = "12" code = "4" desc = "0xE10" />
+			<option name = "9" length = "12" code = "4" desc = "0x110" />
+			<option name = "0" length = "12" code = "4" desc = "0x910" />
+			<option name = "Teletext" length = "12" code = "4" desc = "0xFD0" />
+			<option name = "Mute" length = "12" code = "4" desc = "0x290" />
+			<option name = "Volume +" length = "12" code = "4" desc = "0x490" />
+			<option name = "Volume -" length = "12" code = "4" desc = "0xC90" />
+			<option name = "Channel +" length = "12" code = "4" desc = "0x090" />
+			<option name = "Channel -" length = "12" code = "4" desc = "0x890" />
+			<option name = "Audio" length = "12" code = "4" desc = "0xE90" />
+			<option name = "Back" length = "12" code = "4" desc = "0xA90" />
+		</model>
+	</manufacturer>		
+	<manufacturer name="Western Digital">
+		<model name = "WDTV Live">
+			<option name = "Power" length = "16" code = "1" desc = "0x48B7" />
+			<option name = "Home" length = "16" code = "1" desc = "0x609F" />
+			<option name = "Up" length = "16" code = "1" desc = "0xA05F" />
+			<option name = "Left" length = "16" code = "1" desc = "0xE01F" />
+			<option name = "OK" length = "16" code = "1" desc = "0x10EF" />
+			<option name = "Right" length = "16" code = "1" desc = "0x906F" />
+			<option name = "Down" length = "16" code = "1" desc = "0x00FF" />
+			<option name = "Back" length = "16" code = "1" desc = "0xD827" />
+			<option name = "Stop" length = "16" code = "1" desc = "0x20DF" />
+			<option name = "Option" length = "16" code = "1" desc = "0x58A7" />
+			<option name = "Rewind" length = "16" code = "1" desc = "0xF807" />
+			<option name = "Forward" length = "16" code = "1" desc = "0x7887" />
+			<option name = "Play / Pause" length = "16" code = "1" desc = "0x50AF" />
+			<option name = "Previous" length = "16" code = "1" desc = "0x40BF" />
+			<option name = "Next" length = "16" code = "1" desc = "0x807F" />
+			<option name = "Search" length = "16" code = "1" desc = "0xF00F" />
+			<option name = "Close" length = "16" code = "1" desc = "0x08F7" />
+		</model>
+	</manufacturer>
+	<manufacturer name="Toshiba">
+		<model name = "Regza LCD TV">
+			<option name = "Input" length = "16" code = "4" desc = "0x28D7" />
+			<option name = "Standby" length = "16" code = "4" desc = "0x48B7" />
+			<option name = "Exit" length = "16" code = "4" desc = "0xC23D" />
+			<option name = "Menu" length = "16" code = "4" desc = "0xDA25" />
+			<option name = "Guide" length = "16" code = "4" desc = "0xA25D" />
+			<option name = "OK" length = "16" code = "4" desc = "0x847B" />
+			<option name = "Up Arrow" length = "16" code = "4" desc = "0x9867" />
+			<option name = "Right Arrow" length = "16" code = "4" desc = "0x02FD" />
+			<option name = "Down Arrow" length = "16" code = "4" desc = "0xB847" />
+			<option name = "Left Arrow" length = "16" code = "4" desc = "0x42BD" />
+			<option name = "1" length = "16" code = "4" desc = "0x807F" />
+			<option name = "2" length = "16" code = "4" desc = "0x40BF" />
+			<option name = "3" length = "16" code = "4" desc = "0xC03F" />
+			<option name = "4" length = "16" code = "4" desc = "0x20DF" />
+			<option name = "5" length = "16" code = "4" desc = "0xA05F" />
+			<option name = "6" length = "16" code = "4" desc = "0x609F" />
+			<option name = "7" length = "16" code = "4" desc = "0xE01F" />
+			<option name = "8" length = "16" code = "4" desc = "0x10EF" />
+			<option name = "9" length = "16" code = "4" desc = "0x906F" />
+			<option name = "0" length = "16" code = "4" desc = "0x00FF" />
+			<option name = "Teletext" length = "16" code = "4" desc = "0xE817" />
+			<option name = "Mute" length = "16" code = "4" desc = "0x08F7" />
+			<option name = "Volume +" length = "16" code = "4" desc = "0x58A7" />
+			<option name = "Volume -" length = "16" code = "4" desc = "0x7887" />
+			<option name = "Channel +" length = "16" code = "4" desc = "0xD827" />
+			<option name = "Channel -" length = "16" code = "4" desc = "0xF807" />
+			<option name = "TV/Fav/Radio" length = "16" code = "4" desc = "0xE21D" />
+			<option name = "Back" length = "16" code = "4" desc = "0x4AB5" />
+		</model>
+	</manufacturer>
+</library>
