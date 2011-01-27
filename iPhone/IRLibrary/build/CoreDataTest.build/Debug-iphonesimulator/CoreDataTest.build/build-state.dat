@@ -1,1519 +1,0 @@
-TCoreDataTest
-v7
-r0
-t317647015.026470
-cCheck dependencies
-cProcessInfoPlistFile "/Users/Carl/Desktop/iPhone/CoreDataTest 2/build/Debug-iphonesimulator/CoreDataTest.app/Info.plist" CoreDataTest-Info.plist
-cCompileXIB "/Users/Carl/Desktop/iPhone/CoreDataTest 2/MainWindow.xib"
-cCompileXIB "/Users/Carl/Desktop/iPhone/CoreDataTest 2/RootViewController.xib"
-cCpResource build/Debug-iphonesimulator/CoreDataTest.app/Data.xml Data.xml
-cCompileXIB "/Users/Carl/Desktop/iPhone/CoreDataTest 2/Classes/DetailsViewController.xib"
-cProcessPCH /var/folders/5W/5WbKi7hhGkSs6Aomh0sqwE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CoreDataTest_Prefix-fkpbkmeyhskcyfckvmjwddexwzdd/CoreDataTest_Prefix.pch.gch CoreDataTest_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-cDataModelCompile "/Users/Carl/Desktop/iPhone/CoreDataTest 2/build/Debug-iphonesimulator/CoreDataTest.app/RemoteDatabase.mom" "/Users/Carl/Desktop/iPhone/CoreDataTest 2/RemoteDatabase.xcdatamodel"
-cCompileC build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/Objects-normal/i386/main.o "/Users/Carl/Desktop/iPhone/CoreDataTest 2/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/Objects-normal/i386/CoreDataTestAppDelegate.o "/Users/Carl/Desktop/iPhone/CoreDataTest 2/Classes/CoreDataTestAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/Objects-normal/i386/RootViewController.o "/Users/Carl/Desktop/iPhone/CoreDataTest 2/Classes/RootViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/Objects-normal/i386/Model.o "/Users/Carl/Desktop/iPhone/CoreDataTest 2/Classes/Model.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/Objects-normal/i386/Manufacturer.o "/Users/Carl/Desktop/iPhone/CoreDataTest 2/Classes/Manufacturer.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/Objects-normal/i386/CoreDataHelper.o "/Users/Carl/Desktop/iPhone/CoreDataTest 2/CoreDataHelper.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/Objects-normal/i386/LocationsParser.o "/Users/Carl/Desktop/iPhone/CoreDataTest 2/Classes/LocationsParser.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/Objects-normal/i386/DetailsViewController.o "/Users/Carl/Desktop/iPhone/CoreDataTest 2/Classes/DetailsViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/Objects-normal/i386/Option.o "/Users/Carl/Desktop/iPhone/CoreDataTest 2/Classes/Option.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/Objects-normal/i386/MLUtils.o "/Users/Carl/Desktop/iPhone/CoreDataTest 2/Classes/MLUtils.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-cLd "/Users/Carl/Desktop/iPhone/CoreDataTest 2/build/Debug-iphonesimulator/CoreDataTest.app/CoreDataTest" normal i386
-cGenerateDSYMFile "/Users/Carl/Desktop/iPhone/CoreDataTest 2/build/Debug-iphonesimulator/CoreDataTest.app.dSYM" "/Users/Carl/Desktop/iPhone/CoreDataTest 2/build/Debug-iphonesimulator/CoreDataTest.app/CoreDataTest"
-cTouch "/Users/Carl/Desktop/iPhone/CoreDataTest 2/build/Debug-iphonesimulator/CoreDataTest.app"
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk
-c000000004CC128950000000000000110
-t1287727253
-s272
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreData.framework/CoreData
-c000000004CC122A000000000001D6CE0
-t1287725728
-s1928416
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.h
-c000000004CC12294000000000000046B
-t1287725716
-s1131
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-c000000004CC12246000000000029B310
-t1287725638
-s2732816
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c000000004CC1226D000000000029D5D0
-t1287725677
-s2741712
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
-c000000004CC1225F0000000000001466
-t1287725663
-s5222
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/MessageUI.framework/Headers/MessageUI.h
-c000000004CC6561F00000000000000CD
-t1288066591
-s205
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/MessageUI.framework/MessageUI
-c000000004CC6562D000000000009BEC0
-t1288066605
-s638656
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
-c000000004CC1281F0000000000000AA1
-t1287727135
-s2721
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
-c000000004CC12883000000000074D7B0
-t1287727235
-s7657392
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/Availability.h
-c000000004CB3FA080000000000001ADD
-t1286863368
-s6877
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/arpa/inet.h
-c000000004CB3E46D0000000000001533
-t1286857837
-s5427
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/stdio.h
-c000000004CB3E48600000000000040AC
-t1286857862
-s16556
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/stdlib.h
-c000000004CB3E4860000000000002DF5
-t1286857862
-s11765
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/string.h
-c000000004CB3E4860000000000001731
-t1286857862
-s5937
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/sys/socket.h
-c000000004CBFACAC0000000000005A69
-t1287629996
-s23145
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/unistd.h
-c000000004CB3E486000000000000563E
-t1286857862
-s22078
-
-N/Users/Carl/Desktop/CoreDataTest 2/Classes/CoreDataTestAppDelegate.h
-c000000004A355FD900000000000004A1
-t1245011929
-s1185
-i"RootViewController.h"
-i"LocationsParser.h"
-
-N/Users/Carl/Desktop/CoreDataTest 2/Classes/CoreDataTestAppDelegate.m
-c000000004D1C976C0000000000001747
-t1293719404
-s5959
-i"CoreDataTestAppDelegate.h"
-
-N/Users/Carl/Desktop/CoreDataTest 2/Classes/DetailsViewController.h
-c000000004D1CA6EC00000000000004F9
-t1293723372
-s1273
-i<UIKit/UIKit.h>
-i<MessageUI/MessageUI.h>
-i"MLUtils.h"
-
-N/Users/Carl/Desktop/CoreDataTest 2/Classes/DetailsViewController.m
-c000000004D22049C0000000000000F8F
-t1294075036
-s3983
-i"DetailsViewController.h"
-i<stdio.h>
-i<sys/socket.h>
-i<arpa/inet.h>
-i<stdlib.h>
-i<string.h>
-i<unistd.h>
-
-N/Users/Carl/Desktop/CoreDataTest 2/Classes/DetailsViewController.xib
-c000000004D1CA4C30000000000006F38
-t1293722819
-s28472
-
-N/Users/Carl/Desktop/CoreDataTest 2/Classes/LocationsParser.h
-c000000004D1C9F18000000000000035A
-t1293721368
-s858
-i<Foundation/Foundation.h>
-i"CoreDataHelper.h"
-i"Manufacturer.h"
-i"Model.h"
-i"Option.h"
-
-N/Users/Carl/Desktop/CoreDataTest 2/Classes/LocationsParser.m
-c000000004D1CAA24000000000000113F
-t1293724196
-s4415
-i"LocationsParser.h"
-
-N/Users/Carl/Desktop/CoreDataTest 2/Classes/MLUtils.h
-c000000004A62288500000000000001E7
-t1247946885
-s487
-i<UIKit/UIKit.h>
-
-N/Users/Carl/Desktop/CoreDataTest 2/Classes/MLUtils.m
-c000000004A62288A00000000000002C5
-t1247946890
-s709
-i"MLUtils.h"
-
-N/Users/Carl/Desktop/CoreDataTest 2/Classes/Manufacturer.h
-c000000004D1C99E00000000000000303
-t1293720032
-s771
-i<CoreData/CoreData.h>
-
-N/Users/Carl/Desktop/CoreDataTest 2/Classes/Manufacturer.m
-c000000004D1C989E00000000000001A6
-t1293719710
-s422
-i"Manufacturer.h"
-i"Model.h"
-
-N/Users/Carl/Desktop/CoreDataTest 2/Classes/Model.h
-c000000004D1C9EFD0000000000000331
-t1293721341
-s817
-i<CoreData/CoreData.h>
-
-N/Users/Carl/Desktop/CoreDataTest 2/Classes/Model.m
-c000000004D1C996600000000000001CB
-t1293719910
-s459
-i"Model.h"
-i"Option.h"
-i"Manufacturer.h"
-
-N/Users/Carl/Desktop/CoreDataTest 2/Classes/Option.h
-c000000004D1CA9FB0000000000000285
-t1293724155
-s645
-i<CoreData/CoreData.h>
-
-N/Users/Carl/Desktop/CoreDataTest 2/Classes/Option.m
-c000000004D1CAA0600000000000001CB
-t1293724166
-s459
-i"Option.h"
-i"Model.h"
-
-N/Users/Carl/Desktop/CoreDataTest 2/Classes/RootViewController.h
-c000000004D1C9EB9000000000000036F
-t1293721273
-s879
-i"Manufacturer.h"
-i"CoreDataHelper.h"
-i"DetailsViewController.h"
-i"Option.h"
-
-N/Users/Carl/Desktop/CoreDataTest 2/Classes/RootViewController.m
-c000000004D1CA9D60000000000001AFB
-t1293724118
-s6907
-i"RootViewController.h"
-
-N/Users/Carl/Desktop/CoreDataTest 2/CoreDataHelper.h
-c000000004A355FD900000000000002ED
-t1245011929
-s749
-i<UIKit/UIKit.h>
-i<CoreData/CoreData.h>
-
-N/Users/Carl/Desktop/CoreDataTest 2/CoreDataHelper.m
-c000000004BB7138600000000000006CB
-t1270289286
-s1739
-i"CoreDataHelper.h"
-
-N/Users/Carl/Desktop/CoreDataTest 2/CoreDataTest_Prefix.pch
-c000000004A06FFB4000000000000014A
-t1241972660
-s330
-i<Availability.h>
-i<Foundation/Foundation.h>
-i<UIKit/UIKit.h>
-
-N/Users/Carl/Desktop/CoreDataTest 2/Data.xml
-c000000004D1CCA980000000000001A07
-t1293732504
-s6663
-
-N/Users/Carl/Desktop/CoreDataTest 2/Locations.xcdatamodel
-c000000004D1CA7EE0000000000000088
-t1293723630
-s136
-
-N/Users/Carl/Desktop/CoreDataTest 2/MainWindow.xib
-c000000004A06FFB40000000000002C3C
-t1241972660
-s11324
-
-N/Users/Carl/Desktop/CoreDataTest 2/RootViewController.xib
-c000000004A06FFB40000000000001F5E
-t1241972660
-s8030
-
-N/Users/Carl/Desktop/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/Objects-normal/i386/CoreDataHelper.o
-t1293722603
-s15204
-
-N/Users/Carl/Desktop/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/Objects-normal/i386/CoreDataTest.LinkFileList
-c000000004D1CA3E30000000000000555
-t1293722595
-s1365
-
-N/Users/Carl/Desktop/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/Objects-normal/i386/CoreDataTestAppDelegate.o
-t1293724240
-s66268
-
-N/Users/Carl/Desktop/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/Objects-normal/i386/DetailsViewController.o
-t1294075668
-s57932
-
-N/Users/Carl/Desktop/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/Objects-normal/i386/LocationsParser.o
-t1293724240
-s24096
-
-N/Users/Carl/Desktop/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/Objects-normal/i386/MLUtils.o
-t1293722603
-s7876
-
-N/Users/Carl/Desktop/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/Objects-normal/i386/Manufacturer.o
-t1293722603
-s5288
-
-N/Users/Carl/Desktop/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/Objects-normal/i386/Model.o
-t1293724240
-s5284
-
-N/Users/Carl/Desktop/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/Objects-normal/i386/Option.o
-t1293724241
-s5344
-
-N/Users/Carl/Desktop/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/Objects-normal/i386/RootViewController.o
-t1293724240
-s57212
-
-N/Users/Carl/Desktop/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/Objects-normal/i386/main.o
-t1293722603
-s6296
-
-N/Users/Carl/Desktop/CoreDataTest 2/build/Debug-iphonesimulator/CoreDataTest.app
-t1294075669
-s340
-
-N/Users/Carl/Desktop/CoreDataTest 2/build/Debug-iphonesimulator/CoreDataTest.app.dSYM
-t1294075668
-s102
-
-N/Users/Carl/Desktop/CoreDataTest 2/build/Debug-iphonesimulator/CoreDataTest.app/CoreDataTest
-t1294075668
-s52916
-
-N/Users/Carl/Desktop/CoreDataTest 2/build/Debug-iphonesimulator/CoreDataTest.app/Data.xml
-t1293732507
-s6663
-
-N/Users/Carl/Desktop/CoreDataTest 2/build/Debug-iphonesimulator/CoreDataTest.app/DetailsViewController.nib
-t1293722824
-s2459
-
-N/Users/Carl/Desktop/CoreDataTest 2/build/Debug-iphonesimulator/CoreDataTest.app/Info.plist
-t1293715132
-s611
-
-N/Users/Carl/Desktop/CoreDataTest 2/build/Debug-iphonesimulator/CoreDataTest.app/Locations.mom
-t1293723634
-s4671
-
-N/Users/Carl/Desktop/CoreDataTest 2/build/Debug-iphonesimulator/CoreDataTest.app/MainWindow.nib
-t1293715133
-s1490
-
-N/Users/Carl/Desktop/CoreDataTest 2/build/Debug-iphonesimulator/CoreDataTest.app/PkgInfo
-t1293715132
-s8
-
-N/Users/Carl/Desktop/CoreDataTest 2/build/Debug-iphonesimulator/CoreDataTest.app/RootViewController.nib
-t1293715133
-s1021
-
-N/Users/Carl/Desktop/CoreDataTest 2/main.m
-c000000004A355FD9000000000000020D
-t1245011929
-s525
-i<UIKit/UIKit.h>
-
-N/Users/Carl/Desktop/iPhone/CoreDataTest 2/Classes/CoreDataTestAppDelegate.h
-c000000004A355FD900000000000004A1
-t1245011929
-s1185
-i"RootViewController.h"
-i"LocationsParser.h"
-
-N/Users/Carl/Desktop/iPhone/CoreDataTest 2/Classes/CoreDataTestAppDelegate.m
-c000000004D3D80A6000000000000161B
-t1295876262
-s5659
-i"CoreDataTestAppDelegate.h"
-
-N/Users/Carl/Desktop/iPhone/CoreDataTest 2/Classes/DetailsViewController.h
-c000000004D1CA6EC00000000000004F9
-t1293723372
-s1273
-i<UIKit/UIKit.h>
-i<MessageUI/MessageUI.h>
-i"MLUtils.h"
-
-N/Users/Carl/Desktop/iPhone/CoreDataTest 2/Classes/DetailsViewController.m
-c000000004D36CB2C0000000000000DDB
-t1295436588
-s3547
-i"DetailsViewController.h"
-i<stdio.h>
-i<sys/socket.h>
-i<arpa/inet.h>
-i<stdlib.h>
-i<string.h>
-i<unistd.h>
-
-N/Users/Carl/Desktop/iPhone/CoreDataTest 2/Classes/DetailsViewController.xib
-c000000004D1CA4C30000000000006F38
-t1293722819
-s28472
-
-N/Users/Carl/Desktop/iPhone/CoreDataTest 2/Classes/LocationsParser.h
-c000000004D1C9F18000000000000035A
-t1293721368
-s858
-i<Foundation/Foundation.h>
-i"CoreDataHelper.h"
-i"Manufacturer.h"
-i"Model.h"
-i"Option.h"
-
-N/Users/Carl/Desktop/iPhone/CoreDataTest 2/Classes/LocationsParser.m
-c000000004D1CAA24000000000000113F
-t1293724196
-s4415
-i"LocationsParser.h"
-
-N/Users/Carl/Desktop/iPhone/CoreDataTest 2/Classes/MLUtils.h
-c000000004A62288500000000000001E7
-t1247946885
-s487
-i<UIKit/UIKit.h>
-
-N/Users/Carl/Desktop/iPhone/CoreDataTest 2/Classes/MLUtils.m
-c000000004A62288A00000000000002C5
-t1247946890
-s709
-i"MLUtils.h"
-
-N/Users/Carl/Desktop/iPhone/CoreDataTest 2/Classes/Manufacturer.h
-c000000004D36CA0700000000000001DD
-t1295436295
-s477
-i<CoreData/CoreData.h>
-
-N/Users/Carl/Desktop/iPhone/CoreDataTest 2/Classes/Manufacturer.m
-c000000004D36CA030000000000000080
-t1295436291
-s128
-i"Manufacturer.h"
-i"Model.h"
-
-N/Users/Carl/Desktop/iPhone/CoreDataTest 2/Classes/Model.h
-c000000004D36CA0F000000000000020B
-t1295436303
-s523
-i<CoreData/CoreData.h>
-
-N/Users/Carl/Desktop/iPhone/CoreDataTest 2/Classes/Model.m
-c000000004D36CA0A00000000000000A5
-t1295436298
-s165
-i"Model.h"
-i"Option.h"
-i"Manufacturer.h"
-
-N/Users/Carl/Desktop/iPhone/CoreDataTest 2/Classes/Option.h
-c000000004D36CA00000000000000015E
-t1295436288
-s350
-i<CoreData/CoreData.h>
-
-N/Users/Carl/Desktop/iPhone/CoreDataTest 2/Classes/Option.m
-c000000004D36C9FC00000000000000A4
-t1295436284
-s164
-i"Option.h"
-i"Model.h"
-
-N/Users/Carl/Desktop/iPhone/CoreDataTest 2/Classes/RootViewController.h
-c000000004D36D39E0000000000000249
-t1295438750
-s585
-i"Manufacturer.h"
-i"CoreDataHelper.h"
-i"DetailsViewController.h"
-i"Option.h"
-
-N/Users/Carl/Desktop/iPhone/CoreDataTest 2/Classes/RootViewController.m
-c000000004D36D4B90000000000001493
-t1295439033
-s5267
-i"RootViewController.h"
-
-N/Users/Carl/Desktop/iPhone/CoreDataTest 2/CoreDataHelper.h
-c000000004A355FD900000000000002ED
-t1245011929
-s749
-i<UIKit/UIKit.h>
-i<CoreData/CoreData.h>
-
-N/Users/Carl/Desktop/iPhone/CoreDataTest 2/CoreDataHelper.m
-c000000004BB7138600000000000006CB
-t1270289286
-s1739
-i"CoreDataHelper.h"
-
-N/Users/Carl/Desktop/iPhone/CoreDataTest 2/CoreDataTest_Prefix.pch
-c000000004A06FFB4000000000000014A
-t1241972660
-s330
-i<Availability.h>
-i<Foundation/Foundation.h>
-i<UIKit/UIKit.h>
-
-N/Users/Carl/Desktop/iPhone/CoreDataTest 2/Data.xml
-c000000004D24FD06000000000000220C
-t1294269702
-s8716
-
-N/Users/Carl/Desktop/iPhone/CoreDataTest 2/Locations.xcdatamodel
-c000000004D1CA7EE0000000000000088
-t1293723630
-s136
-
-N/Users/Carl/Desktop/iPhone/CoreDataTest 2/MainWindow.xib
-c000000004A06FFB40000000000002C3C
-t1241972660
-s11324
-
-N/Users/Carl/Desktop/iPhone/CoreDataTest 2/RemoteDatabase.xcdatamodel
-c000000004D1CA7EE0000000000000088
-t1293723630
-s136
-
-N/Users/Carl/Desktop/iPhone/CoreDataTest 2/RootViewController.xib
-c000000004A06FFB40000000000001F5E
-t1241972660
-s8030
-
-N/Users/Carl/Desktop/iPhone/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/Objects-normal/i386/CoreDataHelper.o
-t1295873805
-s15220
-
-N/Users/Carl/Desktop/iPhone/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/Objects-normal/i386/CoreDataTest.LinkFileList
-c000000004D3D770B000000000000059B
-t1295873803
-s1435
-
-N/Users/Carl/Desktop/iPhone/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/Objects-normal/i386/CoreDataTestAppDelegate.o
-t1295876262
-s66280
-
-N/Users/Carl/Desktop/iPhone/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/Objects-normal/i386/DetailsViewController.o
-t1295873805
-s57944
-
-N/Users/Carl/Desktop/iPhone/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/Objects-normal/i386/LocationsParser.o
-t1295873805
-s24120
-
-N/Users/Carl/Desktop/iPhone/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/Objects-normal/i386/MLUtils.o
-t1295873805
-s7892
-
-N/Users/Carl/Desktop/iPhone/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/Objects-normal/i386/Manufacturer.o
-t1295873805
-s5304
-
-N/Users/Carl/Desktop/iPhone/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/Objects-normal/i386/Model.o
-t1295873805
-s5300
-
-N/Users/Carl/Desktop/iPhone/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/Objects-normal/i386/Option.o
-t1295873805
-s5360
-
-N/Users/Carl/Desktop/iPhone/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/Objects-normal/i386/RootViewController.o
-t1295873805
-s57256
-
-N/Users/Carl/Desktop/iPhone/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/Objects-normal/i386/main.o
-t1295873805
-s6308
-
-N/Users/Carl/Desktop/iPhone/CoreDataTest 2/build/Debug-iphonesimulator/CoreDataTest.app
-t1295954215
-s374
-
-N/Users/Carl/Desktop/iPhone/CoreDataTest 2/build/Debug-iphonesimulator/CoreDataTest.app.dSYM
-t1295876262
-s102
-
-N/Users/Carl/Desktop/iPhone/CoreDataTest 2/build/Debug-iphonesimulator/CoreDataTest.app/CoreDataTest
-t1295876262
-s53056
-
-N/Users/Carl/Desktop/iPhone/CoreDataTest 2/build/Debug-iphonesimulator/CoreDataTest.app/Data.xml
-t1295873803
-s8716
-
-N/Users/Carl/Desktop/iPhone/CoreDataTest 2/build/Debug-iphonesimulator/CoreDataTest.app/DetailsViewController.nib
-t1293722824
-s2459
-
-N/Users/Carl/Desktop/iPhone/CoreDataTest 2/build/Debug-iphonesimulator/CoreDataTest.app/Info.plist
-t1293715132
-s611
-
-N/Users/Carl/Desktop/iPhone/CoreDataTest 2/build/Debug-iphonesimulator/CoreDataTest.app/Locations.mom
-t1293723634
-s4671
-
-N/Users/Carl/Desktop/iPhone/CoreDataTest 2/build/Debug-iphonesimulator/CoreDataTest.app/MainWindow.nib
-t1293715133
-s1490
-
-N/Users/Carl/Desktop/iPhone/CoreDataTest 2/build/Debug-iphonesimulator/CoreDataTest.app/PkgInfo
-t1293715132
-s8
-
-N/Users/Carl/Desktop/iPhone/CoreDataTest 2/build/Debug-iphonesimulator/CoreDataTest.app/RemoteDatabase.mom
-t1295954215
-s4671
-
-N/Users/Carl/Desktop/iPhone/CoreDataTest 2/build/Debug-iphonesimulator/CoreDataTest.app/RootViewController.nib
-t1293715133
-s1021
-
-N/Users/Carl/Desktop/iPhone/CoreDataTest 2/main.m
-c000000004A355FD9000000000000020D
-t1245011929
-s525
-i<UIKit/UIKit.h>
-
-N/Users/Carl/Downloads/CoreDataTest 2/Classes/City.h
-c000000004BB7198600000000000002C0
-t1270290822
-s704
-i<CoreData/CoreData.h>
-
-N/Users/Carl/Downloads/CoreDataTest 2/Classes/City.m
-c000000004BB7199200000000000001E1
-t1270290834
-s481
-i"City.h"
-i"Province.h"
-
-N/Users/Carl/Downloads/CoreDataTest 2/Classes/CoreDataTestAppDelegate.h
-c000000004A355FD900000000000004A1
-t1245011929
-s1185
-i"RootViewController.h"
-i"LocationsParser.h"
-
-N/Users/Carl/Downloads/CoreDataTest 2/Classes/CoreDataTestAppDelegate.m
-c000000004BB714370000000000001741
-t1270289463
-s5953
-i"CoreDataTestAppDelegate.h"
-
-N/Users/Carl/Downloads/CoreDataTest 2/Classes/County.h
-c000000004A355FD900000000000002F1
-t1245011929
-s753
-i<CoreData/CoreData.h>
-
-N/Users/Carl/Downloads/CoreDataTest 2/Classes/County.m
-c000000004A355FD9000000000000019B
-t1245011929
-s411
-i"County.h"
-i"Province.h"
-
-N/Users/Carl/Downloads/CoreDataTest 2/Classes/DetailsViewController.h
-c000000004D1C8AFB0000000000000652
-t1293716219
-s1618
-i<UIKit/UIKit.h>
-i<MessageUI/MessageUI.h>
-i"MLUtils.h"
-
-N/Users/Carl/Downloads/CoreDataTest 2/Classes/DetailsViewController.m
-c000000004D1C8C190000000000001459
-t1293716505
-s5209
-i"DetailsViewController.h"
-i<stdio.h>
-i<sys/socket.h>
-i<arpa/inet.h>
-i<stdlib.h>
-i<string.h>
-i<unistd.h>
-
-N/Users/Carl/Downloads/CoreDataTest 2/Classes/DetailsViewController.xib
-c000000004D1C8C3B0000000000007AB0
-t1293716539
-s31408
-
-N/Users/Carl/Downloads/CoreDataTest 2/Classes/LocationsParser.h
-c000000004BB713F0000000000000034F
-t1270289392
-s847
-i<Foundation/Foundation.h>
-i"CoreDataHelper.h"
-i"County.h"
-i"Province.h"
-i"City.h"
-
-N/Users/Carl/Downloads/CoreDataTest 2/Classes/LocationsParser.m
-c000000004BB719B4000000000000114A
-t1270290868
-s4426
-i"LocationsParser.h"
-
-N/Users/Carl/Downloads/CoreDataTest 2/Classes/MLUtils.h
-c000000004A62288500000000000001E7
-t1247946885
-s487
-i<UIKit/UIKit.h>
-
-N/Users/Carl/Downloads/CoreDataTest 2/Classes/MLUtils.m
-c000000004A62288A00000000000002C5
-t1247946890
-s709
-i"MLUtils.h"
-
-N/Users/Carl/Downloads/CoreDataTest 2/Classes/Province.h
-c000000004A355FD90000000000000327
-t1245011929
-s807
-i<CoreData/CoreData.h>
-
-N/Users/Carl/Downloads/CoreDataTest 2/Classes/Province.m
-c000000004A355FD900000000000001C7
-t1245011929
-s455
-i"Province.h"
-i"City.h"
-i"County.h"
-
-N/Users/Carl/Downloads/CoreDataTest 2/Classes/RootViewController.h
-c000000004A621DC40000000000000367
-t1247944132
-s871
-i"County.h"
-i"CoreDataHelper.h"
-i"DetailsViewController.h"
-i"City.h"
-
-N/Users/Carl/Downloads/CoreDataTest 2/Classes/RootViewController.m
-c000000004BB7204E0000000000001B17
-t1270292558
-s6935
-i"RootViewController.h"
-
-N/Users/Carl/Downloads/CoreDataTest 2/CoreDataHelper.h
-c000000004A355FD900000000000002ED
-t1245011929
-s749
-i<UIKit/UIKit.h>
-i<CoreData/CoreData.h>
-
-N/Users/Carl/Downloads/CoreDataTest 2/CoreDataHelper.m
-c000000004BB7138600000000000006CB
-t1270289286
-s1739
-i"CoreDataHelper.h"
-
-N/Users/Carl/Downloads/CoreDataTest 2/CoreDataTest_Prefix.pch
-c000000004A06FFB4000000000000014A
-t1241972660
-s330
-i<Availability.h>
-i<Foundation/Foundation.h>
-i<UIKit/UIKit.h>
-
-N/Users/Carl/Downloads/CoreDataTest 2/Data.xml
-c000000004D1C893D0000000000000341
-t1293715773
-s833
-
-N/Users/Carl/Downloads/CoreDataTest 2/Locations.xcdatamodel
-c000000004BB719130000000000000088
-t1270290707
-s136
-
-N/Users/Carl/Downloads/CoreDataTest 2/MainWindow.xib
-c000000004A06FFB40000000000002C3C
-t1241972660
-s11324
-
-N/Users/Carl/Downloads/CoreDataTest 2/RootViewController.xib
-c000000004A06FFB40000000000001F5E
-t1241972660
-s8030
-
-N/Users/Carl/Downloads/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/Objects-normal/i386/City.o
-t1293715135
-s5372
-
-N/Users/Carl/Downloads/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/Objects-normal/i386/CoreDataHelper.o
-t1293715135
-s15208
-
-N/Users/Carl/Downloads/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/Objects-normal/i386/CoreDataTest.LinkFileList
-c000000004D1C86BC0000000000000564
-t1293715132
-s1380
-
-N/Users/Carl/Downloads/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/Objects-normal/i386/CoreDataTestAppDelegate.o
-t1293716340
-s66248
-
-N/Users/Carl/Downloads/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/Objects-normal/i386/County.o
-t1293715135
-s5236
-
-N/Users/Carl/Downloads/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/Objects-normal/i386/DetailsViewController.o
-t1293716507
-s65868
-
-N/Users/Carl/Downloads/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/Objects-normal/i386/LocationsParser.o
-t1293715135
-s24264
-
-N/Users/Carl/Downloads/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/Objects-normal/i386/MLUtils.o
-t1293715135
-s7880
-
-N/Users/Carl/Downloads/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/Objects-normal/i386/Province.o
-t1293715135
-s5312
-
-N/Users/Carl/Downloads/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/Objects-normal/i386/RootViewController.o
-t1293716340
-s57404
-
-N/Users/Carl/Downloads/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/Objects-normal/i386/main.o
-t1293715134
-s6300
-
-N/Users/Carl/Downloads/CoreDataTest 2/build/Debug-iphonesimulator/CoreDataTest.app
-t1293716553
-s340
-
-N/Users/Carl/Downloads/CoreDataTest 2/build/Debug-iphonesimulator/CoreDataTest.app.dSYM
-t1293716507
-s102
-
-N/Users/Carl/Downloads/CoreDataTest 2/build/Debug-iphonesimulator/CoreDataTest.app/CoreDataTest
-t1293716507
-s54356
-
-N/Users/Carl/Downloads/CoreDataTest 2/build/Debug-iphonesimulator/CoreDataTest.app/Data.xml
-t1293715891
-s833
-
-N/Users/Carl/Downloads/CoreDataTest 2/build/Debug-iphonesimulator/CoreDataTest.app/DetailsViewController.nib
-t1293716553
-s2717
-
-N/Users/Carl/Downloads/CoreDataTest 2/build/Debug-iphonesimulator/CoreDataTest.app/Info.plist
-t1293715132
-s611
-
-N/Users/Carl/Downloads/CoreDataTest 2/build/Debug-iphonesimulator/CoreDataTest.app/Locations.mom
-t1293715134
-s5259
-
-N/Users/Carl/Downloads/CoreDataTest 2/build/Debug-iphonesimulator/CoreDataTest.app/MainWindow.nib
-t1293715133
-s1490
-
-N/Users/Carl/Downloads/CoreDataTest 2/build/Debug-iphonesimulator/CoreDataTest.app/PkgInfo
-t1293715132
-s8
-
-N/Users/Carl/Downloads/CoreDataTest 2/build/Debug-iphonesimulator/CoreDataTest.app/RootViewController.nib
-t1293715133
-s1021
-
-N/Users/Carl/Downloads/CoreDataTest 2/main.m
-c000000004A355FD9000000000000020D
-t1245011929
-s525
-i<UIKit/UIKit.h>
-
-N/var/folders/5W/5WbKi7hhGkSs6Aomh0sqwE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CoreDataTest_Prefix-clybyyvpkdjqtobcwfxjmhznemgb/CoreDataTest_Prefix.pch.gch
-t1293715134
-s15453392
-
-N/var/folders/5W/5WbKi7hhGkSs6Aomh0sqwE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CoreDataTest_Prefix-danpbbtcjqybwycppmvvmtbfntrc/CoreDataTest_Prefix.pch.gch
-t1293722602
-s15453392
-
-N/var/folders/5W/5WbKi7hhGkSs6Aomh0sqwE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CoreDataTest_Prefix-fkpbkmeyhskcyfckvmjwddexwzdd/CoreDataTest_Prefix.pch.gch
-t1295873804
-s15453392
-
-NCoreDataTest-Info.plist
-c000000004A06FFB4000000000000038D
-t1241972660
-s909
-
-CCheck dependencies
-r0
-lSLF07#2@18"Check dependencies317647014#317647015#0(0"0(0#1#0"8610530656#0"0#
-
-CCompileC build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/Objects-normal/i386/City.o "/Users/Carl/Downloads/CoreDataTest 2/Classes/City.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s315407935.729650
-e315407935.865622
-r1
-xCompileC
-xbuild/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/Objects-normal/i386/City.o
-x/Users/Carl/Downloads/CoreDataTest 2/Classes/City.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@59"Compile /Users/Carl/Downloads/CoreDataTest 2/Classes/City.m315407935#315407935#0(0"0(0#0#51"/Users/Carl/Downloads/CoreDataTest 2/Classes/City.m8724905696#2022"    cd "/Users/Carl/Downloads/CoreDataTest 2"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/Carl/Downloads/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/CoreDataTest-generated-files.hmap" "-I/Users/Carl/Downloads/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/CoreDataTest-own-target-headers.hmap" "-I/Users/Carl/Downloads/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/CoreDataTest-all-target-headers.hmap" -iquote "/Users/Carl/Downloads/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/CoreDataTest-project-headers.hmap" "-F/Users/Carl/Downloads/CoreDataTest 2/build/Debug-iphonesimulator" "-I/Users/Carl/Downloads/CoreDataTest 2/build/Debug-iphonesimulator/include" "-I/Users/Carl/Downloads/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/DerivedSources/i386" "-I/Users/Carl/Downloads/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/DerivedSources" -include /var/folders/5W/5WbKi7hhGkSs6Aomh0sqwE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CoreDataTest_Prefix-clybyyvpkdjqtobcwfxjmhznemgb/CoreDataTest_Prefix.pch -c "/Users/Carl/Downloads/CoreDataTest 2/Classes/City.m" -o "/Users/Carl/Downloads/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/Objects-normal/i386/City.o"0#
-
-CCompileC build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/Objects-normal/i386/CoreDataHelper.o "/Users/Carl/Desktop/CoreDataTest 2/CoreDataHelper.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s315415403.388143
-e315415403.486473
-r1
-xCompileC
-xbuild/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/Objects-normal/i386/CoreDataHelper.o
-x/Users/Carl/Desktop/CoreDataTest 2/CoreDataHelper.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@59"Compile /Users/Carl/Desktop/CoreDataTest 2/CoreDataHelper.m315415403#315415403#0(0"0(0#0#51"/Users/Carl/Desktop/CoreDataTest 2/CoreDataHelper.m8741747776#2012"    cd "/Users/Carl/Desktop/CoreDataTest 2"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/Carl/Desktop/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/CoreDataTest-generated-files.hmap" "-I/Users/Carl/Desktop/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/CoreDataTest-own-target-headers.hmap" "-I/Users/Carl/Desktop/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/CoreDataTest-all-target-headers.hmap" -iquote "/Users/Carl/Desktop/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/CoreDataTest-project-headers.hmap" "-F/Users/Carl/Desktop/CoreDataTest 2/build/Debug-iphonesimulator" "-I/Users/Carl/Desktop/CoreDataTest 2/build/Debug-iphonesimulator/include" "-I/Users/Carl/Desktop/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/DerivedSources/i386" "-I/Users/Carl/Desktop/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/DerivedSources" -include /var/folders/5W/5WbKi7hhGkSs6Aomh0sqwE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CoreDataTest_Prefix-danpbbtcjqybwycppmvvmtbfntrc/CoreDataTest_Prefix.pch -c "/Users/Carl/Desktop/CoreDataTest 2/CoreDataHelper.m" -o "/Users/Carl/Desktop/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/Objects-normal/i386/CoreDataHelper.o"0#
-
-CCompileC build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/Objects-normal/i386/CoreDataHelper.o "/Users/Carl/Desktop/iPhone/CoreDataTest 2/CoreDataHelper.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s317566605.494977
-e317566605.626912
-r1
-xCompileC
-xbuild/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/Objects-normal/i386/CoreDataHelper.o
-x/Users/Carl/Desktop/iPhone/CoreDataTest 2/CoreDataHelper.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@66"Compile /Users/Carl/Desktop/iPhone/CoreDataTest 2/CoreDataHelper.m317566605#317566605#0(0"0(0#0#58"/Users/Carl/Desktop/iPhone/CoreDataTest 2/CoreDataHelper.m8658451328#2089"    cd "/Users/Carl/Desktop/iPhone/CoreDataTest 2"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/Carl/Desktop/iPhone/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/CoreDataTest-generated-files.hmap" "-I/Users/Carl/Desktop/iPhone/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/CoreDataTest-own-target-headers.hmap" "-I/Users/Carl/Desktop/iPhone/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/CoreDataTest-all-target-headers.hmap" -iquote "/Users/Carl/Desktop/iPhone/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/CoreDataTest-project-headers.hmap" "-F/Users/Carl/Desktop/iPhone/CoreDataTest 2/build/Debug-iphonesimulator" "-I/Users/Carl/Desktop/iPhone/CoreDataTest 2/build/Debug-iphonesimulator/include" "-I/Users/Carl/Desktop/iPhone/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/DerivedSources/i386" "-I/Users/Carl/Desktop/iPhone/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/DerivedSources" -include /var/folders/5W/5WbKi7hhGkSs6Aomh0sqwE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CoreDataTest_Prefix-fkpbkmeyhskcyfckvmjwddexwzdd/CoreDataTest_Prefix.pch -c "/Users/Carl/Desktop/iPhone/CoreDataTest 2/CoreDataHelper.m" -o "/Users/Carl/Desktop/iPhone/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/Objects-normal/i386/CoreDataHelper.o"0#
-
-CCompileC build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/Objects-normal/i386/CoreDataHelper.o "/Users/Carl/Downloads/CoreDataTest 2/CoreDataHelper.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s315407935.270634
-e315407935.479796
-r1
-xCompileC
-xbuild/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/Objects-normal/i386/CoreDataHelper.o
-x/Users/Carl/Downloads/CoreDataTest 2/CoreDataHelper.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@61"Compile /Users/Carl/Downloads/CoreDataTest 2/CoreDataHelper.m315407935#315407935#0(0"0(0#0#53"/Users/Carl/Downloads/CoreDataTest 2/CoreDataHelper.m8717495680#2034"    cd "/Users/Carl/Downloads/CoreDataTest 2"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/Carl/Downloads/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/CoreDataTest-generated-files.hmap" "-I/Users/Carl/Downloads/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/CoreDataTest-own-target-headers.hmap" "-I/Users/Carl/Downloads/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/CoreDataTest-all-target-headers.hmap" -iquote "/Users/Carl/Downloads/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/CoreDataTest-project-headers.hmap" "-F/Users/Carl/Downloads/CoreDataTest 2/build/Debug-iphonesimulator" "-I/Users/Carl/Downloads/CoreDataTest 2/build/Debug-iphonesimulator/include" "-I/Users/Carl/Downloads/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/DerivedSources/i386" "-I/Users/Carl/Downloads/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/DerivedSources" -include /var/folders/5W/5WbKi7hhGkSs6Aomh0sqwE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CoreDataTest_Prefix-clybyyvpkdjqtobcwfxjmhznemgb/CoreDataTest_Prefix.pch -c "/Users/Carl/Downloads/CoreDataTest 2/CoreDataHelper.m" -o "/Users/Carl/Downloads/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/Objects-normal/i386/CoreDataHelper.o"0#
-
-CCompileC build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/Objects-normal/i386/CoreDataTestAppDelegate.o "/Users/Carl/Desktop/CoreDataTest 2/Classes/CoreDataTestAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s315417040.569783
-e315417040.698779
-r1
-xCompileC
-xbuild/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/Objects-normal/i386/CoreDataTestAppDelegate.o
-x/Users/Carl/Desktop/CoreDataTest 2/Classes/CoreDataTestAppDelegate.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@76"Compile /Users/Carl/Desktop/CoreDataTest 2/Classes/CoreDataTestAppDelegate.m315417040#315417040#0(0"0(0#0#68"/Users/Carl/Desktop/CoreDataTest 2/Classes/CoreDataTestAppDelegate.m8750650304#2038"    cd "/Users/Carl/Desktop/CoreDataTest 2"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/Carl/Desktop/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/CoreDataTest-generated-files.hmap" "-I/Users/Carl/Desktop/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/CoreDataTest-own-target-headers.hmap" "-I/Users/Carl/Desktop/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/CoreDataTest-all-target-headers.hmap" -iquote "/Users/Carl/Desktop/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/CoreDataTest-project-headers.hmap" "-F/Users/Carl/Desktop/CoreDataTest 2/build/Debug-iphonesimulator" "-I/Users/Carl/Desktop/CoreDataTest 2/build/Debug-iphonesimulator/include" "-I/Users/Carl/Desktop/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/DerivedSources/i386" "-I/Users/Carl/Desktop/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/DerivedSources" -include /var/folders/5W/5WbKi7hhGkSs6Aomh0sqwE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CoreDataTest_Prefix-danpbbtcjqybwycppmvvmtbfntrc/CoreDataTest_Prefix.pch -c "/Users/Carl/Desktop/CoreDataTest 2/Classes/CoreDataTestAppDelegate.m" -o "/Users/Carl/Desktop/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/Objects-normal/i386/CoreDataTestAppDelegate.o"0#
-
-CCompileC build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/Objects-normal/i386/CoreDataTestAppDelegate.o "/Users/Carl/Desktop/iPhone/CoreDataTest 2/Classes/CoreDataTestAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s317569062.555113
-e317569062.821648
-r1
-xCompileC
-xbuild/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/Objects-normal/i386/CoreDataTestAppDelegate.o
-x/Users/Carl/Desktop/iPhone/CoreDataTest 2/Classes/CoreDataTestAppDelegate.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@83"Compile /Users/Carl/Desktop/iPhone/CoreDataTest 2/Classes/CoreDataTestAppDelegate.m317569062#317569062#0(0"0(0#0#75"/Users/Carl/Desktop/iPhone/CoreDataTest 2/Classes/CoreDataTestAppDelegate.m8668574720#2115"    cd "/Users/Carl/Desktop/iPhone/CoreDataTest 2"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/Carl/Desktop/iPhone/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/CoreDataTest-generated-files.hmap" "-I/Users/Carl/Desktop/iPhone/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/CoreDataTest-own-target-headers.hmap" "-I/Users/Carl/Desktop/iPhone/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/CoreDataTest-all-target-headers.hmap" -iquote "/Users/Carl/Desktop/iPhone/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/CoreDataTest-project-headers.hmap" "-F/Users/Carl/Desktop/iPhone/CoreDataTest 2/build/Debug-iphonesimulator" "-I/Users/Carl/Desktop/iPhone/CoreDataTest 2/build/Debug-iphonesimulator/include" "-I/Users/Carl/Desktop/iPhone/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/DerivedSources/i386" "-I/Users/Carl/Desktop/iPhone/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/DerivedSources" -include /var/folders/5W/5WbKi7hhGkSs6Aomh0sqwE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CoreDataTest_Prefix-fkpbkmeyhskcyfckvmjwddexwzdd/CoreDataTest_Prefix.pch -c "/Users/Carl/Desktop/iPhone/CoreDataTest 2/Classes/CoreDataTestAppDelegate.m" -o "/Users/Carl/Desktop/iPhone/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/Objects-normal/i386/CoreDataTestAppDelegate.o"0#
-
-CCompileC build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/Objects-normal/i386/CoreDataTestAppDelegate.o "/Users/Carl/Downloads/CoreDataTest 2/Classes/CoreDataTestAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s315409140.734064
-e315409140.848846
-r1
-xCompileC
-xbuild/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/Objects-normal/i386/CoreDataTestAppDelegate.o
-x/Users/Carl/Downloads/CoreDataTest 2/Classes/CoreDataTestAppDelegate.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@78"Compile /Users/Carl/Downloads/CoreDataTest 2/Classes/CoreDataTestAppDelegate.m315409140#315409140#0(0"0(0#0#70"/Users/Carl/Downloads/CoreDataTest 2/Classes/CoreDataTestAppDelegate.m8729003488#2060"    cd "/Users/Carl/Downloads/CoreDataTest 2"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/Carl/Downloads/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/CoreDataTest-generated-files.hmap" "-I/Users/Carl/Downloads/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/CoreDataTest-own-target-headers.hmap" "-I/Users/Carl/Downloads/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/CoreDataTest-all-target-headers.hmap" -iquote "/Users/Carl/Downloads/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/CoreDataTest-project-headers.hmap" "-F/Users/Carl/Downloads/CoreDataTest 2/build/Debug-iphonesimulator" "-I/Users/Carl/Downloads/CoreDataTest 2/build/Debug-iphonesimulator/include" "-I/Users/Carl/Downloads/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/DerivedSources/i386" "-I/Users/Carl/Downloads/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/DerivedSources" -include /var/folders/5W/5WbKi7hhGkSs6Aomh0sqwE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CoreDataTest_Prefix-clybyyvpkdjqtobcwfxjmhznemgb/CoreDataTest_Prefix.pch -c "/Users/Carl/Downloads/CoreDataTest 2/Classes/CoreDataTestAppDelegate.m" -o "/Users/Carl/Downloads/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/Objects-normal/i386/CoreDataTestAppDelegate.o"0#
-
-CCompileC build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/Objects-normal/i386/County.o "/Users/Carl/Downloads/CoreDataTest 2/Classes/County.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s315407935.223463
-e315407935.545920
-r1
-xCompileC
-xbuild/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/Objects-normal/i386/County.o
-x/Users/Carl/Downloads/CoreDataTest 2/Classes/County.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@61"Compile /Users/Carl/Downloads/CoreDataTest 2/Classes/County.m315407935#315407935#0(0"0(0#0#53"/Users/Carl/Downloads/CoreDataTest 2/Classes/County.m8723395712#2026"    cd "/Users/Carl/Downloads/CoreDataTest 2"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/Carl/Downloads/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/CoreDataTest-generated-files.hmap" "-I/Users/Carl/Downloads/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/CoreDataTest-own-target-headers.hmap" "-I/Users/Carl/Downloads/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/CoreDataTest-all-target-headers.hmap" -iquote "/Users/Carl/Downloads/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/CoreDataTest-project-headers.hmap" "-F/Users/Carl/Downloads/CoreDataTest 2/build/Debug-iphonesimulator" "-I/Users/Carl/Downloads/CoreDataTest 2/build/Debug-iphonesimulator/include" "-I/Users/Carl/Downloads/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/DerivedSources/i386" "-I/Users/Carl/Downloads/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/DerivedSources" -include /var/folders/5W/5WbKi7hhGkSs6Aomh0sqwE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CoreDataTest_Prefix-clybyyvpkdjqtobcwfxjmhznemgb/CoreDataTest_Prefix.pch -c "/Users/Carl/Downloads/CoreDataTest 2/Classes/County.m" -o "/Users/Carl/Downloads/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/Objects-normal/i386/County.o"0#
-
-CCompileC build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/Objects-normal/i386/DetailsViewController.o "/Users/Carl/Desktop/CoreDataTest 2/Classes/DetailsViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s315768467.564807
-e315768468.267436
-r1
-xCompileC
-xbuild/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/Objects-normal/i386/DetailsViewController.o
-x/Users/Carl/Desktop/CoreDataTest 2/Classes/DetailsViewController.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@74"Compile /Users/Carl/Desktop/CoreDataTest 2/Classes/DetailsViewController.m315768467#315768468#0(0"0(0#0#66"/Users/Carl/Desktop/CoreDataTest 2/Classes/DetailsViewController.m8747293472#2034"    cd "/Users/Carl/Desktop/CoreDataTest 2"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/Carl/Desktop/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/CoreDataTest-generated-files.hmap" "-I/Users/Carl/Desktop/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/CoreDataTest-own-target-headers.hmap" "-I/Users/Carl/Desktop/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/CoreDataTest-all-target-headers.hmap" -iquote "/Users/Carl/Desktop/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/CoreDataTest-project-headers.hmap" "-F/Users/Carl/Desktop/CoreDataTest 2/build/Debug-iphonesimulator" "-I/Users/Carl/Desktop/CoreDataTest 2/build/Debug-iphonesimulator/include" "-I/Users/Carl/Desktop/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/DerivedSources/i386" "-I/Users/Carl/Desktop/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/DerivedSources" -include /var/folders/5W/5WbKi7hhGkSs6Aomh0sqwE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CoreDataTest_Prefix-danpbbtcjqybwycppmvvmtbfntrc/CoreDataTest_Prefix.pch -c "/Users/Carl/Desktop/CoreDataTest 2/Classes/DetailsViewController.m" -o "/Users/Carl/Desktop/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/Objects-normal/i386/DetailsViewController.o"0#
-
-CCompileC build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/Objects-normal/i386/DetailsViewController.o "/Users/Carl/Desktop/iPhone/CoreDataTest 2/Classes/DetailsViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s317566605.627024
-e317566605.813682
-r1
-xCompileC
-xbuild/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/Objects-normal/i386/DetailsViewController.o
-x/Users/Carl/Desktop/iPhone/CoreDataTest 2/Classes/DetailsViewController.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@81"Compile /Users/Carl/Desktop/iPhone/CoreDataTest 2/Classes/DetailsViewController.m317566605#317566605#0(0"0(0#0#73"/Users/Carl/Desktop/iPhone/CoreDataTest 2/Classes/DetailsViewController.m8656499264#2111"    cd "/Users/Carl/Desktop/iPhone/CoreDataTest 2"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/Carl/Desktop/iPhone/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/CoreDataTest-generated-files.hmap" "-I/Users/Carl/Desktop/iPhone/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/CoreDataTest-own-target-headers.hmap" "-I/Users/Carl/Desktop/iPhone/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/CoreDataTest-all-target-headers.hmap" -iquote "/Users/Carl/Desktop/iPhone/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/CoreDataTest-project-headers.hmap" "-F/Users/Carl/Desktop/iPhone/CoreDataTest 2/build/Debug-iphonesimulator" "-I/Users/Carl/Desktop/iPhone/CoreDataTest 2/build/Debug-iphonesimulator/include" "-I/Users/Carl/Desktop/iPhone/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/DerivedSources/i386" "-I/Users/Carl/Desktop/iPhone/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/DerivedSources" -include /var/folders/5W/5WbKi7hhGkSs6Aomh0sqwE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CoreDataTest_Prefix-fkpbkmeyhskcyfckvmjwddexwzdd/CoreDataTest_Prefix.pch -c "/Users/Carl/Desktop/iPhone/CoreDataTest 2/Classes/DetailsViewController.m" -o "/Users/Carl/Desktop/iPhone/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/Objects-normal/i386/DetailsViewController.o"0#
-
-CCompileC build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/Objects-normal/i386/DetailsViewController.o "/Users/Carl/Downloads/CoreDataTest 2/Classes/DetailsViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s315409307.588846
-e315409307.780379
-r1
-xCompileC
-xbuild/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/Objects-normal/i386/DetailsViewController.o
-x/Users/Carl/Downloads/CoreDataTest 2/Classes/DetailsViewController.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-o/Users/Carl/Downloads/CoreDataTest 2/Classes/DetailsViewController.m: In function '-[DetailsViewController phoneButtonClicked:]':
-o/Users/Carl/Downloads/CoreDataTest 2/Classes/DetailsViewController.m:113: warning: assignment makes pointer from integer without a cast
-lSLF07#2@76"Compile /Users/Carl/Downloads/CoreDataTest 2/Classes/DetailsViewController.m315409307#315409307#0(266"/Users/Carl/Downloads/CoreDataTest 2/Classes/DetailsViewController.m: In function '-[DetailsViewController phoneButtonClicked:]':/Users/Carl/Downloads/CoreDataTest 2/Classes/DetailsViewController.m:113: warning: assignment makes pointer from integer without a cast1(22@52"Assignment makes pointer from integer without a cast315409307#130#136#0(6@68"/Users/Carl/Downloads/CoreDataTest 2/Classes/DetailsViewController.m315409305#113#0#113#0#0"0(0#0#68"/Users/Carl/Downloads/CoreDataTest 2/Classes/DetailsViewController.m8723859936#2056"    cd "/Users/Carl/Downloads/CoreDataTest 2"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/Carl/Downloads/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/CoreDataTest-generated-files.hmap" "-I/Users/Carl/Downloads/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/CoreDataTest-own-target-headers.hmap" "-I/Users/Carl/Downloads/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/CoreDataTest-all-target-headers.hmap" -iquote "/Users/Carl/Downloads/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/CoreDataTest-project-headers.hmap" "-F/Users/Carl/Downloads/CoreDataTest 2/build/Debug-iphonesimulator" "-I/Users/Carl/Downloads/CoreDataTest 2/build/Debug-iphonesimulator/include" "-I/Users/Carl/Downloads/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/DerivedSources/i386" "-I/Users/Carl/Downloads/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/DerivedSources" -include /var/folders/5W/5WbKi7hhGkSs6Aomh0sqwE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CoreDataTest_Prefix-clybyyvpkdjqtobcwfxjmhznemgb/CoreDataTest_Prefix.pch -c "/Users/Carl/Downloads/CoreDataTest 2/Classes/DetailsViewController.m" -o "/Users/Carl/Downloads/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/Objects-normal/i386/DetailsViewController.o"0#
-
-CCompileC build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/Objects-normal/i386/LocationsParser.o "/Users/Carl/Desktop/CoreDataTest 2/Classes/LocationsParser.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s315417040.699062
-e315417040.945533
-r1
-xCompileC
-xbuild/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/Objects-normal/i386/LocationsParser.o
-x/Users/Carl/Desktop/CoreDataTest 2/Classes/LocationsParser.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-o/Users/Carl/Desktop/CoreDataTest 2/Classes/LocationsParser.m: In function '-[LocationsParser parseXMLFileAtURL:parseError:]':
-o/Users/Carl/Desktop/CoreDataTest 2/Classes/LocationsParser.m:34: warning: class 'LocationsParser' does not implement the 'NSXMLParserDelegate' protocol
-lSLF07#2@68"Compile /Users/Carl/Desktop/CoreDataTest 2/Classes/LocationsParser.m315417040#315417040#0(278"/Users/Carl/Desktop/CoreDataTest 2/Classes/LocationsParser.m: In function '-[LocationsParser parseXMLFileAtURL:parseError:]':/Users/Carl/Desktop/CoreDataTest 2/Classes/LocationsParser.m:34: warning: class 'LocationsParser' does not implement the 'NSXMLParserDelegate' protocol1(22@77"Class 'LocationsParser' does not implement the 'NSXMLParserDelegate' protocol315417040#126#152#0(6@60"/Users/Carl/Desktop/CoreDataTest 2/Classes/LocationsParser.m315416996#34#0#34#0#45"class '*' does not implement the '*' protocol0(0#0#60"/Users/Carl/Desktop/CoreDataTest 2/Classes/LocationsParser.m8740274144#2022"    cd "/Users/Carl/Desktop/CoreDataTest 2"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/Carl/Desktop/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/CoreDataTest-generated-files.hmap" "-I/Users/Carl/Desktop/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/CoreDataTest-own-target-headers.hmap" "-I/Users/Carl/Desktop/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/CoreDataTest-all-target-headers.hmap" -iquote "/Users/Carl/Desktop/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/CoreDataTest-project-headers.hmap" "-F/Users/Carl/Desktop/CoreDataTest 2/build/Debug-iphonesimulator" "-I/Users/Carl/Desktop/CoreDataTest 2/build/Debug-iphonesimulator/include" "-I/Users/Carl/Desktop/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/DerivedSources/i386" "-I/Users/Carl/Desktop/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/DerivedSources" -include /var/folders/5W/5WbKi7hhGkSs6Aomh0sqwE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CoreDataTest_Prefix-danpbbtcjqybwycppmvvmtbfntrc/CoreDataTest_Prefix.pch -c "/Users/Carl/Desktop/CoreDataTest 2/Classes/LocationsParser.m" -o "/Users/Carl/Desktop/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/Objects-normal/i386/LocationsParser.o"0#
-
-CCompileC build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/Objects-normal/i386/LocationsParser.o "/Users/Carl/Desktop/iPhone/CoreDataTest 2/Classes/LocationsParser.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s317566605.496607
-e317566605.652579
-r1
-xCompileC
-xbuild/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/Objects-normal/i386/LocationsParser.o
-x/Users/Carl/Desktop/iPhone/CoreDataTest 2/Classes/LocationsParser.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-o/Users/Carl/Desktop/iPhone/CoreDataTest 2/Classes/LocationsParser.m: In function '-[LocationsParser parseXMLFileAtURL:parseError:]':
-o/Users/Carl/Desktop/iPhone/CoreDataTest 2/Classes/LocationsParser.m:34: warning: class 'LocationsParser' does not implement the 'NSXMLParserDelegate' protocol
-lSLF07#2@75"Compile /Users/Carl/Desktop/iPhone/CoreDataTest 2/Classes/LocationsParser.m317566605#317566605#0(292"/Users/Carl/Desktop/iPhone/CoreDataTest 2/Classes/LocationsParser.m: In function '-[LocationsParser parseXMLFileAtURL:parseError:]':/Users/Carl/Desktop/iPhone/CoreDataTest 2/Classes/LocationsParser.m:34: warning: class 'LocationsParser' does not implement the 'NSXMLParserDelegate' protocol1(22@77"Class 'LocationsParser' does not implement the 'NSXMLParserDelegate' protocol317566605#133#159#0(6@67"/Users/Carl/Desktop/iPhone/CoreDataTest 2/Classes/LocationsParser.m315416996#34#0#34#0#45"class '*' does not implement the '*' protocol0(0#0#67"/Users/Carl/Desktop/iPhone/CoreDataTest 2/Classes/LocationsParser.m8653671808#2099"    cd "/Users/Carl/Desktop/iPhone/CoreDataTest 2"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/Carl/Desktop/iPhone/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/CoreDataTest-generated-files.hmap" "-I/Users/Carl/Desktop/iPhone/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/CoreDataTest-own-target-headers.hmap" "-I/Users/Carl/Desktop/iPhone/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/CoreDataTest-all-target-headers.hmap" -iquote "/Users/Carl/Desktop/iPhone/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/CoreDataTest-project-headers.hmap" "-F/Users/Carl/Desktop/iPhone/CoreDataTest 2/build/Debug-iphonesimulator" "-I/Users/Carl/Desktop/iPhone/CoreDataTest 2/build/Debug-iphonesimulator/include" "-I/Users/Carl/Desktop/iPhone/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/DerivedSources/i386" "-I/Users/Carl/Desktop/iPhone/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/DerivedSources" -include /var/folders/5W/5WbKi7hhGkSs6Aomh0sqwE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CoreDataTest_Prefix-fkpbkmeyhskcyfckvmjwddexwzdd/CoreDataTest_Prefix.pch -c "/Users/Carl/Desktop/iPhone/CoreDataTest 2/Classes/LocationsParser.m" -o "/Users/Carl/Desktop/iPhone/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/Objects-normal/i386/LocationsParser.o"0#
-
-CCompileC build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/Objects-normal/i386/LocationsParser.o "/Users/Carl/Downloads/CoreDataTest 2/Classes/LocationsParser.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s315407935.479900
-e315407935.739140
-r1
-xCompileC
-xbuild/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/Objects-normal/i386/LocationsParser.o
-x/Users/Carl/Downloads/CoreDataTest 2/Classes/LocationsParser.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-o/Users/Carl/Downloads/CoreDataTest 2/Classes/LocationsParser.m: In function '-[LocationsParser parseXMLFileAtURL:parseError:]':
-o/Users/Carl/Downloads/CoreDataTest 2/Classes/LocationsParser.m:34: warning: class 'LocationsParser' does not implement the 'NSXMLParserDelegate' protocol
-lSLF07#2@70"Compile /Users/Carl/Downloads/CoreDataTest 2/Classes/LocationsParser.m315407935#315407935#0(282"/Users/Carl/Downloads/CoreDataTest 2/Classes/LocationsParser.m: In function '-[LocationsParser parseXMLFileAtURL:parseError:]':/Users/Carl/Downloads/CoreDataTest 2/Classes/LocationsParser.m:34: warning: class 'LocationsParser' does not implement the 'NSXMLParserDelegate' protocol1(22@77"Class 'LocationsParser' does not implement the 'NSXMLParserDelegate' protocol315407935#128#154#0(6@62"/Users/Carl/Downloads/CoreDataTest 2/Classes/LocationsParser.m291983668#34#0#34#0#45"class '*' does not implement the '*' protocol0(0#0#62"/Users/Carl/Downloads/CoreDataTest 2/Classes/LocationsParser.m8658277344#2044"    cd "/Users/Carl/Downloads/CoreDataTest 2"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/Carl/Downloads/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/CoreDataTest-generated-files.hmap" "-I/Users/Carl/Downloads/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/CoreDataTest-own-target-headers.hmap" "-I/Users/Carl/Downloads/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/CoreDataTest-all-target-headers.hmap" -iquote "/Users/Carl/Downloads/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/CoreDataTest-project-headers.hmap" "-F/Users/Carl/Downloads/CoreDataTest 2/build/Debug-iphonesimulator" "-I/Users/Carl/Downloads/CoreDataTest 2/build/Debug-iphonesimulator/include" "-I/Users/Carl/Downloads/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/DerivedSources/i386" "-I/Users/Carl/Downloads/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/DerivedSources" -include /var/folders/5W/5WbKi7hhGkSs6Aomh0sqwE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CoreDataTest_Prefix-clybyyvpkdjqtobcwfxjmhznemgb/CoreDataTest_Prefix.pch -c "/Users/Carl/Downloads/CoreDataTest 2/Classes/LocationsParser.m" -o "/Users/Carl/Downloads/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/Objects-normal/i386/LocationsParser.o"0#
-
-CCompileC build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/Objects-normal/i386/MLUtils.o "/Users/Carl/Desktop/CoreDataTest 2/Classes/MLUtils.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s315415403.634076
-e315415403.690775
-r1
-xCompileC
-xbuild/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/Objects-normal/i386/MLUtils.o
-x/Users/Carl/Desktop/CoreDataTest 2/Classes/MLUtils.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@60"Compile /Users/Carl/Desktop/CoreDataTest 2/Classes/MLUtils.m315415403#315415403#0(0"0(0#0#52"/Users/Carl/Desktop/CoreDataTest 2/Classes/MLUtils.m8744990048#2006"    cd "/Users/Carl/Desktop/CoreDataTest 2"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/Carl/Desktop/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/CoreDataTest-generated-files.hmap" "-I/Users/Carl/Desktop/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/CoreDataTest-own-target-headers.hmap" "-I/Users/Carl/Desktop/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/CoreDataTest-all-target-headers.hmap" -iquote "/Users/Carl/Desktop/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/CoreDataTest-project-headers.hmap" "-F/Users/Carl/Desktop/CoreDataTest 2/build/Debug-iphonesimulator" "-I/Users/Carl/Desktop/CoreDataTest 2/build/Debug-iphonesimulator/include" "-I/Users/Carl/Desktop/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/DerivedSources/i386" "-I/Users/Carl/Desktop/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/DerivedSources" -include /var/folders/5W/5WbKi7hhGkSs6Aomh0sqwE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CoreDataTest_Prefix-danpbbtcjqybwycppmvvmtbfntrc/CoreDataTest_Prefix.pch -c "/Users/Carl/Desktop/CoreDataTest 2/Classes/MLUtils.m" -o "/Users/Carl/Desktop/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/Objects-normal/i386/MLUtils.o"0#
-
-CCompileC build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/Objects-normal/i386/MLUtils.o "/Users/Carl/Desktop/iPhone/CoreDataTest 2/Classes/MLUtils.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s317566605.735592
-e317566605.813431
-r1
-xCompileC
-xbuild/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/Objects-normal/i386/MLUtils.o
-x/Users/Carl/Desktop/iPhone/CoreDataTest 2/Classes/MLUtils.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@67"Compile /Users/Carl/Desktop/iPhone/CoreDataTest 2/Classes/MLUtils.m317566605#317566605#0(0"0(0#0#59"/Users/Carl/Desktop/iPhone/CoreDataTest 2/Classes/MLUtils.m8651135232#2083"    cd "/Users/Carl/Desktop/iPhone/CoreDataTest 2"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/Carl/Desktop/iPhone/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/CoreDataTest-generated-files.hmap" "-I/Users/Carl/Desktop/iPhone/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/CoreDataTest-own-target-headers.hmap" "-I/Users/Carl/Desktop/iPhone/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/CoreDataTest-all-target-headers.hmap" -iquote "/Users/Carl/Desktop/iPhone/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/CoreDataTest-project-headers.hmap" "-F/Users/Carl/Desktop/iPhone/CoreDataTest 2/build/Debug-iphonesimulator" "-I/Users/Carl/Desktop/iPhone/CoreDataTest 2/build/Debug-iphonesimulator/include" "-I/Users/Carl/Desktop/iPhone/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/DerivedSources/i386" "-I/Users/Carl/Desktop/iPhone/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/DerivedSources" -include /var/folders/5W/5WbKi7hhGkSs6Aomh0sqwE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CoreDataTest_Prefix-fkpbkmeyhskcyfckvmjwddexwzdd/CoreDataTest_Prefix.pch -c "/Users/Carl/Desktop/iPhone/CoreDataTest 2/Classes/MLUtils.m" -o "/Users/Carl/Desktop/iPhone/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/Objects-normal/i386/MLUtils.o"0#
-
-CCompileC build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/Objects-normal/i386/MLUtils.o "/Users/Carl/Downloads/CoreDataTest 2/Classes/MLUtils.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s315407935.739236
-e315407935.821812
-r1
-xCompileC
-xbuild/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/Objects-normal/i386/MLUtils.o
-x/Users/Carl/Downloads/CoreDataTest 2/Classes/MLUtils.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@62"Compile /Users/Carl/Downloads/CoreDataTest 2/Classes/MLUtils.m315407935#315407935#0(0"0(0#0#54"/Users/Carl/Downloads/CoreDataTest 2/Classes/MLUtils.m8724274752#2028"    cd "/Users/Carl/Downloads/CoreDataTest 2"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/Carl/Downloads/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/CoreDataTest-generated-files.hmap" "-I/Users/Carl/Downloads/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/CoreDataTest-own-target-headers.hmap" "-I/Users/Carl/Downloads/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/CoreDataTest-all-target-headers.hmap" -iquote "/Users/Carl/Downloads/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/CoreDataTest-project-headers.hmap" "-F/Users/Carl/Downloads/CoreDataTest 2/build/Debug-iphonesimulator" "-I/Users/Carl/Downloads/CoreDataTest 2/build/Debug-iphonesimulator/include" "-I/Users/Carl/Downloads/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/DerivedSources/i386" "-I/Users/Carl/Downloads/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/DerivedSources" -include /var/folders/5W/5WbKi7hhGkSs6Aomh0sqwE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CoreDataTest_Prefix-clybyyvpkdjqtobcwfxjmhznemgb/CoreDataTest_Prefix.pch -c "/Users/Carl/Downloads/CoreDataTest 2/Classes/MLUtils.m" -o "/Users/Carl/Downloads/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/Objects-normal/i386/MLUtils.o"0#
-
-CCompileC build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/Objects-normal/i386/Manufacturer.o "/Users/Carl/Desktop/CoreDataTest 2/Classes/Manufacturer.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s315415403.371250
-e315415403.453900
-r1
-xCompileC
-xbuild/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/Objects-normal/i386/Manufacturer.o
-x/Users/Carl/Desktop/CoreDataTest 2/Classes/Manufacturer.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@65"Compile /Users/Carl/Desktop/CoreDataTest 2/Classes/Manufacturer.m315415403#315415403#0(0"0(0#0#57"/Users/Carl/Desktop/CoreDataTest 2/Classes/Manufacturer.m8742986560#2016"    cd "/Users/Carl/Desktop/CoreDataTest 2"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/Carl/Desktop/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/CoreDataTest-generated-files.hmap" "-I/Users/Carl/Desktop/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/CoreDataTest-own-target-headers.hmap" "-I/Users/Carl/Desktop/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/CoreDataTest-all-target-headers.hmap" -iquote "/Users/Carl/Desktop/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/CoreDataTest-project-headers.hmap" "-F/Users/Carl/Desktop/CoreDataTest 2/build/Debug-iphonesimulator" "-I/Users/Carl/Desktop/CoreDataTest 2/build/Debug-iphonesimulator/include" "-I/Users/Carl/Desktop/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/DerivedSources/i386" "-I/Users/Carl/Desktop/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/DerivedSources" -include /var/folders/5W/5WbKi7hhGkSs6Aomh0sqwE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CoreDataTest_Prefix-danpbbtcjqybwycppmvvmtbfntrc/CoreDataTest_Prefix.pch -c "/Users/Carl/Desktop/CoreDataTest 2/Classes/Manufacturer.m" -o "/Users/Carl/Desktop/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/Objects-normal/i386/Manufacturer.o"0#
-
-CCompileC build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/Objects-normal/i386/Manufacturer.o "/Users/Carl/Desktop/iPhone/CoreDataTest 2/Classes/Manufacturer.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s317566605.400182
-e317566605.494871
-r1
-xCompileC
-xbuild/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/Objects-normal/i386/Manufacturer.o
-x/Users/Carl/Desktop/iPhone/CoreDataTest 2/Classes/Manufacturer.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@72"Compile /Users/Carl/Desktop/iPhone/CoreDataTest 2/Classes/Manufacturer.m317566605#317566605#0(0"0(0#0#64"/Users/Carl/Desktop/iPhone/CoreDataTest 2/Classes/Manufacturer.m8611001536#2093"    cd "/Users/Carl/Desktop/iPhone/CoreDataTest 2"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/Carl/Desktop/iPhone/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/CoreDataTest-generated-files.hmap" "-I/Users/Carl/Desktop/iPhone/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/CoreDataTest-own-target-headers.hmap" "-I/Users/Carl/Desktop/iPhone/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/CoreDataTest-all-target-headers.hmap" -iquote "/Users/Carl/Desktop/iPhone/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/CoreDataTest-project-headers.hmap" "-F/Users/Carl/Desktop/iPhone/CoreDataTest 2/build/Debug-iphonesimulator" "-I/Users/Carl/Desktop/iPhone/CoreDataTest 2/build/Debug-iphonesimulator/include" "-I/Users/Carl/Desktop/iPhone/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/DerivedSources/i386" "-I/Users/Carl/Desktop/iPhone/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/DerivedSources" -include /var/folders/5W/5WbKi7hhGkSs6Aomh0sqwE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CoreDataTest_Prefix-fkpbkmeyhskcyfckvmjwddexwzdd/CoreDataTest_Prefix.pch -c "/Users/Carl/Desktop/iPhone/CoreDataTest 2/Classes/Manufacturer.m" -o "/Users/Carl/Desktop/iPhone/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/Objects-normal/i386/Manufacturer.o"0#
-
-CCompileC build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/Objects-normal/i386/Model.o "/Users/Carl/Desktop/CoreDataTest 2/Classes/Model.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s315417040.688716
-e315417040.817300
-r1
-xCompileC
-xbuild/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/Objects-normal/i386/Model.o
-x/Users/Carl/Desktop/CoreDataTest 2/Classes/Model.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@58"Compile /Users/Carl/Desktop/CoreDataTest 2/Classes/Model.m315417040#315417040#0(0"0(0#0#50"/Users/Carl/Desktop/CoreDataTest 2/Classes/Model.m8748439008#2002"    cd "/Users/Carl/Desktop/CoreDataTest 2"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/Carl/Desktop/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/CoreDataTest-generated-files.hmap" "-I/Users/Carl/Desktop/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/CoreDataTest-own-target-headers.hmap" "-I/Users/Carl/Desktop/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/CoreDataTest-all-target-headers.hmap" -iquote "/Users/Carl/Desktop/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/CoreDataTest-project-headers.hmap" "-F/Users/Carl/Desktop/CoreDataTest 2/build/Debug-iphonesimulator" "-I/Users/Carl/Desktop/CoreDataTest 2/build/Debug-iphonesimulator/include" "-I/Users/Carl/Desktop/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/DerivedSources/i386" "-I/Users/Carl/Desktop/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/DerivedSources" -include /var/folders/5W/5WbKi7hhGkSs6Aomh0sqwE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CoreDataTest_Prefix-danpbbtcjqybwycppmvvmtbfntrc/CoreDataTest_Prefix.pch -c "/Users/Carl/Desktop/CoreDataTest 2/Classes/Model.m" -o "/Users/Carl/Desktop/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/Objects-normal/i386/Model.o"0#
-
-CCompileC build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/Objects-normal/i386/Model.o "/Users/Carl/Desktop/iPhone/CoreDataTest 2/Classes/Model.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s317566605.398980
-e317566605.496532
-r1
-xCompileC
-xbuild/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/Objects-normal/i386/Model.o
-x/Users/Carl/Desktop/iPhone/CoreDataTest 2/Classes/Model.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@65"Compile /Users/Carl/Desktop/iPhone/CoreDataTest 2/Classes/Model.m317566605#317566605#0(0"0(0#0#57"/Users/Carl/Desktop/iPhone/CoreDataTest 2/Classes/Model.m8622260832#2079"    cd "/Users/Carl/Desktop/iPhone/CoreDataTest 2"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/Carl/Desktop/iPhone/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/CoreDataTest-generated-files.hmap" "-I/Users/Carl/Desktop/iPhone/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/CoreDataTest-own-target-headers.hmap" "-I/Users/Carl/Desktop/iPhone/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/CoreDataTest-all-target-headers.hmap" -iquote "/Users/Carl/Desktop/iPhone/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/CoreDataTest-project-headers.hmap" "-F/Users/Carl/Desktop/iPhone/CoreDataTest 2/build/Debug-iphonesimulator" "-I/Users/Carl/Desktop/iPhone/CoreDataTest 2/build/Debug-iphonesimulator/include" "-I/Users/Carl/Desktop/iPhone/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/DerivedSources/i386" "-I/Users/Carl/Desktop/iPhone/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/DerivedSources" -include /var/folders/5W/5WbKi7hhGkSs6Aomh0sqwE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CoreDataTest_Prefix-fkpbkmeyhskcyfckvmjwddexwzdd/CoreDataTest_Prefix.pch -c "/Users/Carl/Desktop/iPhone/CoreDataTest 2/Classes/Model.m" -o "/Users/Carl/Desktop/iPhone/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/Objects-normal/i386/Model.o"0#
-
-CCompileC build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/Objects-normal/i386/Option.o "/Users/Carl/Desktop/CoreDataTest 2/Classes/Option.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s315417040.817480
-e315417041.014846
-r1
-xCompileC
-xbuild/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/Objects-normal/i386/Option.o
-x/Users/Carl/Desktop/CoreDataTest 2/Classes/Option.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@59"Compile /Users/Carl/Desktop/CoreDataTest 2/Classes/Option.m315417040#315417041#0(0"0(0#0#51"/Users/Carl/Desktop/CoreDataTest 2/Classes/Option.m8750686880#2004"    cd "/Users/Carl/Desktop/CoreDataTest 2"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/Carl/Desktop/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/CoreDataTest-generated-files.hmap" "-I/Users/Carl/Desktop/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/CoreDataTest-own-target-headers.hmap" "-I/Users/Carl/Desktop/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/CoreDataTest-all-target-headers.hmap" -iquote "/Users/Carl/Desktop/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/CoreDataTest-project-headers.hmap" "-F/Users/Carl/Desktop/CoreDataTest 2/build/Debug-iphonesimulator" "-I/Users/Carl/Desktop/CoreDataTest 2/build/Debug-iphonesimulator/include" "-I/Users/Carl/Desktop/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/DerivedSources/i386" "-I/Users/Carl/Desktop/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/DerivedSources" -include /var/folders/5W/5WbKi7hhGkSs6Aomh0sqwE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CoreDataTest_Prefix-danpbbtcjqybwycppmvvmtbfntrc/CoreDataTest_Prefix.pch -c "/Users/Carl/Desktop/CoreDataTest 2/Classes/Option.m" -o "/Users/Carl/Desktop/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/Objects-normal/i386/Option.o"0#
-
-CCompileC build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/Objects-normal/i386/Option.o "/Users/Carl/Desktop/iPhone/CoreDataTest 2/Classes/Option.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s317566605.652668
-e317566605.735494
-r1
-xCompileC
-xbuild/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/Objects-normal/i386/Option.o
-x/Users/Carl/Desktop/iPhone/CoreDataTest 2/Classes/Option.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@66"Compile /Users/Carl/Desktop/iPhone/CoreDataTest 2/Classes/Option.m317566605#317566605#0(0"0(0#0#58"/Users/Carl/Desktop/iPhone/CoreDataTest 2/Classes/Option.m8652211456#2081"    cd "/Users/Carl/Desktop/iPhone/CoreDataTest 2"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/Carl/Desktop/iPhone/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/CoreDataTest-generated-files.hmap" "-I/Users/Carl/Desktop/iPhone/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/CoreDataTest-own-target-headers.hmap" "-I/Users/Carl/Desktop/iPhone/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/CoreDataTest-all-target-headers.hmap" -iquote "/Users/Carl/Desktop/iPhone/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/CoreDataTest-project-headers.hmap" "-F/Users/Carl/Desktop/iPhone/CoreDataTest 2/build/Debug-iphonesimulator" "-I/Users/Carl/Desktop/iPhone/CoreDataTest 2/build/Debug-iphonesimulator/include" "-I/Users/Carl/Desktop/iPhone/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/DerivedSources/i386" "-I/Users/Carl/Desktop/iPhone/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/DerivedSources" -include /var/folders/5W/5WbKi7hhGkSs6Aomh0sqwE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CoreDataTest_Prefix-fkpbkmeyhskcyfckvmjwddexwzdd/CoreDataTest_Prefix.pch -c "/Users/Carl/Desktop/iPhone/CoreDataTest 2/Classes/Option.m" -o "/Users/Carl/Desktop/iPhone/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/Objects-normal/i386/Option.o"0#
-
-CCompileC build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/Objects-normal/i386/Province.o "/Users/Carl/Downloads/CoreDataTest 2/Classes/Province.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s315407935.125906
-e315407935.222745
-r1
-xCompileC
-xbuild/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/Objects-normal/i386/Province.o
-x/Users/Carl/Downloads/CoreDataTest 2/Classes/Province.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@63"Compile /Users/Carl/Downloads/CoreDataTest 2/Classes/Province.m315407935#315407935#0(0"0(0#0#55"/Users/Carl/Downloads/CoreDataTest 2/Classes/Province.m8724054144#2030"    cd "/Users/Carl/Downloads/CoreDataTest 2"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/Carl/Downloads/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/CoreDataTest-generated-files.hmap" "-I/Users/Carl/Downloads/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/CoreDataTest-own-target-headers.hmap" "-I/Users/Carl/Downloads/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/CoreDataTest-all-target-headers.hmap" -iquote "/Users/Carl/Downloads/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/CoreDataTest-project-headers.hmap" "-F/Users/Carl/Downloads/CoreDataTest 2/build/Debug-iphonesimulator" "-I/Users/Carl/Downloads/CoreDataTest 2/build/Debug-iphonesimulator/include" "-I/Users/Carl/Downloads/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/DerivedSources/i386" "-I/Users/Carl/Downloads/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/DerivedSources" -include /var/folders/5W/5WbKi7hhGkSs6Aomh0sqwE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CoreDataTest_Prefix-clybyyvpkdjqtobcwfxjmhznemgb/CoreDataTest_Prefix.pch -c "/Users/Carl/Downloads/CoreDataTest 2/Classes/Province.m" -o "/Users/Carl/Downloads/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/Objects-normal/i386/Province.o"0#
-
-CCompileC build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/Objects-normal/i386/RootViewController.o "/Users/Carl/Desktop/CoreDataTest 2/Classes/RootViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s315417040.571082
-e315417040.688609
-r1
-xCompileC
-xbuild/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/Objects-normal/i386/RootViewController.o
-x/Users/Carl/Desktop/CoreDataTest 2/Classes/RootViewController.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@71"Compile /Users/Carl/Desktop/CoreDataTest 2/Classes/RootViewController.m315417040#315417040#0(0"0(0#0#63"/Users/Carl/Desktop/CoreDataTest 2/Classes/RootViewController.m8749977696#2028"    cd "/Users/Carl/Desktop/CoreDataTest 2"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/Carl/Desktop/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/CoreDataTest-generated-files.hmap" "-I/Users/Carl/Desktop/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/CoreDataTest-own-target-headers.hmap" "-I/Users/Carl/Desktop/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/CoreDataTest-all-target-headers.hmap" -iquote "/Users/Carl/Desktop/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/CoreDataTest-project-headers.hmap" "-F/Users/Carl/Desktop/CoreDataTest 2/build/Debug-iphonesimulator" "-I/Users/Carl/Desktop/CoreDataTest 2/build/Debug-iphonesimulator/include" "-I/Users/Carl/Desktop/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/DerivedSources/i386" "-I/Users/Carl/Desktop/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/DerivedSources" -include /var/folders/5W/5WbKi7hhGkSs6Aomh0sqwE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CoreDataTest_Prefix-danpbbtcjqybwycppmvvmtbfntrc/CoreDataTest_Prefix.pch -c "/Users/Carl/Desktop/CoreDataTest 2/Classes/RootViewController.m" -o "/Users/Carl/Desktop/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/Objects-normal/i386/RootViewController.o"0#
-
-CCompileC build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/Objects-normal/i386/RootViewController.o "/Users/Carl/Desktop/iPhone/CoreDataTest 2/Classes/RootViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s317566605.155937
-e317566605.398834
-r1
-xCompileC
-xbuild/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/Objects-normal/i386/RootViewController.o
-x/Users/Carl/Desktop/iPhone/CoreDataTest 2/Classes/RootViewController.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@78"Compile /Users/Carl/Desktop/iPhone/CoreDataTest 2/Classes/RootViewController.m317566605#317566605#0(0"0(0#0#70"/Users/Carl/Desktop/iPhone/CoreDataTest 2/Classes/RootViewController.m8651271040#2105"    cd "/Users/Carl/Desktop/iPhone/CoreDataTest 2"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/Carl/Desktop/iPhone/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/CoreDataTest-generated-files.hmap" "-I/Users/Carl/Desktop/iPhone/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/CoreDataTest-own-target-headers.hmap" "-I/Users/Carl/Desktop/iPhone/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/CoreDataTest-all-target-headers.hmap" -iquote "/Users/Carl/Desktop/iPhone/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/CoreDataTest-project-headers.hmap" "-F/Users/Carl/Desktop/iPhone/CoreDataTest 2/build/Debug-iphonesimulator" "-I/Users/Carl/Desktop/iPhone/CoreDataTest 2/build/Debug-iphonesimulator/include" "-I/Users/Carl/Desktop/iPhone/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/DerivedSources/i386" "-I/Users/Carl/Desktop/iPhone/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/DerivedSources" -include /var/folders/5W/5WbKi7hhGkSs6Aomh0sqwE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CoreDataTest_Prefix-fkpbkmeyhskcyfckvmjwddexwzdd/CoreDataTest_Prefix.pch -c "/Users/Carl/Desktop/iPhone/CoreDataTest 2/Classes/RootViewController.m" -o "/Users/Carl/Desktop/iPhone/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/Objects-normal/i386/RootViewController.o"0#
-
-CCompileC build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/Objects-normal/i386/RootViewController.o "/Users/Carl/Downloads/CoreDataTest 2/Classes/RootViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s315409140.735348
-e315409141.174573
-r1
-xCompileC
-xbuild/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/Objects-normal/i386/RootViewController.o
-x/Users/Carl/Downloads/CoreDataTest 2/Classes/RootViewController.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@73"Compile /Users/Carl/Downloads/CoreDataTest 2/Classes/RootViewController.m315409140#315409141#0(0"0(0#0#65"/Users/Carl/Downloads/CoreDataTest 2/Classes/RootViewController.m8721716416#2050"    cd "/Users/Carl/Downloads/CoreDataTest 2"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/Carl/Downloads/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/CoreDataTest-generated-files.hmap" "-I/Users/Carl/Downloads/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/CoreDataTest-own-target-headers.hmap" "-I/Users/Carl/Downloads/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/CoreDataTest-all-target-headers.hmap" -iquote "/Users/Carl/Downloads/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/CoreDataTest-project-headers.hmap" "-F/Users/Carl/Downloads/CoreDataTest 2/build/Debug-iphonesimulator" "-I/Users/Carl/Downloads/CoreDataTest 2/build/Debug-iphonesimulator/include" "-I/Users/Carl/Downloads/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/DerivedSources/i386" "-I/Users/Carl/Downloads/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/DerivedSources" -include /var/folders/5W/5WbKi7hhGkSs6Aomh0sqwE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CoreDataTest_Prefix-clybyyvpkdjqtobcwfxjmhznemgb/CoreDataTest_Prefix.pch -c "/Users/Carl/Downloads/CoreDataTest 2/Classes/RootViewController.m" -o "/Users/Carl/Downloads/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/Objects-normal/i386/RootViewController.o"0#
-
-CCompileC build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/Objects-normal/i386/main.o "/Users/Carl/Desktop/CoreDataTest 2/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s315415402.783667
-e315415403.175433
-r1
-xCompileC
-xbuild/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/Objects-normal/i386/main.o
-x/Users/Carl/Desktop/CoreDataTest 2/main.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@49"Compile /Users/Carl/Desktop/CoreDataTest 2/main.m315415402#315415403#0(0"0(0#0#41"/Users/Carl/Desktop/CoreDataTest 2/main.m8744460576#1992"    cd "/Users/Carl/Desktop/CoreDataTest 2"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/Carl/Desktop/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/CoreDataTest-generated-files.hmap" "-I/Users/Carl/Desktop/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/CoreDataTest-own-target-headers.hmap" "-I/Users/Carl/Desktop/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/CoreDataTest-all-target-headers.hmap" -iquote "/Users/Carl/Desktop/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/CoreDataTest-project-headers.hmap" "-F/Users/Carl/Desktop/CoreDataTest 2/build/Debug-iphonesimulator" "-I/Users/Carl/Desktop/CoreDataTest 2/build/Debug-iphonesimulator/include" "-I/Users/Carl/Desktop/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/DerivedSources/i386" "-I/Users/Carl/Desktop/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/DerivedSources" -include /var/folders/5W/5WbKi7hhGkSs6Aomh0sqwE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CoreDataTest_Prefix-danpbbtcjqybwycppmvvmtbfntrc/CoreDataTest_Prefix.pch -c "/Users/Carl/Desktop/CoreDataTest 2/main.m" -o "/Users/Carl/Desktop/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/Objects-normal/i386/main.o"0#
-
-CCompileC build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/Objects-normal/i386/main.o "/Users/Carl/Desktop/iPhone/CoreDataTest 2/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s317566605.023821
-e317566605.155836
-r1
-xCompileC
-xbuild/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/Objects-normal/i386/main.o
-x/Users/Carl/Desktop/iPhone/CoreDataTest 2/main.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@56"Compile /Users/Carl/Desktop/iPhone/CoreDataTest 2/main.m317566605#317566605#0(0"0(0#0#48"/Users/Carl/Desktop/iPhone/CoreDataTest 2/main.m8668222080#2069"    cd "/Users/Carl/Desktop/iPhone/CoreDataTest 2"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/Carl/Desktop/iPhone/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/CoreDataTest-generated-files.hmap" "-I/Users/Carl/Desktop/iPhone/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/CoreDataTest-own-target-headers.hmap" "-I/Users/Carl/Desktop/iPhone/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/CoreDataTest-all-target-headers.hmap" -iquote "/Users/Carl/Desktop/iPhone/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/CoreDataTest-project-headers.hmap" "-F/Users/Carl/Desktop/iPhone/CoreDataTest 2/build/Debug-iphonesimulator" "-I/Users/Carl/Desktop/iPhone/CoreDataTest 2/build/Debug-iphonesimulator/include" "-I/Users/Carl/Desktop/iPhone/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/DerivedSources/i386" "-I/Users/Carl/Desktop/iPhone/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/DerivedSources" -include /var/folders/5W/5WbKi7hhGkSs6Aomh0sqwE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CoreDataTest_Prefix-fkpbkmeyhskcyfckvmjwddexwzdd/CoreDataTest_Prefix.pch -c "/Users/Carl/Desktop/iPhone/CoreDataTest 2/main.m" -o "/Users/Carl/Desktop/iPhone/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/Objects-normal/i386/main.o"0#
-
-CCompileC build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/Objects-normal/i386/main.o "/Users/Carl/Downloads/CoreDataTest 2/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s315407934.755360
-e315407934.945587
-r1
-xCompileC
-xbuild/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/Objects-normal/i386/main.o
-x/Users/Carl/Downloads/CoreDataTest 2/main.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@51"Compile /Users/Carl/Downloads/CoreDataTest 2/main.m315407934#315407934#0(0"0(0#0#43"/Users/Carl/Downloads/CoreDataTest 2/main.m8721972352#2014"    cd "/Users/Carl/Downloads/CoreDataTest 2"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/Carl/Downloads/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/CoreDataTest-generated-files.hmap" "-I/Users/Carl/Downloads/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/CoreDataTest-own-target-headers.hmap" "-I/Users/Carl/Downloads/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/CoreDataTest-all-target-headers.hmap" -iquote "/Users/Carl/Downloads/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/CoreDataTest-project-headers.hmap" "-F/Users/Carl/Downloads/CoreDataTest 2/build/Debug-iphonesimulator" "-I/Users/Carl/Downloads/CoreDataTest 2/build/Debug-iphonesimulator/include" "-I/Users/Carl/Downloads/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/DerivedSources/i386" "-I/Users/Carl/Downloads/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/DerivedSources" -include /var/folders/5W/5WbKi7hhGkSs6Aomh0sqwE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CoreDataTest_Prefix-clybyyvpkdjqtobcwfxjmhznemgb/CoreDataTest_Prefix.pch -c "/Users/Carl/Downloads/CoreDataTest 2/main.m" -o "/Users/Carl/Downloads/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/Objects-normal/i386/main.o"0#
-
-CCompileXIB "/Users/Carl/Desktop/CoreDataTest 2/Classes/DetailsViewController.xib"
-s315415623.679467
-e315415624.980091
-r1
-xCompileXIB
-x/Users/Carl/Desktop/CoreDataTest 2/Classes/DetailsViewController.xib
-lSLF07#2@44"CompileXIB Classes/DetailsViewController.xib315415623#315415624#0(0"0(0#0#68"/Users/Carl/Desktop/CoreDataTest 2/Classes/DetailsViewController.xib8744479520#599"    cd "/Users/Carl/Desktop/CoreDataTest 2"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/Carl/Desktop/CoreDataTest 2/build/Debug-iphonesimulator/CoreDataTest.app/DetailsViewController.nib" "/Users/Carl/Desktop/CoreDataTest 2/Classes/DetailsViewController.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
-
-CCompileXIB "/Users/Carl/Desktop/CoreDataTest 2/MainWindow.xib"
-r0
-
-CCompileXIB "/Users/Carl/Desktop/CoreDataTest 2/RootViewController.xib"
-r0
-
-CCompileXIB "/Users/Carl/Desktop/iPhone/CoreDataTest 2/Classes/DetailsViewController.xib"
-r0
-
-CCompileXIB "/Users/Carl/Desktop/iPhone/CoreDataTest 2/MainWindow.xib"
-r0
-
-CCompileXIB "/Users/Carl/Desktop/iPhone/CoreDataTest 2/RootViewController.xib"
-r0
-
-CCompileXIB "/Users/Carl/Downloads/CoreDataTest 2/Classes/DetailsViewController.xib"
-s315409352.646524
-e315409353.960165
-r1
-xCompileXIB
-x/Users/Carl/Downloads/CoreDataTest 2/Classes/DetailsViewController.xib
-lSLF07#2@44"CompileXIB Classes/DetailsViewController.xib315409352#315409353#0(0"0(0#0#70"/Users/Carl/Downloads/CoreDataTest 2/Classes/DetailsViewController.xib8723004800#605"    cd "/Users/Carl/Downloads/CoreDataTest 2"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/Carl/Downloads/CoreDataTest 2/build/Debug-iphonesimulator/CoreDataTest.app/DetailsViewController.nib" "/Users/Carl/Downloads/CoreDataTest 2/Classes/DetailsViewController.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
-
-CCompileXIB "/Users/Carl/Downloads/CoreDataTest 2/MainWindow.xib"
-s315407932.418174
-e315407933.199216
-r1
-xCompileXIB
-x/Users/Carl/Downloads/CoreDataTest 2/MainWindow.xib
-lSLF07#2@25"CompileXIB MainWindow.xib315407932#315407933#0(0"0(0#0#51"/Users/Carl/Downloads/CoreDataTest 2/MainWindow.xib8724545088#575"    cd "/Users/Carl/Downloads/CoreDataTest 2"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/Carl/Downloads/CoreDataTest 2/build/Debug-iphonesimulator/CoreDataTest.app/MainWindow.nib" "/Users/Carl/Downloads/CoreDataTest 2/MainWindow.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
-
-CCompileXIB "/Users/Carl/Downloads/CoreDataTest 2/RootViewController.xib"
-s315407932.419823
-e315407933.120909
-r1
-xCompileXIB
-x/Users/Carl/Downloads/CoreDataTest 2/RootViewController.xib
-lSLF07#2@33"CompileXIB RootViewController.xib315407932#315407933#0(0"0(0#0#59"/Users/Carl/Downloads/CoreDataTest 2/RootViewController.xib8721718144#591"    cd "/Users/Carl/Downloads/CoreDataTest 2"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/Carl/Downloads/CoreDataTest 2/build/Debug-iphonesimulator/CoreDataTest.app/RootViewController.nib" "/Users/Carl/Downloads/CoreDataTest 2/RootViewController.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
-
-CCpResource build/Debug-iphonesimulator/CoreDataTest.app/Data.xml Data.xml
-s317566603.861557
-e317566603.907305
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/CoreDataTest.app/Data.xml
-xData.xml
-lSLF07#2@13"Copy Data.xml317566603#317566603#0(0"0(0#0#50"/Users/Carl/Desktop/iPhone/CoreDataTest 2/Data.xml8644840960#486"    cd "/Users/Carl/Desktop/iPhone/CoreDataTest 2"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/Carl/Desktop/iPhone/CoreDataTest 2/Data.xml" "/Users/Carl/Desktop/iPhone/CoreDataTest 2/build/Debug-iphonesimulator/CoreDataTest.app"0#
-
-CDataModelCompile "/Users/Carl/Desktop/CoreDataTest 2/build/Debug-iphonesimulator/CoreDataTest.app/Locations.mom" "/Users/Carl/Desktop/CoreDataTest 2/Locations.xcdatamodel"
-s315416434.588997
-e315416434.900903
-r1
-xDataModelCompile
-x/Users/Carl/Desktop/CoreDataTest 2/build/Debug-iphonesimulator/CoreDataTest.app/Locations.mom
-x/Users/Carl/Desktop/CoreDataTest 2/Locations.xcdatamodel
-lSLF07#2@64"Compile /Users/Carl/Desktop/CoreDataTest 2/Locations.xcdatamodel315416434#315416434#0(0"0(0#0#56"/Users/Carl/Desktop/CoreDataTest 2/Locations.xcdatamodel8745232608#387"    cd "/Users/Carl/Desktop/CoreDataTest 2"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/momc -XD_MOMC_TARGET_VERSION=10.6 "/Users/Carl/Desktop/CoreDataTest 2/Locations.xcdatamodel" "/Users/Carl/Desktop/CoreDataTest 2/build/Debug-iphonesimulator/CoreDataTest.app/Locations.mom"0#
-
-CDataModelCompile "/Users/Carl/Desktop/iPhone/CoreDataTest 2/build/Debug-iphonesimulator/CoreDataTest.app/Locations.mom" "/Users/Carl/Desktop/iPhone/CoreDataTest 2/Locations.xcdatamodel"
-r0
-
-CDataModelCompile "/Users/Carl/Desktop/iPhone/CoreDataTest 2/build/Debug-iphonesimulator/CoreDataTest.app/RemoteDatabase.mom" "/Users/Carl/Desktop/iPhone/CoreDataTest 2/RemoteDatabase.xcdatamodel"
-s317647014.812534
-e317647015.006432
-r1
-xDataModelCompile
-x/Users/Carl/Desktop/iPhone/CoreDataTest 2/build/Debug-iphonesimulator/CoreDataTest.app/RemoteDatabase.mom
-x/Users/Carl/Desktop/iPhone/CoreDataTest 2/RemoteDatabase.xcdatamodel
-lSLF07#2@76"Compile /Users/Carl/Desktop/iPhone/CoreDataTest 2/RemoteDatabase.xcdatamodel317647014#317647015#0(0"0(0#0#68"/Users/Carl/Desktop/iPhone/CoreDataTest 2/RemoteDatabase.xcdatamodel8616665312#418"    cd "/Users/Carl/Desktop/iPhone/CoreDataTest 2"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/momc -XD_MOMC_TARGET_VERSION=10.6 "/Users/Carl/Desktop/iPhone/CoreDataTest 2/RemoteDatabase.xcdatamodel" "/Users/Carl/Desktop/iPhone/CoreDataTest 2/build/Debug-iphonesimulator/CoreDataTest.app/RemoteDatabase.mom"0#
-
-CDataModelCompile "/Users/Carl/Downloads/CoreDataTest 2/build/Debug-iphonesimulator/CoreDataTest.app/Locations.mom" "/Users/Carl/Downloads/CoreDataTest 2/Locations.xcdatamodel"
-s315407934.753251
-e315407934.840969
-r1
-xDataModelCompile
-x/Users/Carl/Downloads/CoreDataTest 2/build/Debug-iphonesimulator/CoreDataTest.app/Locations.mom
-x/Users/Carl/Downloads/CoreDataTest 2/Locations.xcdatamodel
-lSLF07#2@66"Compile /Users/Carl/Downloads/CoreDataTest 2/Locations.xcdatamodel315407934#315407934#0(0"0(0#0#58"/Users/Carl/Downloads/CoreDataTest 2/Locations.xcdatamodel8722433216#393"    cd "/Users/Carl/Downloads/CoreDataTest 2"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/momc -XD_MOMC_TARGET_VERSION=10.6 "/Users/Carl/Downloads/CoreDataTest 2/Locations.xcdatamodel" "/Users/Carl/Downloads/CoreDataTest 2/build/Debug-iphonesimulator/CoreDataTest.app/Locations.mom"0#
-
-CGenerateDSYMFile "/Users/Carl/Desktop/CoreDataTest 2/build/Debug-iphonesimulator/CoreDataTest.app.dSYM" "/Users/Carl/Desktop/CoreDataTest 2/build/Debug-iphonesimulator/CoreDataTest.app/CoreDataTest"
-s315768468.903542
-e315768469.145907
-r1
-xGenerateDSYMFile
-x/Users/Carl/Desktop/CoreDataTest 2/build/Debug-iphonesimulator/CoreDataTest.app.dSYM
-x/Users/Carl/Desktop/CoreDataTest 2/build/Debug-iphonesimulator/CoreDataTest.app/CoreDataTest
-lSLF07#2@124"GenerateDSYMFile build/Debug-iphonesimulator/CoreDataTest.app.dSYM build/Debug-iphonesimulator/CoreDataTest.app/CoreDataTest315768468#315768469#0(0"0(0#0#92"/Users/Carl/Desktop/CoreDataTest 2/build/Debug-iphonesimulator/CoreDataTest.app/CoreDataTest8744977152#392"    cd "/Users/Carl/Desktop/CoreDataTest 2"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil "/Users/Carl/Desktop/CoreDataTest 2/build/Debug-iphonesimulator/CoreDataTest.app/CoreDataTest" -o "/Users/Carl/Desktop/CoreDataTest 2/build/Debug-iphonesimulator/CoreDataTest.app.dSYM"0#
-
-CGenerateDSYMFile "/Users/Carl/Desktop/iPhone/CoreDataTest 2/build/Debug-iphonesimulator/CoreDataTest.app.dSYM" "/Users/Carl/Desktop/iPhone/CoreDataTest 2/build/Debug-iphonesimulator/CoreDataTest.app/CoreDataTest"
-s317569062.902410
-e317569062.975370
-r1
-xGenerateDSYMFile
-x/Users/Carl/Desktop/iPhone/CoreDataTest 2/build/Debug-iphonesimulator/CoreDataTest.app.dSYM
-x/Users/Carl/Desktop/iPhone/CoreDataTest 2/build/Debug-iphonesimulator/CoreDataTest.app/CoreDataTest
-lSLF07#2@124"GenerateDSYMFile build/Debug-iphonesimulator/CoreDataTest.app.dSYM build/Debug-iphonesimulator/CoreDataTest.app/CoreDataTest317569062#317569062#0(0"0(0#0#99"/Users/Carl/Desktop/iPhone/CoreDataTest 2/build/Debug-iphonesimulator/CoreDataTest.app/CoreDataTest8655707840#413"    cd "/Users/Carl/Desktop/iPhone/CoreDataTest 2"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil "/Users/Carl/Desktop/iPhone/CoreDataTest 2/build/Debug-iphonesimulator/CoreDataTest.app/CoreDataTest" -o "/Users/Carl/Desktop/iPhone/CoreDataTest 2/build/Debug-iphonesimulator/CoreDataTest.app.dSYM"0#
-
-CGenerateDSYMFile "/Users/Carl/Downloads/CoreDataTest 2/build/Debug-iphonesimulator/CoreDataTest.app.dSYM" "/Users/Carl/Downloads/CoreDataTest 2/build/Debug-iphonesimulator/CoreDataTest.app/CoreDataTest"
-s315409307.933075
-e315409308.042422
-r1
-xGenerateDSYMFile
-x/Users/Carl/Downloads/CoreDataTest 2/build/Debug-iphonesimulator/CoreDataTest.app.dSYM
-x/Users/Carl/Downloads/CoreDataTest 2/build/Debug-iphonesimulator/CoreDataTest.app/CoreDataTest
-lSLF07#2@124"GenerateDSYMFile build/Debug-iphonesimulator/CoreDataTest.app.dSYM build/Debug-iphonesimulator/CoreDataTest.app/CoreDataTest315409307#315409308#0(0"0(0#0#94"/Users/Carl/Downloads/CoreDataTest 2/build/Debug-iphonesimulator/CoreDataTest.app/CoreDataTest8723428608#398"    cd "/Users/Carl/Downloads/CoreDataTest 2"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil "/Users/Carl/Downloads/CoreDataTest 2/build/Debug-iphonesimulator/CoreDataTest.app/CoreDataTest" -o "/Users/Carl/Downloads/CoreDataTest 2/build/Debug-iphonesimulator/CoreDataTest.app.dSYM"0#
-
-CLd "/Users/Carl/Desktop/CoreDataTest 2/build/Debug-iphonesimulator/CoreDataTest.app/CoreDataTest" normal i386
-s315768468.267648
-e315768468.903442
-r1
-xLd
-x/Users/Carl/Desktop/CoreDataTest 2/build/Debug-iphonesimulator/CoreDataTest.app/CoreDataTest
-xnormal
-xi386
-lSLF07#2@97"Link /Users/Carl/Desktop/CoreDataTest 2/build/Debug-iphonesimulator/CoreDataTest.app/CoreDataTest315768468#315768468#0(0"0(0#0#0"8751952864#956"    cd "/Users/Carl/Desktop/CoreDataTest 2"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk "-L/Users/Carl/Desktop/CoreDataTest 2/build/Debug-iphonesimulator" "-F/Users/Carl/Desktop/CoreDataTest 2/build/Debug-iphonesimulator" -filelist "/Users/Carl/Desktop/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/Objects-normal/i386/CoreDataTest.LinkFileList" -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -framework CoreData -framework MessageUI -o "/Users/Carl/Desktop/CoreDataTest 2/build/Debug-iphonesimulator/CoreDataTest.app/CoreDataTest"0#
-
-CLd "/Users/Carl/Desktop/iPhone/CoreDataTest 2/build/Debug-iphonesimulator/CoreDataTest.app/CoreDataTest" normal i386
-s317569062.821742
-e317569062.902298
-r1
-xLd
-x/Users/Carl/Desktop/iPhone/CoreDataTest 2/build/Debug-iphonesimulator/CoreDataTest.app/CoreDataTest
-xnormal
-xi386
-lSLF07#2@104"Link /Users/Carl/Desktop/iPhone/CoreDataTest 2/build/Debug-iphonesimulator/CoreDataTest.app/CoreDataTest317569062#317569062#0(0"0(0#0#0"8659108160#991"    cd "/Users/Carl/Desktop/iPhone/CoreDataTest 2"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk "-L/Users/Carl/Desktop/iPhone/CoreDataTest 2/build/Debug-iphonesimulator" "-F/Users/Carl/Desktop/iPhone/CoreDataTest 2/build/Debug-iphonesimulator" -filelist "/Users/Carl/Desktop/iPhone/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/Objects-normal/i386/CoreDataTest.LinkFileList" -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -framework CoreData -framework MessageUI -o "/Users/Carl/Desktop/iPhone/CoreDataTest 2/build/Debug-iphonesimulator/CoreDataTest.app/CoreDataTest"0#
-
-CLd "/Users/Carl/Downloads/CoreDataTest 2/build/Debug-iphonesimulator/CoreDataTest.app/CoreDataTest" normal i386
-s315409307.780473
-e315409307.932934
-r1
-xLd
-x/Users/Carl/Downloads/CoreDataTest 2/build/Debug-iphonesimulator/CoreDataTest.app/CoreDataTest
-xnormal
-xi386
-lSLF07#2@99"Link /Users/Carl/Downloads/CoreDataTest 2/build/Debug-iphonesimulator/CoreDataTest.app/CoreDataTest315409307#315409307#0(0"0(0#0#0"8724494752#966"    cd "/Users/Carl/Downloads/CoreDataTest 2"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk "-L/Users/Carl/Downloads/CoreDataTest 2/build/Debug-iphonesimulator" "-F/Users/Carl/Downloads/CoreDataTest 2/build/Debug-iphonesimulator" -filelist "/Users/Carl/Downloads/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/Objects-normal/i386/CoreDataTest.LinkFileList" -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -framework CoreData -framework MessageUI -o "/Users/Carl/Downloads/CoreDataTest 2/build/Debug-iphonesimulator/CoreDataTest.app/CoreDataTest"0#
-
-CProcessInfoPlistFile "/Users/Carl/Desktop/CoreDataTest 2/build/Debug-iphonesimulator/CoreDataTest.app/Info.plist" CoreDataTest-Info.plist
-r0
-
-CProcessInfoPlistFile "/Users/Carl/Desktop/iPhone/CoreDataTest 2/build/Debug-iphonesimulator/CoreDataTest.app/Info.plist" CoreDataTest-Info.plist
-r0
-
-CProcessInfoPlistFile "/Users/Carl/Downloads/CoreDataTest 2/build/Debug-iphonesimulator/CoreDataTest.app/Info.plist" CoreDataTest-Info.plist
-s315407932.408649
-e315407932.418050
-r1
-xProcessInfoPlistFile
-x/Users/Carl/Downloads/CoreDataTest 2/build/Debug-iphonesimulator/CoreDataTest.app/Info.plist
-xCoreDataTest-Info.plist
-lSLF07#2@31"Process CoreDataTest-Info.plist315407932#315407932#0(0"0(0#0#60"/Users/Carl/Downloads/CoreDataTest 2/CoreDataTest-Info.plist8722278336#494"    cd "/Users/Carl/Downloads/CoreDataTest 2"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility CoreDataTest-Info.plist -genpkginfo "/Users/Carl/Downloads/CoreDataTest 2/build/Debug-iphonesimulator/CoreDataTest.app/PkgInfo" -expandbuildsettings -format binary -platform iphonesimulator -o "/Users/Carl/Downloads/CoreDataTest 2/build/Debug-iphonesimulator/CoreDataTest.app/Info.plist"0#
-
-CProcessPCH /var/folders/5W/5WbKi7hhGkSs6Aomh0sqwE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CoreDataTest_Prefix-clybyyvpkdjqtobcwfxjmhznemgb/CoreDataTest_Prefix.pch.gch CoreDataTest_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-s315407933.604252
-e315407934.753029
-r1
-xProcessPCH
-x/var/folders/5W/5WbKi7hhGkSs6Aomh0sqwE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CoreDataTest_Prefix-clybyyvpkdjqtobcwfxjmhznemgb/CoreDataTest_Prefix.pch.gch
-xCoreDataTest_Prefix.pch
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@34"Precompile CoreDataTest_Prefix.pch315407933#315407934#0(0"0(0#0#60"/Users/Carl/Downloads/CoreDataTest 2/CoreDataTest_Prefix.pch8724495072#1901"    cd "/Users/Carl/Downloads/CoreDataTest 2"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/Carl/Downloads/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/CoreDataTest-generated-files.hmap" "-I/Users/Carl/Downloads/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/CoreDataTest-own-target-headers.hmap" "-I/Users/Carl/Downloads/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/CoreDataTest-all-target-headers.hmap" -iquote "/Users/Carl/Downloads/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/CoreDataTest-project-headers.hmap" "-F/Users/Carl/Downloads/CoreDataTest 2/build/Debug-iphonesimulator" "-I/Users/Carl/Downloads/CoreDataTest 2/build/Debug-iphonesimulator/include" "-I/Users/Carl/Downloads/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/DerivedSources/i386" "-I/Users/Carl/Downloads/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/DerivedSources" -c "/Users/Carl/Downloads/CoreDataTest 2/CoreDataTest_Prefix.pch" -o /var/folders/5W/5WbKi7hhGkSs6Aomh0sqwE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CoreDataTest_Prefix-clybyyvpkdjqtobcwfxjmhznemgb/CoreDataTest_Prefix.pch.gch0#
-
-CProcessPCH /var/folders/5W/5WbKi7hhGkSs6Aomh0sqwE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CoreDataTest_Prefix-danpbbtcjqybwycppmvvmtbfntrc/CoreDataTest_Prefix.pch.gch CoreDataTest_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-s315415397.753660
-e315415402.782046
-r1
-xProcessPCH
-x/var/folders/5W/5WbKi7hhGkSs6Aomh0sqwE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CoreDataTest_Prefix-danpbbtcjqybwycppmvvmtbfntrc/CoreDataTest_Prefix.pch.gch
-xCoreDataTest_Prefix.pch
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@34"Precompile CoreDataTest_Prefix.pch315415397#315415402#0(0"0(0#0#58"/Users/Carl/Desktop/CoreDataTest 2/CoreDataTest_Prefix.pch8739376736#1881"    cd "/Users/Carl/Desktop/CoreDataTest 2"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/Carl/Desktop/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/CoreDataTest-generated-files.hmap" "-I/Users/Carl/Desktop/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/CoreDataTest-own-target-headers.hmap" "-I/Users/Carl/Desktop/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/CoreDataTest-all-target-headers.hmap" -iquote "/Users/Carl/Desktop/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/CoreDataTest-project-headers.hmap" "-F/Users/Carl/Desktop/CoreDataTest 2/build/Debug-iphonesimulator" "-I/Users/Carl/Desktop/CoreDataTest 2/build/Debug-iphonesimulator/include" "-I/Users/Carl/Desktop/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/DerivedSources/i386" "-I/Users/Carl/Desktop/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/DerivedSources" -c "/Users/Carl/Desktop/CoreDataTest 2/CoreDataTest_Prefix.pch" -o /var/folders/5W/5WbKi7hhGkSs6Aomh0sqwE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CoreDataTest_Prefix-danpbbtcjqybwycppmvvmtbfntrc/CoreDataTest_Prefix.pch.gch0#
-
-CProcessPCH /var/folders/5W/5WbKi7hhGkSs6Aomh0sqwE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CoreDataTest_Prefix-fkpbkmeyhskcyfckvmjwddexwzdd/CoreDataTest_Prefix.pch.gch CoreDataTest_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-s317566603.907524
-e317566605.023658
-r1
-xProcessPCH
-x/var/folders/5W/5WbKi7hhGkSs6Aomh0sqwE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CoreDataTest_Prefix-fkpbkmeyhskcyfckvmjwddexwzdd/CoreDataTest_Prefix.pch.gch
-xCoreDataTest_Prefix.pch
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@34"Precompile CoreDataTest_Prefix.pch317566603#317566605#0(0"0(0#0#65"/Users/Carl/Desktop/iPhone/CoreDataTest 2/CoreDataTest_Prefix.pch8643117536#1951"    cd "/Users/Carl/Desktop/iPhone/CoreDataTest 2"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/Carl/Desktop/iPhone/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/CoreDataTest-generated-files.hmap" "-I/Users/Carl/Desktop/iPhone/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/CoreDataTest-own-target-headers.hmap" "-I/Users/Carl/Desktop/iPhone/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/CoreDataTest-all-target-headers.hmap" -iquote "/Users/Carl/Desktop/iPhone/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/CoreDataTest-project-headers.hmap" "-F/Users/Carl/Desktop/iPhone/CoreDataTest 2/build/Debug-iphonesimulator" "-I/Users/Carl/Desktop/iPhone/CoreDataTest 2/build/Debug-iphonesimulator/include" "-I/Users/Carl/Desktop/iPhone/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/DerivedSources/i386" "-I/Users/Carl/Desktop/iPhone/CoreDataTest 2/build/CoreDataTest.build/Debug-iphonesimulator/CoreDataTest.build/DerivedSources" -c "/Users/Carl/Desktop/iPhone/CoreDataTest 2/CoreDataTest_Prefix.pch" -o /var/folders/5W/5WbKi7hhGkSs6Aomh0sqwE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CoreDataTest_Prefix-fkpbkmeyhskcyfckvmjwddexwzdd/CoreDataTest_Prefix.pch.gch0#
-
-CTouch "/Users/Carl/Desktop/CoreDataTest 2/build/Debug-iphonesimulator/CoreDataTest.app"
-s315768469.146156
-e315768469.177400
-r1
-xTouch
-x/Users/Carl/Desktop/CoreDataTest 2/build/Debug-iphonesimulator/CoreDataTest.app
-lSLF07#2@85"Touch /Users/Carl/Desktop/CoreDataTest 2/build/Debug-iphonesimulator/CoreDataTest.app315768469#315768469#0(0"0(0#0#0"8756883104#279"    cd "/Users/Carl/Desktop/CoreDataTest 2"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c "/Users/Carl/Desktop/CoreDataTest 2/build/Debug-iphonesimulator/CoreDataTest.app"0#
-
-CTouch "/Users/Carl/Desktop/iPhone/CoreDataTest 2/build/Debug-iphonesimulator/CoreDataTest.app"
-s317647015.006517
-e317647015.026431
-r1
-xTouch
-x/Users/Carl/Desktop/iPhone/CoreDataTest 2/build/Debug-iphonesimulator/CoreDataTest.app
-lSLF07#2@92"Touch /Users/Carl/Desktop/iPhone/CoreDataTest 2/build/Debug-iphonesimulator/CoreDataTest.app317647015#317647015#0(0"0(0#0#0"8617683872#293"    cd "/Users/Carl/Desktop/iPhone/CoreDataTest 2"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c "/Users/Carl/Desktop/iPhone/CoreDataTest 2/build/Debug-iphonesimulator/CoreDataTest.app"0#
-
-CTouch "/Users/Carl/Downloads/CoreDataTest 2/build/Debug-iphonesimulator/CoreDataTest.app"
-s315409353.961546
-e315409353.964320
-r1
-xTouch
-x/Users/Carl/Downloads/CoreDataTest 2/build/Debug-iphonesimulator/CoreDataTest.app
-lSLF07#2@87"Touch /Users/Carl/Downloads/CoreDataTest 2/build/Debug-iphonesimulator/CoreDataTest.app315409353#315409353#0(0"0(0#0#0"8666277632#283"    cd "/Users/Carl/Downloads/CoreDataTest 2"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c "/Users/Carl/Downloads/CoreDataTest 2/build/Debug-iphonesimulator/CoreDataTest.app"0#
-

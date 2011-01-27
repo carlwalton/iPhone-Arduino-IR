@@ -1,656 +1,0 @@
-TIRLibrary
-v7
-r0
-t317666165.490684
-cCheck dependencies
-cCpResource build/Debug-iphoneos/IRLibrary.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
-cProcessInfoPlistFile "/Users/Carl/Desktop/CoreDataTest 2/build/Debug-iphoneos/IRLibrary.app/Info.plist" IRLibrary-Info.plist
-cCompileXIB "/Users/Carl/Desktop/CoreDataTest 2/MainWindow.xib"
-cCompileXIB "/Users/Carl/Desktop/CoreDataTest 2/RootViewController.xib"
-cCpResource build/Debug-iphoneos/IRLibrary.app/Data.xml Data.xml
-cCompileXIB "/Users/Carl/Desktop/CoreDataTest 2/Classes/DetailsViewController.xib"
-cProcessPCH /var/folders/5W/5WbKi7hhGkSs6Aomh0sqwE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/IRLibrary_Prefix-aaigpgvndidzkhhfzaylzfjgzxfi/IRLibrary_Prefix.pch.gch IRLibrary_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
-cDataModelCompile "/Users/Carl/Desktop/CoreDataTest 2/build/Debug-iphoneos/IRLibrary.app/RemoteDatabase.mom" "/Users/Carl/Desktop/CoreDataTest 2/RemoteDatabase.xcdatamodel"
-cCompileC build/IRLibrary.build/Debug-iphoneos/IRLibrary.build/Objects-normal/armv6/main.o "/Users/Carl/Desktop/CoreDataTest 2/main.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/IRLibrary.build/Debug-iphoneos/IRLibrary.build/Objects-normal/armv6/CoreDataTestAppDelegate.o "/Users/Carl/Desktop/CoreDataTest 2/Classes/CoreDataTestAppDelegate.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/IRLibrary.build/Debug-iphoneos/IRLibrary.build/Objects-normal/armv6/RootViewController.o "/Users/Carl/Desktop/CoreDataTest 2/Classes/RootViewController.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/IRLibrary.build/Debug-iphoneos/IRLibrary.build/Objects-normal/armv6/Model.o "/Users/Carl/Desktop/CoreDataTest 2/Classes/Model.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/IRLibrary.build/Debug-iphoneos/IRLibrary.build/Objects-normal/armv6/Manufacturer.o "/Users/Carl/Desktop/CoreDataTest 2/Classes/Manufacturer.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/IRLibrary.build/Debug-iphoneos/IRLibrary.build/Objects-normal/armv6/CoreDataHelper.o "/Users/Carl/Desktop/CoreDataTest 2/CoreDataHelper.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/IRLibrary.build/Debug-iphoneos/IRLibrary.build/Objects-normal/armv6/LocationsParser.o "/Users/Carl/Desktop/CoreDataTest 2/Classes/LocationsParser.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/IRLibrary.build/Debug-iphoneos/IRLibrary.build/Objects-normal/armv6/DetailsViewController.o "/Users/Carl/Desktop/CoreDataTest 2/Classes/DetailsViewController.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/IRLibrary.build/Debug-iphoneos/IRLibrary.build/Objects-normal/armv6/Option.o "/Users/Carl/Desktop/CoreDataTest 2/Classes/Option.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/IRLibrary.build/Debug-iphoneos/IRLibrary.build/Objects-normal/armv6/MLUtils.o "/Users/Carl/Desktop/CoreDataTest 2/Classes/MLUtils.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
-cLd "/Users/Carl/Desktop/CoreDataTest 2/build/Debug-iphoneos/IRLibrary.app/IRLibrary" normal armv6
-cGenerateDSYMFile "/Users/Carl/Desktop/CoreDataTest 2/build/Debug-iphoneos/IRLibrary.app.dSYM" "/Users/Carl/Desktop/CoreDataTest 2/build/Debug-iphoneos/IRLibrary.app/IRLibrary"
-cProcessProductPackaging "/Users/Carl/Library/MobileDevice/Provisioning Profiles/46B0D466-264F-4CA1-BA50-210D7E7440D8.mobileprovision" "/Users/Carl/Desktop/CoreDataTest 2/build/Debug-iphoneos/IRLibrary.app/embedded.mobileprovision"
-cTouch "/Users/Carl/Desktop/CoreDataTest 2/build/Debug-iphoneos/IRLibrary.app"
-cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist "/Users/Carl/Desktop/CoreDataTest 2/build/IRLibrary.build/Debug-iphoneos/IRLibrary.build/IRLibrary.xcent"
-cCodeSign "/Users/Carl/Desktop/CoreDataTest 2/build/Debug-iphoneos/IRLibrary.app"
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk
-c000000004CC7DC9E0000000000000110
-t1288166558
-s272
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist
-c000000004CB3DFCF00000000000001A7
-t1286856655
-s423
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
-c000000004CB3DFCF00000000000001E5
-t1286856655
-s485
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreData.framework/CoreData
-c000000004CC10FA70000000000300DE0
-t1287720871
-s3149280
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.h
-c000000004CC10F8D000000000000046B
-t1287720845
-s1131
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-c000000004CC10EF500000000003532B0
-t1287720693
-s3486384
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c000000004CC10F4700000000003E1F20
-t1287720775
-s4071200
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
-c000000004CC10F1C0000000000001466
-t1287720732
-s5222
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/MessageUI.framework/Headers/MessageUI.h
-c000000004CC11D1700000000000000CD
-t1287724311
-s205
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/MessageUI.framework/MessageUI
-c000000004CC11D2E0000000000112F80
-t1287724334
-s1126272
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
-c000000004CC11AE60000000000000AA1
-t1287723750
-s2721
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
-c000000004CC11B750000000000C769F0
-t1287723893
-s13068784
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/Availability.h
-c000000004CB3FBB80000000000001ADD
-t1286863800
-s6877
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/arpa/inet.h
-c000000004CB3E4790000000000001533
-t1286857849
-s5427
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/stdio.h
-c000000004CB3E4B800000000000040AC
-t1286857912
-s16556
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/stdlib.h
-c000000004CB3E4B80000000000002DF5
-t1286857912
-s11765
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/string.h
-c000000004CB3E4B80000000000001731
-t1286857912
-s5937
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/sys/socket.h
-c000000004CBFACD80000000000005A69
-t1287630040
-s23145
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/unistd.h
-c000000004CB3E4B8000000000000563E
-t1286857912
-s22078
-
-N/Users/Carl/Desktop/CoreDataTest 2/Classes/CoreDataTestAppDelegate.h
-c000000004A355FD900000000000004A1
-t1245011929
-s1185
-i"RootViewController.h"
-i"LocationsParser.h"
-
-N/Users/Carl/Desktop/CoreDataTest 2/Classes/CoreDataTestAppDelegate.m
-c000000004D3EFBA7000000000000161B
-t1295973287
-s5659
-i"CoreDataTestAppDelegate.h"
-
-N/Users/Carl/Desktop/CoreDataTest 2/Classes/DetailsViewController.h
-c000000004D1CA6EC00000000000004F9
-t1293723372
-s1273
-i<UIKit/UIKit.h>
-i<MessageUI/MessageUI.h>
-i"MLUtils.h"
-
-N/Users/Carl/Desktop/CoreDataTest 2/Classes/DetailsViewController.m
-c000000004D36CB2C0000000000000DDB
-t1295436588
-s3547
-i"DetailsViewController.h"
-i<stdio.h>
-i<sys/socket.h>
-i<arpa/inet.h>
-i<stdlib.h>
-i<string.h>
-i<unistd.h>
-
-N/Users/Carl/Desktop/CoreDataTest 2/Classes/DetailsViewController.xib
-c000000004D1CA4C30000000000006F38
-t1293722819
-s28472
-
-N/Users/Carl/Desktop/CoreDataTest 2/Classes/LocationsParser.h
-c000000004D1C9F18000000000000035A
-t1293721368
-s858
-i<Foundation/Foundation.h>
-i"CoreDataHelper.h"
-i"Manufacturer.h"
-i"Model.h"
-i"Option.h"
-
-N/Users/Carl/Desktop/CoreDataTest 2/Classes/LocationsParser.m
-c000000004D1CAA24000000000000113F
-t1293724196
-s4415
-i"LocationsParser.h"
-
-N/Users/Carl/Desktop/CoreDataTest 2/Classes/MLUtils.h
-c000000004A62288500000000000001E7
-t1247946885
-s487
-i<UIKit/UIKit.h>
-
-N/Users/Carl/Desktop/CoreDataTest 2/Classes/MLUtils.m
-c000000004A62288A00000000000002C5
-t1247946890
-s709
-i"MLUtils.h"
-
-N/Users/Carl/Desktop/CoreDataTest 2/Classes/Manufacturer.h
-c000000004D36CA0700000000000001DD
-t1295436295
-s477
-i<CoreData/CoreData.h>
-
-N/Users/Carl/Desktop/CoreDataTest 2/Classes/Manufacturer.m
-c000000004D36CA030000000000000080
-t1295436291
-s128
-i"Manufacturer.h"
-i"Model.h"
-
-N/Users/Carl/Desktop/CoreDataTest 2/Classes/Model.h
-c000000004D36CA0F000000000000020B
-t1295436303
-s523
-i<CoreData/CoreData.h>
-
-N/Users/Carl/Desktop/CoreDataTest 2/Classes/Model.m
-c000000004D36CA0A00000000000000A5
-t1295436298
-s165
-i"Model.h"
-i"Option.h"
-i"Manufacturer.h"
-
-N/Users/Carl/Desktop/CoreDataTest 2/Classes/Option.h
-c000000004D36CA00000000000000015E
-t1295436288
-s350
-i<CoreData/CoreData.h>
-
-N/Users/Carl/Desktop/CoreDataTest 2/Classes/Option.m
-c000000004D36C9FC00000000000000A4
-t1295436284
-s164
-i"Option.h"
-i"Model.h"
-
-N/Users/Carl/Desktop/CoreDataTest 2/Classes/RootViewController.h
-c000000004D36D39E0000000000000249
-t1295438750
-s585
-i"Manufacturer.h"
-i"CoreDataHelper.h"
-i"DetailsViewController.h"
-i"Option.h"
-
-N/Users/Carl/Desktop/CoreDataTest 2/Classes/RootViewController.m
-c000000004D36D4B90000000000001493
-t1295439033
-s5267
-i"RootViewController.h"
-
-N/Users/Carl/Desktop/CoreDataTest 2/CoreDataHelper.h
-c000000004A355FD900000000000002ED
-t1245011929
-s749
-i<UIKit/UIKit.h>
-i<CoreData/CoreData.h>
-
-N/Users/Carl/Desktop/CoreDataTest 2/CoreDataHelper.m
-c000000004BB7138600000000000006CB
-t1270289286
-s1739
-i"CoreDataHelper.h"
-
-N/Users/Carl/Desktop/CoreDataTest 2/Data.xml
-c000000004D3EFB6B00000000000021E8
-t1295973227
-s8680
-
-N/Users/Carl/Desktop/CoreDataTest 2/IRLibrary_Prefix.pch
-c000000004A06FFB4000000000000014A
-t1241972660
-s330
-i<Availability.h>
-i<Foundation/Foundation.h>
-i<UIKit/UIKit.h>
-
-N/Users/Carl/Desktop/CoreDataTest 2/MainWindow.xib
-c000000004A06FFB40000000000002C3C
-t1241972660
-s11324
-
-N/Users/Carl/Desktop/CoreDataTest 2/RemoteDatabase.xcdatamodel
-c000000004D1CA7EE0000000000000088
-t1293723630
-s136
-
-N/Users/Carl/Desktop/CoreDataTest 2/RootViewController.xib
-c000000004A06FFB40000000000001F5E
-t1241972660
-s8030
-
-N/Users/Carl/Desktop/CoreDataTest 2/build/Debug-iphoneos/IRLibrary.app
-t1295973365
-s476
-
-N/Users/Carl/Desktop/CoreDataTest 2/build/Debug-iphoneos/IRLibrary.app.dSYM
-t1295973365
-s102
-
-N/Users/Carl/Desktop/CoreDataTest 2/build/Debug-iphoneos/IRLibrary.app/Data.xml
-t1295973364
-s8680
-
-N/Users/Carl/Desktop/CoreDataTest 2/build/Debug-iphoneos/IRLibrary.app/DetailsViewController.nib
-t1295973364
-s2464
-
-N/Users/Carl/Desktop/CoreDataTest 2/build/Debug-iphoneos/IRLibrary.app/IRLibrary
-t1295973365
-s52704
-
-N/Users/Carl/Desktop/CoreDataTest 2/build/Debug-iphoneos/IRLibrary.app/Info.plist
-t1295973363
-s789
-
-N/Users/Carl/Desktop/CoreDataTest 2/build/Debug-iphoneos/IRLibrary.app/MainWindow.nib
-t1295973364
-s1490
-
-N/Users/Carl/Desktop/CoreDataTest 2/build/Debug-iphoneos/IRLibrary.app/PkgInfo
-t1295973363
-s8
-
-N/Users/Carl/Desktop/CoreDataTest 2/build/Debug-iphoneos/IRLibrary.app/RemoteDatabase.mom
-t1295973364
-s4671
-
-N/Users/Carl/Desktop/CoreDataTest 2/build/Debug-iphoneos/IRLibrary.app/ResourceRules.plist
-t1295973363
-s485
-
-N/Users/Carl/Desktop/CoreDataTest 2/build/Debug-iphoneos/IRLibrary.app/RootViewController.nib
-t1295973364
-s1021
-
-N/Users/Carl/Desktop/CoreDataTest 2/build/Debug-iphoneos/IRLibrary.app/embedded.mobileprovision
-t1295973365
-s7164
-
-N/Users/Carl/Desktop/CoreDataTest 2/build/IRLibrary.build/Debug-iphoneos/IRLibrary.build/IRLibrary.xcent
-t1295973365
-s424
-
-N/Users/Carl/Desktop/CoreDataTest 2/build/IRLibrary.build/Debug-iphoneos/IRLibrary.build/Objects-normal/armv6/CoreDataHelper.o
-t1295973365
-s15252
-
-N/Users/Carl/Desktop/CoreDataTest 2/build/IRLibrary.build/Debug-iphoneos/IRLibrary.build/Objects-normal/armv6/CoreDataTestAppDelegate.o
-t1295973364
-s65428
-
-N/Users/Carl/Desktop/CoreDataTest 2/build/IRLibrary.build/Debug-iphoneos/IRLibrary.build/Objects-normal/armv6/DetailsViewController.o
-t1295973365
-s56500
-
-N/Users/Carl/Desktop/CoreDataTest 2/build/IRLibrary.build/Debug-iphoneos/IRLibrary.build/Objects-normal/armv6/IRLibrary.LinkFileList
-c000000004D3EFBF300000000000004DD
-t1295973363
-s1245
-
-N/Users/Carl/Desktop/CoreDataTest 2/build/IRLibrary.build/Debug-iphoneos/IRLibrary.build/Objects-normal/armv6/LocationsParser.o
-t1295973365
-s23736
-
-N/Users/Carl/Desktop/CoreDataTest 2/build/IRLibrary.build/Debug-iphoneos/IRLibrary.build/Objects-normal/armv6/MLUtils.o
-t1295973365
-s8020
-
-N/Users/Carl/Desktop/CoreDataTest 2/build/IRLibrary.build/Debug-iphoneos/IRLibrary.build/Objects-normal/armv6/Manufacturer.o
-t1295973364
-s5528
-
-N/Users/Carl/Desktop/CoreDataTest 2/build/IRLibrary.build/Debug-iphoneos/IRLibrary.build/Objects-normal/armv6/Model.o
-t1295973364
-s5524
-
-N/Users/Carl/Desktop/CoreDataTest 2/build/IRLibrary.build/Debug-iphoneos/IRLibrary.build/Objects-normal/armv6/Option.o
-t1295973365
-s5584
-
-N/Users/Carl/Desktop/CoreDataTest 2/build/IRLibrary.build/Debug-iphoneos/IRLibrary.build/Objects-normal/armv6/RootViewController.o
-t1295973364
-s56076
-
-N/Users/Carl/Desktop/CoreDataTest 2/build/IRLibrary.build/Debug-iphoneos/IRLibrary.build/Objects-normal/armv6/main.o
-t1295973364
-s6440
-
-N/Users/Carl/Desktop/CoreDataTest 2/main.m
-c000000004A355FD9000000000000020D
-t1245011929
-s525
-i<UIKit/UIKit.h>
-
-N/Users/Carl/Library/MobileDevice/Provisioning Profiles/46B0D466-264F-4CA1-BA50-210D7E7440D8.mobileprovision
-c000000004D3EB47E0000000000001BFC
-t1295955070
-s7164
-
-N/var/folders/5W/5WbKi7hhGkSs6Aomh0sqwE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/IRLibrary_Prefix-aaigpgvndidzkhhfzaylzfjgzxfi/IRLibrary_Prefix.pch.gch
-t1295971809
-s9983704
-
-NIRLibrary-Info.plist
-c000000004A06FFB4000000000000038D
-t1241972660
-s909
-
-CCheck dependencies
-r0
-lSLF07#2@18"Check dependencies317666163#317666163#0(0"0(0#1#0"8628158432#0"0#
-
-CCodeSign "/Users/Carl/Desktop/CoreDataTest 2/build/Debug-iphoneos/IRLibrary.app"
-s317666165.347023
-e317666165.490646
-r1
-xCodeSign
-x/Users/Carl/Desktop/CoreDataTest 2/build/Debug-iphoneos/IRLibrary.app
-lSLF07#2@43"CodeSign build/Debug-iphoneos/IRLibrary.app317666165#317666165#0(0"0(0#0#69"/Users/Carl/Desktop/CoreDataTest 2/build/Debug-iphoneos/IRLibrary.app8627451776#649"    cd "/Users/Carl/Desktop/CoreDataTest 2"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer: Carl walton (T4S99996XF)" "--resource-rules=/Users/Carl/Desktop/CoreDataTest 2/build/Debug-iphoneos/IRLibrary.app/ResourceRules.plist" --entitlements "/Users/Carl/Desktop/CoreDataTest 2/build/IRLibrary.build/Debug-iphoneos/IRLibrary.build/IRLibrary.xcent" "/Users/Carl/Desktop/CoreDataTest 2/build/Debug-iphoneos/IRLibrary.app"0#
-
-CCompileC build/IRLibrary.build/Debug-iphoneos/IRLibrary.build/Objects-normal/armv6/CoreDataHelper.o "/Users/Carl/Desktop/CoreDataTest 2/CoreDataHelper.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
-s317666164.955483
-e317666165.062993
-r1
-xCompileC
-xbuild/IRLibrary.build/Debug-iphoneos/IRLibrary.build/Objects-normal/armv6/CoreDataHelper.o
-x/Users/Carl/Desktop/CoreDataTest 2/CoreDataHelper.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@59"Compile /Users/Carl/Desktop/CoreDataTest 2/CoreDataHelper.m317666164#317666165#0(0"0(0#0#51"/Users/Carl/Desktop/CoreDataTest 2/CoreDataHelper.m8628562112#1762"    cd "/Users/Carl/Desktop/CoreDataTest 2"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/Carl/Desktop/CoreDataTest 2/build/IRLibrary.build/Debug-iphoneos/IRLibrary.build/IRLibrary-generated-files.hmap" "-I/Users/Carl/Desktop/CoreDataTest 2/build/IRLibrary.build/Debug-iphoneos/IRLibrary.build/IRLibrary-own-target-headers.hmap" "-I/Users/Carl/Desktop/CoreDataTest 2/build/IRLibrary.build/Debug-iphoneos/IRLibrary.build/IRLibrary-all-target-headers.hmap" -iquote "/Users/Carl/Desktop/CoreDataTest 2/build/IRLibrary.build/Debug-iphoneos/IRLibrary.build/IRLibrary-project-headers.hmap" "-F/Users/Carl/Desktop/CoreDataTest 2/build/Debug-iphoneos" "-I/Users/Carl/Desktop/CoreDataTest 2/build/Debug-iphoneos/include" "-I/Users/Carl/Desktop/CoreDataTest 2/build/IRLibrary.build/Debug-iphoneos/IRLibrary.build/DerivedSources/armv6" "-I/Users/Carl/Desktop/CoreDataTest 2/build/IRLibrary.build/Debug-iphoneos/IRLibrary.build/DerivedSources" -include /var/folders/5W/5WbKi7hhGkSs6Aomh0sqwE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/IRLibrary_Prefix-aaigpgvndidzkhhfzaylzfjgzxfi/IRLibrary_Prefix.pch -c "/Users/Carl/Desktop/CoreDataTest 2/CoreDataHelper.m" -o "/Users/Carl/Desktop/CoreDataTest 2/build/IRLibrary.build/Debug-iphoneos/IRLibrary.build/Objects-normal/armv6/CoreDataHelper.o"0#
-
-CCompileC build/IRLibrary.build/Debug-iphoneos/IRLibrary.build/Objects-normal/armv6/CoreDataTestAppDelegate.o "/Users/Carl/Desktop/CoreDataTest 2/Classes/CoreDataTestAppDelegate.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
-s317666164.619003
-e317666164.882707
-r1
-xCompileC
-xbuild/IRLibrary.build/Debug-iphoneos/IRLibrary.build/Objects-normal/armv6/CoreDataTestAppDelegate.o
-x/Users/Carl/Desktop/CoreDataTest 2/Classes/CoreDataTestAppDelegate.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@76"Compile /Users/Carl/Desktop/CoreDataTest 2/Classes/CoreDataTestAppDelegate.m317666164#317666164#0(0"0(0#0#68"/Users/Carl/Desktop/CoreDataTest 2/Classes/CoreDataTestAppDelegate.m8627424192#1788"    cd "/Users/Carl/Desktop/CoreDataTest 2"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/Carl/Desktop/CoreDataTest 2/build/IRLibrary.build/Debug-iphoneos/IRLibrary.build/IRLibrary-generated-files.hmap" "-I/Users/Carl/Desktop/CoreDataTest 2/build/IRLibrary.build/Debug-iphoneos/IRLibrary.build/IRLibrary-own-target-headers.hmap" "-I/Users/Carl/Desktop/CoreDataTest 2/build/IRLibrary.build/Debug-iphoneos/IRLibrary.build/IRLibrary-all-target-headers.hmap" -iquote "/Users/Carl/Desktop/CoreDataTest 2/build/IRLibrary.build/Debug-iphoneos/IRLibrary.build/IRLibrary-project-headers.hmap" "-F/Users/Carl/Desktop/CoreDataTest 2/build/Debug-iphoneos" "-I/Users/Carl/Desktop/CoreDataTest 2/build/Debug-iphoneos/include" "-I/Users/Carl/Desktop/CoreDataTest 2/build/IRLibrary.build/Debug-iphoneos/IRLibrary.build/DerivedSources/armv6" "-I/Users/Carl/Desktop/CoreDataTest 2/build/IRLibrary.build/Debug-iphoneos/IRLibrary.build/DerivedSources" -include /var/folders/5W/5WbKi7hhGkSs6Aomh0sqwE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/IRLibrary_Prefix-aaigpgvndidzkhhfzaylzfjgzxfi/IRLibrary_Prefix.pch -c "/Users/Carl/Desktop/CoreDataTest 2/Classes/CoreDataTestAppDelegate.m" -o "/Users/Carl/Desktop/CoreDataTest 2/build/IRLibrary.build/Debug-iphoneos/IRLibrary.build/Objects-normal/armv6/CoreDataTestAppDelegate.o"0#
-
-CCompileC build/IRLibrary.build/Debug-iphoneos/IRLibrary.build/Objects-normal/armv6/DetailsViewController.o "/Users/Carl/Desktop/CoreDataTest 2/Classes/DetailsViewController.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
-s317666165.063099
-e317666165.183614
-r1
-xCompileC
-xbuild/IRLibrary.build/Debug-iphoneos/IRLibrary.build/Objects-normal/armv6/DetailsViewController.o
-x/Users/Carl/Desktop/CoreDataTest 2/Classes/DetailsViewController.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@74"Compile /Users/Carl/Desktop/CoreDataTest 2/Classes/DetailsViewController.m317666165#317666165#0(0"0(0#0#66"/Users/Carl/Desktop/CoreDataTest 2/Classes/DetailsViewController.m8626177088#1784"    cd "/Users/Carl/Desktop/CoreDataTest 2"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/Carl/Desktop/CoreDataTest 2/build/IRLibrary.build/Debug-iphoneos/IRLibrary.build/IRLibrary-generated-files.hmap" "-I/Users/Carl/Desktop/CoreDataTest 2/build/IRLibrary.build/Debug-iphoneos/IRLibrary.build/IRLibrary-own-target-headers.hmap" "-I/Users/Carl/Desktop/CoreDataTest 2/build/IRLibrary.build/Debug-iphoneos/IRLibrary.build/IRLibrary-all-target-headers.hmap" -iquote "/Users/Carl/Desktop/CoreDataTest 2/build/IRLibrary.build/Debug-iphoneos/IRLibrary.build/IRLibrary-project-headers.hmap" "-F/Users/Carl/Desktop/CoreDataTest 2/build/Debug-iphoneos" "-I/Users/Carl/Desktop/CoreDataTest 2/build/Debug-iphoneos/include" "-I/Users/Carl/Desktop/CoreDataTest 2/build/IRLibrary.build/Debug-iphoneos/IRLibrary.build/DerivedSources/armv6" "-I/Users/Carl/Desktop/CoreDataTest 2/build/IRLibrary.build/Debug-iphoneos/IRLibrary.build/DerivedSources" -include /var/folders/5W/5WbKi7hhGkSs6Aomh0sqwE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/IRLibrary_Prefix-aaigpgvndidzkhhfzaylzfjgzxfi/IRLibrary_Prefix.pch -c "/Users/Carl/Desktop/CoreDataTest 2/Classes/DetailsViewController.m" -o "/Users/Carl/Desktop/CoreDataTest 2/build/IRLibrary.build/Debug-iphoneos/IRLibrary.build/Objects-normal/armv6/DetailsViewController.o"0#
-
-CCompileC build/IRLibrary.build/Debug-iphoneos/IRLibrary.build/Objects-normal/armv6/LocationsParser.o "/Users/Carl/Desktop/CoreDataTest 2/Classes/LocationsParser.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
-s317666164.960040
-e317666165.064422
-r1
-xCompileC
-xbuild/IRLibrary.build/Debug-iphoneos/IRLibrary.build/Objects-normal/armv6/LocationsParser.o
-x/Users/Carl/Desktop/CoreDataTest 2/Classes/LocationsParser.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-o/Users/Carl/Desktop/CoreDataTest 2/Classes/LocationsParser.m: In function '-[LocationsParser parseXMLFileAtURL:parseError:]':
-o/Users/Carl/Desktop/CoreDataTest 2/Classes/LocationsParser.m:34: warning: class 'LocationsParser' does not implement the 'NSXMLParserDelegate' protocol
-lSLF07#2@68"Compile /Users/Carl/Desktop/CoreDataTest 2/Classes/LocationsParser.m317666164#317666165#0(278"/Users/Carl/Desktop/CoreDataTest 2/Classes/LocationsParser.m: In function '-[LocationsParser parseXMLFileAtURL:parseError:]':/Users/Carl/Desktop/CoreDataTest 2/Classes/LocationsParser.m:34: warning: class 'LocationsParser' does not implement the 'NSXMLParserDelegate' protocol1(22@77"Class 'LocationsParser' does not implement the 'NSXMLParserDelegate' protocol317666165#126#152#0(6@60"/Users/Carl/Desktop/CoreDataTest 2/Classes/LocationsParser.m315416996#34#0#34#0#45"class '*' does not implement the '*' protocol0(0#0#60"/Users/Carl/Desktop/CoreDataTest 2/Classes/LocationsParser.m8627732032#1772"    cd "/Users/Carl/Desktop/CoreDataTest 2"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/Carl/Desktop/CoreDataTest 2/build/IRLibrary.build/Debug-iphoneos/IRLibrary.build/IRLibrary-generated-files.hmap" "-I/Users/Carl/Desktop/CoreDataTest 2/build/IRLibrary.build/Debug-iphoneos/IRLibrary.build/IRLibrary-own-target-headers.hmap" "-I/Users/Carl/Desktop/CoreDataTest 2/build/IRLibrary.build/Debug-iphoneos/IRLibrary.build/IRLibrary-all-target-headers.hmap" -iquote "/Users/Carl/Desktop/CoreDataTest 2/build/IRLibrary.build/Debug-iphoneos/IRLibrary.build/IRLibrary-project-headers.hmap" "-F/Users/Carl/Desktop/CoreDataTest 2/build/Debug-iphoneos" "-I/Users/Carl/Desktop/CoreDataTest 2/build/Debug-iphoneos/include" "-I/Users/Carl/Desktop/CoreDataTest 2/build/IRLibrary.build/Debug-iphoneos/IRLibrary.build/DerivedSources/armv6" "-I/Users/Carl/Desktop/CoreDataTest 2/build/IRLibrary.build/Debug-iphoneos/IRLibrary.build/DerivedSources" -include /var/folders/5W/5WbKi7hhGkSs6Aomh0sqwE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/IRLibrary_Prefix-aaigpgvndidzkhhfzaylzfjgzxfi/IRLibrary_Prefix.pch -c "/Users/Carl/Desktop/CoreDataTest 2/Classes/LocationsParser.m" -o "/Users/Carl/Desktop/CoreDataTest 2/build/IRLibrary.build/Debug-iphoneos/IRLibrary.build/Objects-normal/armv6/LocationsParser.o"0#
-
-CCompileC build/IRLibrary.build/Debug-iphoneos/IRLibrary.build/Objects-normal/armv6/MLUtils.o "/Users/Carl/Desktop/CoreDataTest 2/Classes/MLUtils.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
-s317666165.135597
-e317666165.189748
-r1
-xCompileC
-xbuild/IRLibrary.build/Debug-iphoneos/IRLibrary.build/Objects-normal/armv6/MLUtils.o
-x/Users/Carl/Desktop/CoreDataTest 2/Classes/MLUtils.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@60"Compile /Users/Carl/Desktop/CoreDataTest 2/Classes/MLUtils.m317666165#317666165#0(0"0(0#0#52"/Users/Carl/Desktop/CoreDataTest 2/Classes/MLUtils.m8628443936#1756"    cd "/Users/Carl/Desktop/CoreDataTest 2"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/Carl/Desktop/CoreDataTest 2/build/IRLibrary.build/Debug-iphoneos/IRLibrary.build/IRLibrary-generated-files.hmap" "-I/Users/Carl/Desktop/CoreDataTest 2/build/IRLibrary.build/Debug-iphoneos/IRLibrary.build/IRLibrary-own-target-headers.hmap" "-I/Users/Carl/Desktop/CoreDataTest 2/build/IRLibrary.build/Debug-iphoneos/IRLibrary.build/IRLibrary-all-target-headers.hmap" -iquote "/Users/Carl/Desktop/CoreDataTest 2/build/IRLibrary.build/Debug-iphoneos/IRLibrary.build/IRLibrary-project-headers.hmap" "-F/Users/Carl/Desktop/CoreDataTest 2/build/Debug-iphoneos" "-I/Users/Carl/Desktop/CoreDataTest 2/build/Debug-iphoneos/include" "-I/Users/Carl/Desktop/CoreDataTest 2/build/IRLibrary.build/Debug-iphoneos/IRLibrary.build/DerivedSources/armv6" "-I/Users/Carl/Desktop/CoreDataTest 2/build/IRLibrary.build/Debug-iphoneos/IRLibrary.build/DerivedSources" -include /var/folders/5W/5WbKi7hhGkSs6Aomh0sqwE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/IRLibrary_Prefix-aaigpgvndidzkhhfzaylzfjgzxfi/IRLibrary_Prefix.pch -c "/Users/Carl/Desktop/CoreDataTest 2/Classes/MLUtils.m" -o "/Users/Carl/Desktop/CoreDataTest 2/build/IRLibrary.build/Debug-iphoneos/IRLibrary.build/Objects-normal/armv6/MLUtils.o"0#
-
-CCompileC build/IRLibrary.build/Debug-iphoneos/IRLibrary.build/Objects-normal/armv6/Manufacturer.o "/Users/Carl/Desktop/CoreDataTest 2/Classes/Manufacturer.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
-s317666164.882838
-e317666164.959942
-r1
-xCompileC
-xbuild/IRLibrary.build/Debug-iphoneos/IRLibrary.build/Objects-normal/armv6/Manufacturer.o
-x/Users/Carl/Desktop/CoreDataTest 2/Classes/Manufacturer.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@65"Compile /Users/Carl/Desktop/CoreDataTest 2/Classes/Manufacturer.m317666164#317666164#0(0"0(0#0#57"/Users/Carl/Desktop/CoreDataTest 2/Classes/Manufacturer.m8628076160#1766"    cd "/Users/Carl/Desktop/CoreDataTest 2"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/Carl/Desktop/CoreDataTest 2/build/IRLibrary.build/Debug-iphoneos/IRLibrary.build/IRLibrary-generated-files.hmap" "-I/Users/Carl/Desktop/CoreDataTest 2/build/IRLibrary.build/Debug-iphoneos/IRLibrary.build/IRLibrary-own-target-headers.hmap" "-I/Users/Carl/Desktop/CoreDataTest 2/build/IRLibrary.build/Debug-iphoneos/IRLibrary.build/IRLibrary-all-target-headers.hmap" -iquote "/Users/Carl/Desktop/CoreDataTest 2/build/IRLibrary.build/Debug-iphoneos/IRLibrary.build/IRLibrary-project-headers.hmap" "-F/Users/Carl/Desktop/CoreDataTest 2/build/Debug-iphoneos" "-I/Users/Carl/Desktop/CoreDataTest 2/build/Debug-iphoneos/include" "-I/Users/Carl/Desktop/CoreDataTest 2/build/IRLibrary.build/Debug-iphoneos/IRLibrary.build/DerivedSources/armv6" "-I/Users/Carl/Desktop/CoreDataTest 2/build/IRLibrary.build/Debug-iphoneos/IRLibrary.build/DerivedSources" -include /var/folders/5W/5WbKi7hhGkSs6Aomh0sqwE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/IRLibrary_Prefix-aaigpgvndidzkhhfzaylzfjgzxfi/IRLibrary_Prefix.pch -c "/Users/Carl/Desktop/CoreDataTest 2/Classes/Manufacturer.m" -o "/Users/Carl/Desktop/CoreDataTest 2/build/IRLibrary.build/Debug-iphoneos/IRLibrary.build/Objects-normal/armv6/Manufacturer.o"0#
-
-CCompileC build/IRLibrary.build/Debug-iphoneos/IRLibrary.build/Objects-normal/armv6/Model.o "/Users/Carl/Desktop/CoreDataTest 2/Classes/Model.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
-s317666164.863460
-e317666164.955381
-r1
-xCompileC
-xbuild/IRLibrary.build/Debug-iphoneos/IRLibrary.build/Objects-normal/armv6/Model.o
-x/Users/Carl/Desktop/CoreDataTest 2/Classes/Model.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@58"Compile /Users/Carl/Desktop/CoreDataTest 2/Classes/Model.m317666164#317666164#0(0"0(0#0#50"/Users/Carl/Desktop/CoreDataTest 2/Classes/Model.m8628715936#1752"    cd "/Users/Carl/Desktop/CoreDataTest 2"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/Carl/Desktop/CoreDataTest 2/build/IRLibrary.build/Debug-iphoneos/IRLibrary.build/IRLibrary-generated-files.hmap" "-I/Users/Carl/Desktop/CoreDataTest 2/build/IRLibrary.build/Debug-iphoneos/IRLibrary.build/IRLibrary-own-target-headers.hmap" "-I/Users/Carl/Desktop/CoreDataTest 2/build/IRLibrary.build/Debug-iphoneos/IRLibrary.build/IRLibrary-all-target-headers.hmap" -iquote "/Users/Carl/Desktop/CoreDataTest 2/build/IRLibrary.build/Debug-iphoneos/IRLibrary.build/IRLibrary-project-headers.hmap" "-F/Users/Carl/Desktop/CoreDataTest 2/build/Debug-iphoneos" "-I/Users/Carl/Desktop/CoreDataTest 2/build/Debug-iphoneos/include" "-I/Users/Carl/Desktop/CoreDataTest 2/build/IRLibrary.build/Debug-iphoneos/IRLibrary.build/DerivedSources/armv6" "-I/Users/Carl/Desktop/CoreDataTest 2/build/IRLibrary.build/Debug-iphoneos/IRLibrary.build/DerivedSources" -include /var/folders/5W/5WbKi7hhGkSs6Aomh0sqwE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/IRLibrary_Prefix-aaigpgvndidzkhhfzaylzfjgzxfi/IRLibrary_Prefix.pch -c "/Users/Carl/Desktop/CoreDataTest 2/Classes/Model.m" -o "/Users/Carl/Desktop/CoreDataTest 2/build/IRLibrary.build/Debug-iphoneos/IRLibrary.build/Objects-normal/armv6/Model.o"0#
-
-CCompileC build/IRLibrary.build/Debug-iphoneos/IRLibrary.build/Objects-normal/armv6/Option.o "/Users/Carl/Desktop/CoreDataTest 2/Classes/Option.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
-s317666165.064491
-e317666165.135500
-r1
-xCompileC
-xbuild/IRLibrary.build/Debug-iphoneos/IRLibrary.build/Objects-normal/armv6/Option.o
-x/Users/Carl/Desktop/CoreDataTest 2/Classes/Option.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@59"Compile /Users/Carl/Desktop/CoreDataTest 2/Classes/Option.m317666165#317666165#0(0"0(0#0#51"/Users/Carl/Desktop/CoreDataTest 2/Classes/Option.m8621659328#1754"    cd "/Users/Carl/Desktop/CoreDataTest 2"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/Carl/Desktop/CoreDataTest 2/build/IRLibrary.build/Debug-iphoneos/IRLibrary.build/IRLibrary-generated-files.hmap" "-I/Users/Carl/Desktop/CoreDataTest 2/build/IRLibrary.build/Debug-iphoneos/IRLibrary.build/IRLibrary-own-target-headers.hmap" "-I/Users/Carl/Desktop/CoreDataTest 2/build/IRLibrary.build/Debug-iphoneos/IRLibrary.build/IRLibrary-all-target-headers.hmap" -iquote "/Users/Carl/Desktop/CoreDataTest 2/build/IRLibrary.build/Debug-iphoneos/IRLibrary.build/IRLibrary-project-headers.hmap" "-F/Users/Carl/Desktop/CoreDataTest 2/build/Debug-iphoneos" "-I/Users/Carl/Desktop/CoreDataTest 2/build/Debug-iphoneos/include" "-I/Users/Carl/Desktop/CoreDataTest 2/build/IRLibrary.build/Debug-iphoneos/IRLibrary.build/DerivedSources/armv6" "-I/Users/Carl/Desktop/CoreDataTest 2/build/IRLibrary.build/Debug-iphoneos/IRLibrary.build/DerivedSources" -include /var/folders/5W/5WbKi7hhGkSs6Aomh0sqwE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/IRLibrary_Prefix-aaigpgvndidzkhhfzaylzfjgzxfi/IRLibrary_Prefix.pch -c "/Users/Carl/Desktop/CoreDataTest 2/Classes/Option.m" -o "/Users/Carl/Desktop/CoreDataTest 2/build/IRLibrary.build/Debug-iphoneos/IRLibrary.build/Objects-normal/armv6/Option.o"0#
-
-CCompileC build/IRLibrary.build/Debug-iphoneos/IRLibrary.build/Objects-normal/armv6/RootViewController.o "/Users/Carl/Desktop/CoreDataTest 2/Classes/RootViewController.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
-s317666164.665598
-e317666164.863362
-r1
-xCompileC
-xbuild/IRLibrary.build/Debug-iphoneos/IRLibrary.build/Objects-normal/armv6/RootViewController.o
-x/Users/Carl/Desktop/CoreDataTest 2/Classes/RootViewController.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@71"Compile /Users/Carl/Desktop/CoreDataTest 2/Classes/RootViewController.m317666164#317666164#0(0"0(0#0#63"/Users/Carl/Desktop/CoreDataTest 2/Classes/RootViewController.m8629544128#1778"    cd "/Users/Carl/Desktop/CoreDataTest 2"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/Carl/Desktop/CoreDataTest 2/build/IRLibrary.build/Debug-iphoneos/IRLibrary.build/IRLibrary-generated-files.hmap" "-I/Users/Carl/Desktop/CoreDataTest 2/build/IRLibrary.build/Debug-iphoneos/IRLibrary.build/IRLibrary-own-target-headers.hmap" "-I/Users/Carl/Desktop/CoreDataTest 2/build/IRLibrary.build/Debug-iphoneos/IRLibrary.build/IRLibrary-all-target-headers.hmap" -iquote "/Users/Carl/Desktop/CoreDataTest 2/build/IRLibrary.build/Debug-iphoneos/IRLibrary.build/IRLibrary-project-headers.hmap" "-F/Users/Carl/Desktop/CoreDataTest 2/build/Debug-iphoneos" "-I/Users/Carl/Desktop/CoreDataTest 2/build/Debug-iphoneos/include" "-I/Users/Carl/Desktop/CoreDataTest 2/build/IRLibrary.build/Debug-iphoneos/IRLibrary.build/DerivedSources/armv6" "-I/Users/Carl/Desktop/CoreDataTest 2/build/IRLibrary.build/Debug-iphoneos/IRLibrary.build/DerivedSources" -include /var/folders/5W/5WbKi7hhGkSs6Aomh0sqwE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/IRLibrary_Prefix-aaigpgvndidzkhhfzaylzfjgzxfi/IRLibrary_Prefix.pch -c "/Users/Carl/Desktop/CoreDataTest 2/Classes/RootViewController.m" -o "/Users/Carl/Desktop/CoreDataTest 2/build/IRLibrary.build/Debug-iphoneos/IRLibrary.build/Objects-normal/armv6/RootViewController.o"0#
-
-CCompileC build/IRLibrary.build/Debug-iphoneos/IRLibrary.build/Objects-normal/armv6/main.o "/Users/Carl/Desktop/CoreDataTest 2/main.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
-s317666164.570783
-e317666164.618892
-r1
-xCompileC
-xbuild/IRLibrary.build/Debug-iphoneos/IRLibrary.build/Objects-normal/armv6/main.o
-x/Users/Carl/Desktop/CoreDataTest 2/main.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@49"Compile /Users/Carl/Desktop/CoreDataTest 2/main.m317666164#317666164#0(0"0(0#0#41"/Users/Carl/Desktop/CoreDataTest 2/main.m8627748832#1742"    cd "/Users/Carl/Desktop/CoreDataTest 2"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/Carl/Desktop/CoreDataTest 2/build/IRLibrary.build/Debug-iphoneos/IRLibrary.build/IRLibrary-generated-files.hmap" "-I/Users/Carl/Desktop/CoreDataTest 2/build/IRLibrary.build/Debug-iphoneos/IRLibrary.build/IRLibrary-own-target-headers.hmap" "-I/Users/Carl/Desktop/CoreDataTest 2/build/IRLibrary.build/Debug-iphoneos/IRLibrary.build/IRLibrary-all-target-headers.hmap" -iquote "/Users/Carl/Desktop/CoreDataTest 2/build/IRLibrary.build/Debug-iphoneos/IRLibrary.build/IRLibrary-project-headers.hmap" "-F/Users/Carl/Desktop/CoreDataTest 2/build/Debug-iphoneos" "-I/Users/Carl/Desktop/CoreDataTest 2/build/Debug-iphoneos/include" "-I/Users/Carl/Desktop/CoreDataTest 2/build/IRLibrary.build/Debug-iphoneos/IRLibrary.build/DerivedSources/armv6" "-I/Users/Carl/Desktop/CoreDataTest 2/build/IRLibrary.build/Debug-iphoneos/IRLibrary.build/DerivedSources" -include /var/folders/5W/5WbKi7hhGkSs6Aomh0sqwE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/IRLibrary_Prefix-aaigpgvndidzkhhfzaylzfjgzxfi/IRLibrary_Prefix.pch -c "/Users/Carl/Desktop/CoreDataTest 2/main.m" -o "/Users/Carl/Desktop/CoreDataTest 2/build/IRLibrary.build/Debug-iphoneos/IRLibrary.build/Objects-normal/armv6/main.o"0#
-
-CCompileXIB "/Users/Carl/Desktop/CoreDataTest 2/Classes/DetailsViewController.xib"
-s317666164.114853
-e317666164.569795
-r1
-xCompileXIB
-x/Users/Carl/Desktop/CoreDataTest 2/Classes/DetailsViewController.xib
-lSLF07#2@44"CompileXIB Classes/DetailsViewController.xib317666164#317666164#0(0"0(0#0#68"/Users/Carl/Desktop/CoreDataTest 2/Classes/DetailsViewController.xib8628269088#568"    cd "/Users/Carl/Desktop/CoreDataTest 2"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/Carl/Desktop/CoreDataTest 2/build/Debug-iphoneos/IRLibrary.app/DetailsViewController.nib" "/Users/Carl/Desktop/CoreDataTest 2/Classes/DetailsViewController.xib" --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
-
-CCompileXIB "/Users/Carl/Desktop/CoreDataTest 2/MainWindow.xib"
-s317666163.744615
-e317666164.189812
-r1
-xCompileXIB
-x/Users/Carl/Desktop/CoreDataTest 2/MainWindow.xib
-lSLF07#2@25"CompileXIB MainWindow.xib317666163#317666164#0(0"0(0#0#49"/Users/Carl/Desktop/CoreDataTest 2/MainWindow.xib8629436352#538"    cd "/Users/Carl/Desktop/CoreDataTest 2"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/Carl/Desktop/CoreDataTest 2/build/Debug-iphoneos/IRLibrary.app/MainWindow.nib" "/Users/Carl/Desktop/CoreDataTest 2/MainWindow.xib" --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
-
-CCompileXIB "/Users/Carl/Desktop/CoreDataTest 2/RootViewController.xib"
-s317666163.745357
-e317666164.114066
-r1
-xCompileXIB
-x/Users/Carl/Desktop/CoreDataTest 2/RootViewController.xib
-lSLF07#2@33"CompileXIB RootViewController.xib317666163#317666164#0(0"0(0#0#57"/Users/Carl/Desktop/CoreDataTest 2/RootViewController.xib8629186144#554"    cd "/Users/Carl/Desktop/CoreDataTest 2"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/Carl/Desktop/CoreDataTest 2/build/Debug-iphoneos/IRLibrary.app/RootViewController.nib" "/Users/Carl/Desktop/CoreDataTest 2/RootViewController.xib" --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
-
-CCpResource build/Debug-iphoneos/IRLibrary.app/Data.xml Data.xml
-s317666164.114156
-e317666164.119547
-r1
-xCpResource
-xbuild/Debug-iphoneos/IRLibrary.app/Data.xml
-xData.xml
-lSLF07#2@13"Copy Data.xml317666164#317666164#0(0"0(0#0#43"/Users/Carl/Desktop/CoreDataTest 2/Data.xml8628507456#448"    cd "/Users/Carl/Desktop/CoreDataTest 2"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/Carl/Desktop/CoreDataTest 2/Data.xml" "/Users/Carl/Desktop/CoreDataTest 2/build/Debug-iphoneos/IRLibrary.app"0#
-
-CCpResource build/Debug-iphoneos/IRLibrary.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
-s317666163.694379
-e317666163.743330
-r1
-xCpResource
-xbuild/Debug-iphoneos/IRLibrary.app/ResourceRules.plist
-x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
-lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist317666163#317666163#0(0"0(0#0#89"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist8626084032#492"    cd "/Users/Carl/Desktop/CoreDataTest 2"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist "/Users/Carl/Desktop/CoreDataTest 2/build/Debug-iphoneos/IRLibrary.app"0#
-
-CDataModelCompile "/Users/Carl/Desktop/CoreDataTest 2/build/Debug-iphoneos/IRLibrary.app/RemoteDatabase.mom" "/Users/Carl/Desktop/CoreDataTest 2/RemoteDatabase.xcdatamodel"
-s317666164.569963
-e317666164.665497
-r1
-xDataModelCompile
-x/Users/Carl/Desktop/CoreDataTest 2/build/Debug-iphoneos/IRLibrary.app/RemoteDatabase.mom
-x/Users/Carl/Desktop/CoreDataTest 2/RemoteDatabase.xcdatamodel
-lSLF07#2@69"Compile /Users/Carl/Desktop/CoreDataTest 2/RemoteDatabase.xcdatamodel317666164#317666164#0(0"0(0#0#61"/Users/Carl/Desktop/CoreDataTest 2/RemoteDatabase.xcdatamodel8627884608#351"    cd "/Users/Carl/Desktop/CoreDataTest 2"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/momc "/Users/Carl/Desktop/CoreDataTest 2/RemoteDatabase.xcdatamodel" "/Users/Carl/Desktop/CoreDataTest 2/build/Debug-iphoneos/IRLibrary.app/RemoteDatabase.mom"0#
-
-CGenerateDSYMFile "/Users/Carl/Desktop/CoreDataTest 2/build/Debug-iphoneos/IRLibrary.app.dSYM" "/Users/Carl/Desktop/CoreDataTest 2/build/Debug-iphoneos/IRLibrary.app/IRLibrary"
-s317666165.251970
-e317666165.276524
-r1
-xGenerateDSYMFile
-x/Users/Carl/Desktop/CoreDataTest 2/build/Debug-iphoneos/IRLibrary.app.dSYM
-x/Users/Carl/Desktop/CoreDataTest 2/build/Debug-iphoneos/IRLibrary.app/IRLibrary
-lSLF07#2@101"GenerateDSYMFile build/Debug-iphoneos/IRLibrary.app.dSYM build/Debug-iphoneos/IRLibrary.app/IRLibrary317666165#317666165#0(0"0(0#0#79"/Users/Carl/Desktop/CoreDataTest 2/build/Debug-iphoneos/IRLibrary.app/IRLibrary8629477728#362"    cd "/Users/Carl/Desktop/CoreDataTest 2"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil "/Users/Carl/Desktop/CoreDataTest 2/build/Debug-iphoneos/IRLibrary.app/IRLibrary" -o "/Users/Carl/Desktop/CoreDataTest 2/build/Debug-iphoneos/IRLibrary.app.dSYM"0#
-
-CLd "/Users/Carl/Desktop/CoreDataTest 2/build/Debug-iphoneos/IRLibrary.app/IRLibrary" normal armv6
-s317666165.189833
-e317666165.251747
-r1
-xLd
-x/Users/Carl/Desktop/CoreDataTest 2/build/Debug-iphoneos/IRLibrary.app/IRLibrary
-xnormal
-xarmv6
-lSLF07#2@84"Link /Users/Carl/Desktop/CoreDataTest 2/build/Debug-iphoneos/IRLibrary.app/IRLibrary317666165#317666165#0(0"0(0#0#0"8628195552#863"    cd "/Users/Carl/Desktop/CoreDataTest 2"    setenv IPHONEOS_DEPLOYMENT_TARGET 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk "-L/Users/Carl/Desktop/CoreDataTest 2/build/Debug-iphoneos" "-F/Users/Carl/Desktop/CoreDataTest 2/build/Debug-iphoneos" -filelist "/Users/Carl/Desktop/CoreDataTest 2/build/IRLibrary.build/Debug-iphoneos/IRLibrary.build/Objects-normal/armv6/IRLibrary.LinkFileList" -dead_strip -miphoneos-version-min=4.2 -framework Foundation -framework UIKit -framework CoreGraphics -framework CoreData -framework MessageUI -o "/Users/Carl/Desktop/CoreDataTest 2/build/Debug-iphoneos/IRLibrary.app/IRLibrary"0#
-
-CProcessInfoPlistFile "/Users/Carl/Desktop/CoreDataTest 2/build/Debug-iphoneos/IRLibrary.app/Info.plist" IRLibrary-Info.plist
-s317666163.699889
-e317666163.744548
-r1
-xProcessInfoPlistFile
-x/Users/Carl/Desktop/CoreDataTest 2/build/Debug-iphoneos/IRLibrary.app/Info.plist
-xIRLibrary-Info.plist
-lSLF07#2@28"Process IRLibrary-Info.plist317666163#317666163#0(0"0(0#0#55"/Users/Carl/Desktop/CoreDataTest 2/IRLibrary-Info.plist8624152352#562"    cd "/Users/Carl/Desktop/CoreDataTest 2"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility IRLibrary-Info.plist -genpkginfo "/Users/Carl/Desktop/CoreDataTest 2/build/Debug-iphoneos/IRLibrary.app/PkgInfo" -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile "/Users/Carl/Desktop/CoreDataTest 2/build/Debug-iphoneos/IRLibrary.app/ResourceRules.plist" -o "/Users/Carl/Desktop/CoreDataTest 2/build/Debug-iphoneos/IRLibrary.app/Info.plist"0#
-
-CProcessPCH /var/folders/5W/5WbKi7hhGkSs6Aomh0sqwE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/IRLibrary_Prefix-aaigpgvndidzkhhfzaylzfjgzxfi/IRLibrary_Prefix.pch.gch IRLibrary_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
-r0
-
-CProcessProductPackaging "/Users/Carl/Library/MobileDevice/Provisioning Profiles/46B0D466-264F-4CA1-BA50-210D7E7440D8.mobileprovision" "/Users/Carl/Desktop/CoreDataTest 2/build/Debug-iphoneos/IRLibrary.app/embedded.mobileprovision"
-s317666165.276623
-e317666165.323637
-r1
-xProcessProductPackaging
-x/Users/Carl/Library/MobileDevice/Provisioning Profiles/46B0D466-264F-4CA1-BA50-210D7E7440D8.mobileprovision
-x/Users/Carl/Desktop/CoreDataTest 2/build/Debug-iphoneos/IRLibrary.app/embedded.mobileprovision
-lSLF07#2@193"ProcessProductPackaging "/Users/Carl/Library/MobileDevice/Provisioning Profiles/46B0D466-264F-4CA1-BA50-210D7E7440D8.mobileprovision" build/Debug-iphoneos/IRLibrary.app/embedded.mobileprovision317666165#317666165#0(0"0(0#0#94"/Users/Carl/Desktop/CoreDataTest 2/build/Debug-iphoneos/IRLibrary.app/embedded.mobileprovision8628520352#420"    cd "/Users/Carl/Desktop/CoreDataTest 2"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/Carl/Library/MobileDevice/Provisioning Profiles/46B0D466-264F-4CA1-BA50-210D7E7440D8.mobileprovision" -o "/Users/Carl/Desktop/CoreDataTest 2/build/Debug-iphoneos/IRLibrary.app/embedded.mobileprovision"0#
-
-CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist "/Users/Carl/Desktop/CoreDataTest 2/build/IRLibrary.build/Debug-iphoneos/IRLibrary.build/IRLibrary.xcent"
-s317666165.326737
-e317666165.346944
-r1
-xProcessProductPackaging
-x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist
-x/Users/Carl/Desktop/CoreDataTest 2/build/IRLibrary.build/Debug-iphoneos/IRLibrary.build/IRLibrary.xcent
-lSLF07#2@181"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist build/IRLibrary.build/Debug-iphoneos/IRLibrary.build/IRLibrary.xcent317666165#317666165#0(0"0(0#0#103"/Users/Carl/Desktop/CoreDataTest 2/build/IRLibrary.build/Debug-iphoneos/IRLibrary.build/IRLibrary.xcent8627389728#434"    cd "/Users/Carl/Desktop/CoreDataTest 2"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist -entitlements -format xml -o "/Users/Carl/Desktop/CoreDataTest 2/build/IRLibrary.build/Debug-iphoneos/IRLibrary.build/IRLibrary.xcent"0#
-
-CTouch "/Users/Carl/Desktop/CoreDataTest 2/build/Debug-iphoneos/IRLibrary.app"
-s317666165.323709
-e317666165.326659
-r1
-xTouch
-x/Users/Carl/Desktop/CoreDataTest 2/build/Debug-iphoneos/IRLibrary.app
-lSLF07#2@75"Touch /Users/Carl/Desktop/CoreDataTest 2/build/Debug-iphoneos/IRLibrary.app317666165#317666165#0(0"0(0#0#0"8628359872#262"    cd "/Users/Carl/Desktop/CoreDataTest 2"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c "/Users/Carl/Desktop/CoreDataTest 2/build/Debug-iphoneos/IRLibrary.app"0#
-

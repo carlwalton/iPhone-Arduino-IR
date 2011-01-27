@@ -1,598 +1,0 @@
-TIRLibrary
-v7
-r0
-t317734213.546241
-cCheck dependencies
-cProcessInfoPlistFile "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/build/Debug-iphonesimulator/IRLibrary.app/Info.plist" IRLibrary-Info.plist
-cCompileXIB "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/MainWindow.xib"
-cCompileXIB "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/RootViewController.xib"
-cCpResource build/Debug-iphonesimulator/IRLibrary.app/Data.xml Data.xml
-cCompileXIB "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/Classes/DetailsViewController.xib"
-cProcessPCH /var/folders/5W/5WbKi7hhGkSs6Aomh0sqwE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/IRLibrary_Prefix-bjvrilgwxpektpgjnbkfqjdaeizy/IRLibrary_Prefix.pch.gch IRLibrary_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-cDataModelCompile "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/build/Debug-iphonesimulator/IRLibrary.app/RemoteDatabase.mom" "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/RemoteDatabase.xcdatamodel"
-cCompileC build/IRLibrary.build/Debug-iphonesimulator/IRLibrary.build/Objects-normal/i386/main.o "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/IRLibrary.build/Debug-iphonesimulator/IRLibrary.build/Objects-normal/i386/IRLibraryAppDelegate.o "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/Classes/IRLibraryAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/IRLibrary.build/Debug-iphonesimulator/IRLibrary.build/Objects-normal/i386/RootViewController.o "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/Classes/RootViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/IRLibrary.build/Debug-iphonesimulator/IRLibrary.build/Objects-normal/i386/Model.o "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/Classes/Model.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/IRLibrary.build/Debug-iphonesimulator/IRLibrary.build/Objects-normal/i386/Manufacturer.o "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/Classes/Manufacturer.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/IRLibrary.build/Debug-iphonesimulator/IRLibrary.build/Objects-normal/i386/CoreDataHelper.o "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/CoreDataHelper.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/IRLibrary.build/Debug-iphonesimulator/IRLibrary.build/Objects-normal/i386/XMLParser.o "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/Classes/XMLParser.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/IRLibrary.build/Debug-iphonesimulator/IRLibrary.build/Objects-normal/i386/DetailsViewController.o "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/Classes/DetailsViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/IRLibrary.build/Debug-iphonesimulator/IRLibrary.build/Objects-normal/i386/Option.o "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/Classes/Option.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/IRLibrary.build/Debug-iphonesimulator/IRLibrary.build/Objects-normal/i386/MLUtils.o "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/Classes/MLUtils.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-cLd "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/build/Debug-iphonesimulator/IRLibrary.app/IRLibrary" normal i386
-cGenerateDSYMFile "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/build/Debug-iphonesimulator/IRLibrary.app.dSYM" "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/build/Debug-iphonesimulator/IRLibrary.app/IRLibrary"
-cTouch "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/build/Debug-iphonesimulator/IRLibrary.app"
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk
-c000000004CC128950000000000000110
-t1287727253
-s272
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreData.framework/CoreData
-c000000004CC122A000000000001D6CE0
-t1287725728
-s1928416
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.h
-c000000004CC12294000000000000046B
-t1287725716
-s1131
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-c000000004CC12246000000000029B310
-t1287725638
-s2732816
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c000000004CC1226D000000000029D5D0
-t1287725677
-s2741712
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
-c000000004CC1225F0000000000001466
-t1287725663
-s5222
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/MessageUI.framework/Headers/MessageUI.h
-c000000004CC6561F00000000000000CD
-t1288066591
-s205
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/MessageUI.framework/MessageUI
-c000000004CC6562D000000000009BEC0
-t1288066605
-s638656
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
-c000000004CC1281F0000000000000AA1
-t1287727135
-s2721
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
-c000000004CC12883000000000074D7B0
-t1287727235
-s7657392
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/Availability.h
-c000000004CB3FA080000000000001ADD
-t1286863368
-s6877
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/arpa/inet.h
-c000000004CB3E46D0000000000001533
-t1286857837
-s5427
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/stdio.h
-c000000004CB3E48600000000000040AC
-t1286857862
-s16556
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/stdlib.h
-c000000004CB3E4860000000000002DF5
-t1286857862
-s11765
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/string.h
-c000000004CB3E4860000000000001731
-t1286857862
-s5937
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/sys/socket.h
-c000000004CBFACAC0000000000005A69
-t1287629996
-s23145
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/unistd.h
-c000000004CB3E486000000000000563E
-t1286857862
-s22078
-
-N/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/Classes/DetailsViewController.h
-c000000004D3EFCAF00000000000003D1
-t1295973551
-s977
-i<UIKit/UIKit.h>
-i<MessageUI/MessageUI.h>
-i"MLUtils.h"
-
-N/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/Classes/DetailsViewController.m
-c000000004D3EFC920000000000000DD9
-t1295973522
-s3545
-i"DetailsViewController.h"
-i<stdio.h>
-i<sys/socket.h>
-i<arpa/inet.h>
-i<stdlib.h>
-i<string.h>
-i<unistd.h>
-
-N/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/Classes/DetailsViewController.xib
-c000000004D1CA4C30000000000006F38
-t1293722819
-s28472
-
-N/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/Classes/IRLibraryAppDelegate.h
-c000000004D3F00A20000000000000371
-t1295974562
-s881
-i"RootViewController.h"
-i"XMLParser.h"
-
-N/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/Classes/IRLibraryAppDelegate.m
-c000000004D3F00A70000000000001607
-t1295974567
-s5639
-i"IRLibraryAppDelegate.h"
-
-N/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/Classes/MLUtils.h
-c000000004D3EFCC600000000000000BF
-t1295973574
-s191
-i<UIKit/UIKit.h>
-
-N/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/Classes/MLUtils.m
-c000000004D3EFCC2000000000000019D
-t1295973570
-s413
-i"MLUtils.h"
-
-N/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/Classes/Manufacturer.h
-c000000004D3EFCE400000000000001DB
-t1295973604
-s475
-i<CoreData/CoreData.h>
-
-N/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/Classes/Manufacturer.m
-c000000004D3EFCEA000000000000007D
-t1295973610
-s125
-i"Manufacturer.h"
-i"Model.h"
-
-N/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/Classes/Model.h
-c000000004D3EFCD80000000000000209
-t1295973592
-s521
-i<CoreData/CoreData.h>
-
-N/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/Classes/Model.m
-c000000004D3EFCDE00000000000000A2
-t1295973598
-s162
-i"Model.h"
-i"Option.h"
-i"Manufacturer.h"
-
-N/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/Classes/Option.h
-c000000004D3EFCEE000000000000015D
-t1295973614
-s349
-i<CoreData/CoreData.h>
-
-N/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/Classes/Option.m
-c000000004D3EFCF300000000000000A2
-t1295973619
-s162
-i"Option.h"
-i"Model.h"
-
-N/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/Classes/RootViewController.h
-c000000004D3EFDCA0000000000000246
-t1295973834
-s582
-i"Manufacturer.h"
-i"CoreDataHelper.h"
-i"DetailsViewController.h"
-i"Option.h"
-
-N/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/Classes/RootViewController.m
-c000000004D3EFDF8000000000000148B
-t1295973880
-s5259
-i"RootViewController.h"
-
-N/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/Classes/XMLParser.h
-c000000004D3EFD58000000000000022C
-t1295973720
-s556
-i<Foundation/Foundation.h>
-i"CoreDataHelper.h"
-i"Manufacturer.h"
-i"Model.h"
-i"Option.h"
-
-N/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/Classes/XMLParser.m
-c000000004D4005B90000000000001013
-t1296041401
-s4115
-i"XMLParser.h"
-
-N/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/CoreDataHelper.h
-c000000004D3EFCCB00000000000001C6
-t1295973579
-s454
-i<UIKit/UIKit.h>
-i<CoreData/CoreData.h>
-
-N/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/CoreDataHelper.m
-c000000004D3EFCD000000000000005A3
-t1295973584
-s1443
-i"CoreDataHelper.h"
-
-N/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/Data.xml
-c000000004D3EFB6B00000000000021E8
-t1295973227
-s8680
-
-N/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/IRLibrary_Prefix.pch
-c000000004A06FFB4000000000000014A
-t1241972660
-s330
-i<Availability.h>
-i<Foundation/Foundation.h>
-i<UIKit/UIKit.h>
-
-N/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/MainWindow.xib
-c000000004D3F009E0000000000003355
-t1295974558
-s13141
-
-N/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/RemoteDatabase.xcdatamodel
-c000000004D1CA7EE0000000000000088
-t1293723630
-s136
-
-N/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/RootViewController.xib
-c000000004A06FFB40000000000001F5E
-t1241972660
-s8030
-
-N/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/build/Debug-iphonesimulator/IRLibrary.app
-t1296041413
-s340
-
-N/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/build/Debug-iphonesimulator/IRLibrary.app.dSYM
-t1296041413
-s102
-
-N/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/build/Debug-iphonesimulator/IRLibrary.app/Data.xml
-t1296041409
-s8680
-
-N/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/build/Debug-iphonesimulator/IRLibrary.app/DetailsViewController.nib
-t1296041410
-s2467
-
-N/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/build/Debug-iphonesimulator/IRLibrary.app/IRLibrary
-t1296041413
-s53400
-
-N/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/build/Debug-iphonesimulator/IRLibrary.app/Info.plist
-t1296041408
-s599
-
-N/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/build/Debug-iphonesimulator/IRLibrary.app/MainWindow.nib
-t1296041409
-s1487
-
-N/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/build/Debug-iphonesimulator/IRLibrary.app/PkgInfo
-t1296041408
-s8
-
-N/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/build/Debug-iphonesimulator/IRLibrary.app/RemoteDatabase.mom
-t1296041412
-s4671
-
-N/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/build/Debug-iphonesimulator/IRLibrary.app/RootViewController.nib
-t1296041409
-s1021
-
-N/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/build/IRLibrary.build/Debug-iphonesimulator/IRLibrary.build/Objects-normal/i386/CoreDataHelper.o
-t1296041412
-s15288
-
-N/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/build/IRLibrary.build/Debug-iphonesimulator/IRLibrary.build/Objects-normal/i386/DetailsViewController.o
-t1296041413
-s58016
-
-N/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/build/IRLibrary.build/Debug-iphonesimulator/IRLibrary.build/Objects-normal/i386/IRLibrary.LinkFileList
-c000000004D4005C000000000000006BE
-t1296041408
-s1726
-
-N/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/build/IRLibrary.build/Debug-iphonesimulator/IRLibrary.build/Objects-normal/i386/IRLibraryAppDelegate.o
-t1296041412
-s66152
-
-N/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/build/IRLibrary.build/Debug-iphonesimulator/IRLibrary.build/Objects-normal/i386/MLUtils.o
-t1296041412
-s7960
-
-N/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/build/IRLibrary.build/Debug-iphonesimulator/IRLibrary.build/Objects-normal/i386/Manufacturer.o
-t1296041412
-s5376
-
-N/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/build/IRLibrary.build/Debug-iphonesimulator/IRLibrary.build/Objects-normal/i386/Model.o
-t1296041412
-s5372
-
-N/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/build/IRLibrary.build/Debug-iphonesimulator/IRLibrary.build/Objects-normal/i386/Option.o
-t1296041412
-s5432
-
-N/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/build/IRLibrary.build/Debug-iphonesimulator/IRLibrary.build/Objects-normal/i386/RootViewController.o
-t1296041412
-s57356
-
-N/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/build/IRLibrary.build/Debug-iphonesimulator/IRLibrary.build/Objects-normal/i386/XMLParser.o
-t1296041412
-s23872
-
-N/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/build/IRLibrary.build/Debug-iphonesimulator/IRLibrary.build/Objects-normal/i386/main.o
-t1296041412
-s6380
-
-N/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/main.m
-c000000004D3EFC7E00000000000000E5
-t1295973502
-s229
-i<UIKit/UIKit.h>
-
-N/var/folders/5W/5WbKi7hhGkSs6Aomh0sqwE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/IRLibrary_Prefix-bjvrilgwxpektpgjnbkfqjdaeizy/IRLibrary_Prefix.pch.gch
-t1296041411
-s15453392
-
-NIRLibrary-Info.plist
-c000000004A06FFB4000000000000038D
-t1241972660
-s909
-
-CCheck dependencies
-r0
-lSLF07#2@18"Check dependencies317734208#317734208#0(0"0(0#1#0"8654588128#0"0#
-
-CCompileC build/IRLibrary.build/Debug-iphonesimulator/IRLibrary.build/Objects-normal/i386/CoreDataHelper.o "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/CoreDataHelper.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s317734212.583882
-e317734212.707924
-r1
-xCompileC
-xbuild/IRLibrary.build/Debug-iphonesimulator/IRLibrary.build/Objects-normal/i386/CoreDataHelper.o
-x/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/CoreDataHelper.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@102"Compile /Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/CoreDataHelper.m317734212#317734212#0(0"0(0#0#94"/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/CoreDataHelper.m8622960512#2425"    cd "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/build/IRLibrary.build/Debug-iphonesimulator/IRLibrary.build/IRLibrary-generated-files.hmap" "-I/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/build/IRLibrary.build/Debug-iphonesimulator/IRLibrary.build/IRLibrary-own-target-headers.hmap" "-I/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/build/IRLibrary.build/Debug-iphonesimulator/IRLibrary.build/IRLibrary-all-target-headers.hmap" -iquote "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/build/IRLibrary.build/Debug-iphonesimulator/IRLibrary.build/IRLibrary-project-headers.hmap" "-F/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/build/Debug-iphonesimulator" "-I/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/build/Debug-iphonesimulator/include" "-I/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/build/IRLibrary.build/Debug-iphonesimulator/IRLibrary.build/DerivedSources/i386" "-I/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/build/IRLibrary.build/Debug-iphonesimulator/IRLibrary.build/DerivedSources" -include /var/folders/5W/5WbKi7hhGkSs6Aomh0sqwE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/IRLibrary_Prefix-bjvrilgwxpektpgjnbkfqjdaeizy/IRLibrary_Prefix.pch -c "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/CoreDataHelper.m" -o "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/build/IRLibrary.build/Debug-iphonesimulator/IRLibrary.build/Objects-normal/i386/CoreDataHelper.o"0#
-
-CCompileC build/IRLibrary.build/Debug-iphonesimulator/IRLibrary.build/Objects-normal/i386/DetailsViewController.o "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/Classes/DetailsViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s317734212.708033
-e317734213.083562
-r1
-xCompileC
-xbuild/IRLibrary.build/Debug-iphonesimulator/IRLibrary.build/Objects-normal/i386/DetailsViewController.o
-x/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/Classes/DetailsViewController.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@117"Compile /Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/Classes/DetailsViewController.m317734212#317734213#0(0"0(0#0#109"/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/Classes/DetailsViewController.m8662667808#2447"    cd "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/build/IRLibrary.build/Debug-iphonesimulator/IRLibrary.build/IRLibrary-generated-files.hmap" "-I/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/build/IRLibrary.build/Debug-iphonesimulator/IRLibrary.build/IRLibrary-own-target-headers.hmap" "-I/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/build/IRLibrary.build/Debug-iphonesimulator/IRLibrary.build/IRLibrary-all-target-headers.hmap" -iquote "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/build/IRLibrary.build/Debug-iphonesimulator/IRLibrary.build/IRLibrary-project-headers.hmap" "-F/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/build/Debug-iphonesimulator" "-I/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/build/Debug-iphonesimulator/include" "-I/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/build/IRLibrary.build/Debug-iphonesimulator/IRLibrary.build/DerivedSources/i386" "-I/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/build/IRLibrary.build/Debug-iphonesimulator/IRLibrary.build/DerivedSources" -include /var/folders/5W/5WbKi7hhGkSs6Aomh0sqwE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/IRLibrary_Prefix-bjvrilgwxpektpgjnbkfqjdaeizy/IRLibrary_Prefix.pch -c "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/Classes/DetailsViewController.m" -o "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/build/IRLibrary.build/Debug-iphonesimulator/IRLibrary.build/Objects-normal/i386/DetailsViewController.o"0#
-
-CCompileC build/IRLibrary.build/Debug-iphonesimulator/IRLibrary.build/Objects-normal/i386/IRLibraryAppDelegate.o "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/Classes/IRLibraryAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s317734212.184393
-e317734212.509635
-r1
-xCompileC
-xbuild/IRLibrary.build/Debug-iphonesimulator/IRLibrary.build/Objects-normal/i386/IRLibraryAppDelegate.o
-x/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/Classes/IRLibraryAppDelegate.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@116"Compile /Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/Classes/IRLibraryAppDelegate.m317734212#317734212#0(0"0(0#0#108"/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/Classes/IRLibraryAppDelegate.m8658362592#2445"    cd "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/build/IRLibrary.build/Debug-iphonesimulator/IRLibrary.build/IRLibrary-generated-files.hmap" "-I/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/build/IRLibrary.build/Debug-iphonesimulator/IRLibrary.build/IRLibrary-own-target-headers.hmap" "-I/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/build/IRLibrary.build/Debug-iphonesimulator/IRLibrary.build/IRLibrary-all-target-headers.hmap" -iquote "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/build/IRLibrary.build/Debug-iphonesimulator/IRLibrary.build/IRLibrary-project-headers.hmap" "-F/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/build/Debug-iphonesimulator" "-I/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/build/Debug-iphonesimulator/include" "-I/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/build/IRLibrary.build/Debug-iphonesimulator/IRLibrary.build/DerivedSources/i386" "-I/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/build/IRLibrary.build/Debug-iphonesimulator/IRLibrary.build/DerivedSources" -include /var/folders/5W/5WbKi7hhGkSs6Aomh0sqwE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/IRLibrary_Prefix-bjvrilgwxpektpgjnbkfqjdaeizy/IRLibrary_Prefix.pch -c "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/Classes/IRLibraryAppDelegate.m" -o "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/build/IRLibrary.build/Debug-iphonesimulator/IRLibrary.build/Objects-normal/i386/IRLibraryAppDelegate.o"0#
-
-CCompileC build/IRLibrary.build/Debug-iphonesimulator/IRLibrary.build/Objects-normal/i386/MLUtils.o "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/Classes/MLUtils.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s317734212.859559
-e317734212.915753
-r1
-xCompileC
-xbuild/IRLibrary.build/Debug-iphonesimulator/IRLibrary.build/Objects-normal/i386/MLUtils.o
-x/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/Classes/MLUtils.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@103"Compile /Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/Classes/MLUtils.m317734212#317734212#0(0"0(0#0#95"/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/Classes/MLUtils.m8651467648#2419"    cd "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/build/IRLibrary.build/Debug-iphonesimulator/IRLibrary.build/IRLibrary-generated-files.hmap" "-I/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/build/IRLibrary.build/Debug-iphonesimulator/IRLibrary.build/IRLibrary-own-target-headers.hmap" "-I/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/build/IRLibrary.build/Debug-iphonesimulator/IRLibrary.build/IRLibrary-all-target-headers.hmap" -iquote "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/build/IRLibrary.build/Debug-iphonesimulator/IRLibrary.build/IRLibrary-project-headers.hmap" "-F/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/build/Debug-iphonesimulator" "-I/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/build/Debug-iphonesimulator/include" "-I/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/build/IRLibrary.build/Debug-iphonesimulator/IRLibrary.build/DerivedSources/i386" "-I/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/build/IRLibrary.build/Debug-iphonesimulator/IRLibrary.build/DerivedSources" -include /var/folders/5W/5WbKi7hhGkSs6Aomh0sqwE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/IRLibrary_Prefix-bjvrilgwxpektpgjnbkfqjdaeizy/IRLibrary_Prefix.pch -c "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/Classes/MLUtils.m" -o "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/build/IRLibrary.build/Debug-iphonesimulator/IRLibrary.build/Objects-normal/i386/MLUtils.o"0#
-
-CCompileC build/IRLibrary.build/Debug-iphonesimulator/IRLibrary.build/Objects-normal/i386/Manufacturer.o "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/Classes/Manufacturer.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s317734212.543643
-e317734212.612803
-r1
-xCompileC
-xbuild/IRLibrary.build/Debug-iphonesimulator/IRLibrary.build/Objects-normal/i386/Manufacturer.o
-x/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/Classes/Manufacturer.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@108"Compile /Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/Classes/Manufacturer.m317734212#317734212#0(0"0(0#0#100"/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/Classes/Manufacturer.m8627215680#2429"    cd "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/build/IRLibrary.build/Debug-iphonesimulator/IRLibrary.build/IRLibrary-generated-files.hmap" "-I/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/build/IRLibrary.build/Debug-iphonesimulator/IRLibrary.build/IRLibrary-own-target-headers.hmap" "-I/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/build/IRLibrary.build/Debug-iphonesimulator/IRLibrary.build/IRLibrary-all-target-headers.hmap" -iquote "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/build/IRLibrary.build/Debug-iphonesimulator/IRLibrary.build/IRLibrary-project-headers.hmap" "-F/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/build/Debug-iphonesimulator" "-I/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/build/Debug-iphonesimulator/include" "-I/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/build/IRLibrary.build/Debug-iphonesimulator/IRLibrary.build/DerivedSources/i386" "-I/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/build/IRLibrary.build/Debug-iphonesimulator/IRLibrary.build/DerivedSources" -include /var/folders/5W/5WbKi7hhGkSs6Aomh0sqwE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/IRLibrary_Prefix-bjvrilgwxpektpgjnbkfqjdaeizy/IRLibrary_Prefix.pch -c "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/Classes/Manufacturer.m" -o "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/build/IRLibrary.build/Debug-iphonesimulator/IRLibrary.build/Objects-normal/i386/Manufacturer.o"0#
-
-CCompileC build/IRLibrary.build/Debug-iphonesimulator/IRLibrary.build/Objects-normal/i386/Model.o "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/Classes/Model.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s317734212.509731
-e317734212.583780
-r1
-xCompileC
-xbuild/IRLibrary.build/Debug-iphonesimulator/IRLibrary.build/Objects-normal/i386/Model.o
-x/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/Classes/Model.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@101"Compile /Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/Classes/Model.m317734212#317734212#0(0"0(0#0#93"/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/Classes/Model.m8628423104#2415"    cd "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/build/IRLibrary.build/Debug-iphonesimulator/IRLibrary.build/IRLibrary-generated-files.hmap" "-I/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/build/IRLibrary.build/Debug-iphonesimulator/IRLibrary.build/IRLibrary-own-target-headers.hmap" "-I/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/build/IRLibrary.build/Debug-iphonesimulator/IRLibrary.build/IRLibrary-all-target-headers.hmap" -iquote "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/build/IRLibrary.build/Debug-iphonesimulator/IRLibrary.build/IRLibrary-project-headers.hmap" "-F/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/build/Debug-iphonesimulator" "-I/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/build/Debug-iphonesimulator/include" "-I/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/build/IRLibrary.build/Debug-iphonesimulator/IRLibrary.build/DerivedSources/i386" "-I/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/build/IRLibrary.build/Debug-iphonesimulator/IRLibrary.build/DerivedSources" -include /var/folders/5W/5WbKi7hhGkSs6Aomh0sqwE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/IRLibrary_Prefix-bjvrilgwxpektpgjnbkfqjdaeizy/IRLibrary_Prefix.pch -c "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/Classes/Model.m" -o "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/build/IRLibrary.build/Debug-iphonesimulator/IRLibrary.build/Objects-normal/i386/Model.o"0#
-
-CCompileC build/IRLibrary.build/Debug-iphonesimulator/IRLibrary.build/Objects-normal/i386/Option.o "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/Classes/Option.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s317734212.787725
-e317734212.859444
-r1
-xCompileC
-xbuild/IRLibrary.build/Debug-iphonesimulator/IRLibrary.build/Objects-normal/i386/Option.o
-x/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/Classes/Option.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@102"Compile /Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/Classes/Option.m317734212#317734212#0(0"0(0#0#94"/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/Classes/Option.m8660745888#2417"    cd "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/build/IRLibrary.build/Debug-iphonesimulator/IRLibrary.build/IRLibrary-generated-files.hmap" "-I/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/build/IRLibrary.build/Debug-iphonesimulator/IRLibrary.build/IRLibrary-own-target-headers.hmap" "-I/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/build/IRLibrary.build/Debug-iphonesimulator/IRLibrary.build/IRLibrary-all-target-headers.hmap" -iquote "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/build/IRLibrary.build/Debug-iphonesimulator/IRLibrary.build/IRLibrary-project-headers.hmap" "-F/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/build/Debug-iphonesimulator" "-I/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/build/Debug-iphonesimulator/include" "-I/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/build/IRLibrary.build/Debug-iphonesimulator/IRLibrary.build/DerivedSources/i386" "-I/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/build/IRLibrary.build/Debug-iphonesimulator/IRLibrary.build/DerivedSources" -include /var/folders/5W/5WbKi7hhGkSs6Aomh0sqwE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/IRLibrary_Prefix-bjvrilgwxpektpgjnbkfqjdaeizy/IRLibrary_Prefix.pch -c "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/Classes/Option.m" -o "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/build/IRLibrary.build/Debug-iphonesimulator/IRLibrary.build/Objects-normal/i386/Option.o"0#
-
-CCompileC build/IRLibrary.build/Debug-iphonesimulator/IRLibrary.build/Objects-normal/i386/RootViewController.o "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/Classes/RootViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s317734212.240428
-e317734212.543540
-r1
-xCompileC
-xbuild/IRLibrary.build/Debug-iphonesimulator/IRLibrary.build/Objects-normal/i386/RootViewController.o
-x/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/Classes/RootViewController.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@114"Compile /Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/Classes/RootViewController.m317734212#317734212#0(0"0(0#0#106"/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/Classes/RootViewController.m8635754816#2441"    cd "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/build/IRLibrary.build/Debug-iphonesimulator/IRLibrary.build/IRLibrary-generated-files.hmap" "-I/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/build/IRLibrary.build/Debug-iphonesimulator/IRLibrary.build/IRLibrary-own-target-headers.hmap" "-I/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/build/IRLibrary.build/Debug-iphonesimulator/IRLibrary.build/IRLibrary-all-target-headers.hmap" -iquote "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/build/IRLibrary.build/Debug-iphonesimulator/IRLibrary.build/IRLibrary-project-headers.hmap" "-F/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/build/Debug-iphonesimulator" "-I/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/build/Debug-iphonesimulator/include" "-I/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/build/IRLibrary.build/Debug-iphonesimulator/IRLibrary.build/DerivedSources/i386" "-I/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/build/IRLibrary.build/Debug-iphonesimulator/IRLibrary.build/DerivedSources" -include /var/folders/5W/5WbKi7hhGkSs6Aomh0sqwE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/IRLibrary_Prefix-bjvrilgwxpektpgjnbkfqjdaeizy/IRLibrary_Prefix.pch -c "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/Classes/RootViewController.m" -o "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/build/IRLibrary.build/Debug-iphonesimulator/IRLibrary.build/Objects-normal/i386/RootViewController.o"0#
-
-CCompileC build/IRLibrary.build/Debug-iphonesimulator/IRLibrary.build/Objects-normal/i386/XMLParser.o "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/Classes/XMLParser.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s317734212.612913
-e317734212.787618
-r1
-xCompileC
-xbuild/IRLibrary.build/Debug-iphonesimulator/IRLibrary.build/Objects-normal/i386/XMLParser.o
-x/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/Classes/XMLParser.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@105"Compile /Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/Classes/XMLParser.m317734212#317734212#0(0"0(0#0#97"/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/Classes/XMLParser.m8630470144#2423"    cd "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/build/IRLibrary.build/Debug-iphonesimulator/IRLibrary.build/IRLibrary-generated-files.hmap" "-I/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/build/IRLibrary.build/Debug-iphonesimulator/IRLibrary.build/IRLibrary-own-target-headers.hmap" "-I/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/build/IRLibrary.build/Debug-iphonesimulator/IRLibrary.build/IRLibrary-all-target-headers.hmap" -iquote "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/build/IRLibrary.build/Debug-iphonesimulator/IRLibrary.build/IRLibrary-project-headers.hmap" "-F/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/build/Debug-iphonesimulator" "-I/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/build/Debug-iphonesimulator/include" "-I/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/build/IRLibrary.build/Debug-iphonesimulator/IRLibrary.build/DerivedSources/i386" "-I/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/build/IRLibrary.build/Debug-iphonesimulator/IRLibrary.build/DerivedSources" -include /var/folders/5W/5WbKi7hhGkSs6Aomh0sqwE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/IRLibrary_Prefix-bjvrilgwxpektpgjnbkfqjdaeizy/IRLibrary_Prefix.pch -c "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/Classes/XMLParser.m" -o "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/build/IRLibrary.build/Debug-iphonesimulator/IRLibrary.build/Objects-normal/i386/XMLParser.o"0#
-
-CCompileC build/IRLibrary.build/Debug-iphonesimulator/IRLibrary.build/Objects-normal/i386/main.o "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s317734212.013026
-e317734212.237819
-r1
-xCompileC
-xbuild/IRLibrary.build/Debug-iphonesimulator/IRLibrary.build/Objects-normal/i386/main.o
-x/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/main.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@92"Compile /Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/main.m317734212#317734212#0(0"0(0#0#84"/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/main.m8620261312#2405"    cd "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/build/IRLibrary.build/Debug-iphonesimulator/IRLibrary.build/IRLibrary-generated-files.hmap" "-I/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/build/IRLibrary.build/Debug-iphonesimulator/IRLibrary.build/IRLibrary-own-target-headers.hmap" "-I/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/build/IRLibrary.build/Debug-iphonesimulator/IRLibrary.build/IRLibrary-all-target-headers.hmap" -iquote "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/build/IRLibrary.build/Debug-iphonesimulator/IRLibrary.build/IRLibrary-project-headers.hmap" "-F/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/build/Debug-iphonesimulator" "-I/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/build/Debug-iphonesimulator/include" "-I/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/build/IRLibrary.build/Debug-iphonesimulator/IRLibrary.build/DerivedSources/i386" "-I/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/build/IRLibrary.build/Debug-iphonesimulator/IRLibrary.build/DerivedSources" -include /var/folders/5W/5WbKi7hhGkSs6Aomh0sqwE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/IRLibrary_Prefix-bjvrilgwxpektpgjnbkfqjdaeizy/IRLibrary_Prefix.pch -c "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/main.m" -o "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/build/IRLibrary.build/Debug-iphonesimulator/IRLibrary.build/Objects-normal/i386/main.o"0#
-
-CCompileXIB "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/Classes/DetailsViewController.xib"
-s317734209.757066
-e317734210.297349
-r1
-xCompileXIB
-x/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/Classes/DetailsViewController.xib
-lSLF07#2@44"CompileXIB Classes/DetailsViewController.xib317734209#317734210#0(0"0(0#0#111"/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/Classes/DetailsViewController.xib8656474144#725"    cd "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/build/Debug-iphonesimulator/IRLibrary.app/DetailsViewController.nib" "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/Classes/DetailsViewController.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
-
-CCompileXIB "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/MainWindow.xib"
-s317734208.234580
-e317734209.755552
-r1
-xCompileXIB
-x/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/MainWindow.xib
-lSLF07#2@25"CompileXIB MainWindow.xib317734208#317734209#0(0"0(0#0#92"/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/MainWindow.xib8621264544#695"    cd "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/build/Debug-iphonesimulator/IRLibrary.app/MainWindow.nib" "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/MainWindow.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
-
-CCompileXIB "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/RootViewController.xib"
-s317734208.282834
-e317734209.760540
-r1
-xCompileXIB
-x/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/RootViewController.xib
-lSLF07#2@33"CompileXIB RootViewController.xib317734208#317734209#0(0"0(0#0#100"/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/RootViewController.xib8643354208#711"    cd "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/build/Debug-iphonesimulator/IRLibrary.app/RootViewController.nib" "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/RootViewController.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
-
-CCpResource build/Debug-iphonesimulator/IRLibrary.app/Data.xml Data.xml
-s317734209.755760
-e317734209.943127
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/IRLibrary.app/Data.xml
-xData.xml
-lSLF07#2@13"Copy Data.xml317734209#317734209#0(0"0(0#0#86"/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/Data.xml8660705440#591"    cd "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/Data.xml" "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/build/Debug-iphonesimulator/IRLibrary.app"0#
-
-CDataModelCompile "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/build/Debug-iphonesimulator/IRLibrary.app/RemoteDatabase.mom" "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/RemoteDatabase.xcdatamodel"
-s317734212.012149
-e317734212.184287
-r1
-xDataModelCompile
-x/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/build/Debug-iphonesimulator/IRLibrary.app/RemoteDatabase.mom
-x/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/RemoteDatabase.xcdatamodel
-lSLF07#2@112"Compile /Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/RemoteDatabase.xcdatamodel317734212#317734212#0(0"0(0#0#104"/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/RemoteDatabase.xcdatamodel8627585696#523"    cd "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/momc -XD_MOMC_TARGET_VERSION=10.6 "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/RemoteDatabase.xcdatamodel" "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/build/Debug-iphonesimulator/IRLibrary.app/RemoteDatabase.mom"0#
-
-CGenerateDSYMFile "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/build/Debug-iphonesimulator/IRLibrary.app.dSYM" "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/build/Debug-iphonesimulator/IRLibrary.app/IRLibrary"
-s317734213.506376
-e317734213.535272
-r1
-xGenerateDSYMFile
-x/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/build/Debug-iphonesimulator/IRLibrary.app.dSYM
-x/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/build/Debug-iphonesimulator/IRLibrary.app/IRLibrary
-lSLF07#2@115"GenerateDSYMFile build/Debug-iphonesimulator/IRLibrary.app.dSYM build/Debug-iphonesimulator/IRLibrary.app/IRLibrary317734213#317734213#0(0"0(0#0#129"/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/build/Debug-iphonesimulator/IRLibrary.app/IRLibrary8654849408#512"    cd "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/build/Debug-iphonesimulator/IRLibrary.app/IRLibrary" -o "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/build/Debug-iphonesimulator/IRLibrary.app.dSYM"0#
-
-CLd "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/build/Debug-iphonesimulator/IRLibrary.app/IRLibrary" normal i386
-s317734213.083653
-e317734213.506276
-r1
-xLd
-x/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/build/Debug-iphonesimulator/IRLibrary.app/IRLibrary
-xnormal
-xi386
-lSLF07#2@134"Link /Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/build/Debug-iphonesimulator/IRLibrary.app/IRLibrary317734213#317734213#0(0"0(0#0#0"8629428384#1156"    cd "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk "-L/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/build/Debug-iphonesimulator" "-F/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/build/Debug-iphonesimulator" -filelist "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/build/IRLibrary.build/Debug-iphonesimulator/IRLibrary.build/Objects-normal/i386/IRLibrary.LinkFileList" -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -framework CoreData -framework MessageUI -o "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/build/Debug-iphonesimulator/IRLibrary.app/IRLibrary"0#
-
-CProcessInfoPlistFile "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/build/Debug-iphonesimulator/IRLibrary.app/Info.plist" IRLibrary-Info.plist
-s317734208.205102
-e317734208.234449
-r1
-xProcessInfoPlistFile
-x/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/build/Debug-iphonesimulator/IRLibrary.app/Info.plist
-xIRLibrary-Info.plist
-lSLF07#2@28"Process IRLibrary-Info.plist317734208#317734208#0(0"0(0#0#98"/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/IRLibrary-Info.plist8657370592#608"    cd "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility IRLibrary-Info.plist -genpkginfo "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/build/Debug-iphonesimulator/IRLibrary.app/PkgInfo" -expandbuildsettings -format binary -platform iphonesimulator -o "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/build/Debug-iphonesimulator/IRLibrary.app/Info.plist"0#
-
-CProcessPCH /var/folders/5W/5WbKi7hhGkSs6Aomh0sqwE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/IRLibrary_Prefix-bjvrilgwxpektpgjnbkfqjdaeizy/IRLibrary_Prefix.pch.gch IRLibrary_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-s317734210.297498
-e317734212.011923
-r1
-xProcessPCH
-x/var/folders/5W/5WbKi7hhGkSs6Aomh0sqwE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/IRLibrary_Prefix-bjvrilgwxpektpgjnbkfqjdaeizy/IRLibrary_Prefix.pch.gch
-xIRLibrary_Prefix.pch
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@31"Precompile IRLibrary_Prefix.pch317734210#317734212#0(0"0(0#0#98"/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/IRLibrary_Prefix.pch8655427296#2254"    cd "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/build/IRLibrary.build/Debug-iphonesimulator/IRLibrary.build/IRLibrary-generated-files.hmap" "-I/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/build/IRLibrary.build/Debug-iphonesimulator/IRLibrary.build/IRLibrary-own-target-headers.hmap" "-I/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/build/IRLibrary.build/Debug-iphonesimulator/IRLibrary.build/IRLibrary-all-target-headers.hmap" -iquote "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/build/IRLibrary.build/Debug-iphonesimulator/IRLibrary.build/IRLibrary-project-headers.hmap" "-F/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/build/Debug-iphonesimulator" "-I/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/build/Debug-iphonesimulator/include" "-I/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/build/IRLibrary.build/Debug-iphonesimulator/IRLibrary.build/DerivedSources/i386" "-I/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/build/IRLibrary.build/Debug-iphonesimulator/IRLibrary.build/DerivedSources" -c "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/IRLibrary_Prefix.pch" -o /var/folders/5W/5WbKi7hhGkSs6Aomh0sqwE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/IRLibrary_Prefix-bjvrilgwxpektpgjnbkfqjdaeizy/IRLibrary_Prefix.pch.gch0#
-
-CTouch "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/build/Debug-iphonesimulator/IRLibrary.app"
-s317734213.536867
-e317734213.543597
-r1
-xTouch
-x/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/build/Debug-iphonesimulator/IRLibrary.app
-lSLF07#2@125"Touch /Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/build/Debug-iphonesimulator/IRLibrary.app317734213#317734213#0(0"0(0#0#0"8648101504#362"    cd "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c "/Users/Carl/Dropbox/Uni/Project/Shared Project Folder - Carl/iPhone/IRLibrary/build/Debug-iphonesimulator/IRLibrary.app"0#
-
